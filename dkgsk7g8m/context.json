@@ -1,19 +1,25 @@
 {
+	"directAccessEndpoints": {
+		"endpoints": [{
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsk7g8m/mass-municipalities.geojson",
+			"format": "GeoJSON",
+			"source": "Leventhal Map & Education Center"
+		}]
+	},
 	"coreCitation": {
-		"$id": "https://github.com/nblmc/geodata/blob/master/boundaries/ma-towns-simplified.json",
+		"$id": "ark:/76611/dkgsk7g8m",
 		"title": "Simplified Massachusetts Town Boundaries",
-		"shortDescription": "This layer, acquired from MassGIS, is the most accurate representation of Massachusetts' municipal (city and town) boundaries. Short desc note from @garrett on how it has been improved",
-		"language": {
-			"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
-			"value": "eng"
-		},
-		"entryType": "Dataset",
+		"recordType": "Dataset",
+		"hostedBy": "Internal",
+		"shortDataDescription": "LMEC-recommended dataset for representing Massachusetts town features.",
+		"shortGenealogyDescription": "This data was simplified from the authoritative MassGIS municipal boundaries file by @garrett what did you do",
 		"datasetType": "MultiPolygon",
-		"bboxEnvelope": {
-			"srs": "EPSG:4326",
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-73.508210, 41.239062],
 			"upperCorner": [-69.928093, 42.886778]
-		}
+		},
+		"accessCondition": "This item is in the public domain. There are no restrictions on use."
 	},
 	"subjectTagging": {
 		"thematic": {
@@ -74,106 +80,114 @@
 			}
 		},
 		"temporal": {
-			"encoding": "https://www.w3.org/TR/NOTE-datetime",
-			"value": "2020-06-16",
-			"temporalNotes": "The content of this metadata record reflects processing that was undertaken on the most recently available data at the time."
+			"temporalNotes": "This data cartographically improves upon data derived from surveys published in atlases going back to the 1890s. The original surveys were conducted in the 1890s. The Atlas series was published in the early 1900s and has since been updated by the Survey Section of the Massachusetts Highway Department (now The Massachusetts Department of Transportation (MassDOT) - Highway Division) with changes as they are approved by the legislature.",
+			"temporalRepresentation": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"temporalType": "singularExpression",
+				"singularExpressionValue": "2020"
+			},
+			"temporalPublication": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"temporalType": "singularExpression",
+				"value": "2020-06-16"
+			}
 		}
 	},
 	"resourceConstellation": {
-		"accessCondition": "This item is in the public domain. There are no restrictions on use.",
-		"accessEndpoints": {
-			"endpoints": [{
-				"accessURL": "https://raw.githubusercontent.com/nblmc/geodata/master/boundaries/ma-towns-simplified.json",
-				"format": "GeoJSON",
-				"source": "Leventhal Map & Education Center"
-			}]
-		},
-		"suggestedEntryPoint": {
+		"suggestedEntryPoints": {
 			"entryPoints": [{
-					"$id": "https://github.com/nblmc/geodata/blob/master/boundaries/ma-towns-simplified.json",
-					"title": "Massachusetts Towns Simplified GeoJSON",
-					"notes": "This dataset is the final result of the LMEC processing performed upon the original MassGIS towns file. Use in conjunction with the MassGIS metadata record, to compare with original data or make sense of the attribute fields"
-				},
-				{
 					"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
 					"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
-					"notes": "This is the data record for the original, pre-processed dataset made available via MassGIS"
+					"notes": "MassGIS record for the original dataset this data improves upon."
+				},
+				{
+					"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
+					"title": "Creating a clean boundary file for Massachusetts municipalities",
+					"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset."
 				}
 			]
 		},
 		"codebooks": {
-			"codebooks": [{
+			"codebook": [{
 				"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
 				"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
-				"maintainedBy": "MassGIS"
+				"maintainedBy": "MassGIS",
+				"notes": "Variable name breakdowns are available via the official MassGIS documentation for this dataset. Please find the Data Lifecycle - Fields Added & Dropped section for notes on how the fields in this dataset differ from that of the original source."
 			}]
-
 		},
-		"imagesProvidingContext": {
-			"imageFiles": [{
-					"$id": "https://github.com/nblmc/metadata-examples/blob/master/boundaries/ma-towns-simplified/context-images/image-1.png",
-					"title": "Before simplifiying",
-					"caption": "Here @garrett, you could conceivably do before/after pics to demostrate the purpose of simplifying.",
-					"imageContextProvider": "Garrett Dash Nelson"
+		"tutorials": {
+			"tutorials": [{
+					"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
+					"title": "Creating a clean boundary file for Massachusetts municipalities",
+					"maintainedBy": "LMEC",
+					"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset."
 				},
 				{
-					"$id": "https://github.com/nblmc/metadata-examples/blob/master/boundaries/ma-towns-simplified/context-images/image-2.png",
-					"title": "After simplifiying",
-					"caption": "Here @garrett, you could conceivably do before/after pics to demostrate the purpose of simplifying.",
-					"imageContextProvider": "Garrett Dash Nelson"
+					"$id": "https://geoservices.leventhalmap.org/cartinal/guides/jupyter-binder.html",
+					"title": "Understanding Jupyter and Binder",
+					"maintainedBy": "LMEC",
+					"notes": "Guide with notes about why and how LMEC uses Jupyter and Binder as a tutorial environment."
 				}
 			]
-
 		}
 	},
-	"dataLifecycle": {
+	"dataLifeCycle": {
+		"acquisition": {
+			"ingredients": [{
+				"$id": "ark:/76611/dkgskarjx",
+				"type": "linearPredecessor",
+				"notes": "This data directly improves upon the MassGIS Data: Community Boundaries (Towns) from Survey Points"
+			}]
+		},
 		"description": {
+			"language": {
+				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
+				"value": "eng"
+			},
 			"contextProvider": {
 				"name": "Belle Lipton",
-				"relationshipToData": ["Archivist"]
+				"relationshipToData": "Archivist"
 			},
 			"contextOnBehalfOf": {
 				"name": "Garrett Dash Nelson",
 				"relationshipToData": ["Processor/Cleaner"]
 			},
-			"contextPublicationDate": "2020-08-31",
+			"contextPublicationDate": "2020-10-02",
 			"metadataSchema": {
 				"name": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
 			},
-			"missingInformation": {
-				"missingContextNotes": "No context was left blank due to unknowns.",
-				"missingDataNotes": "There are no known missing values in the data, unless @garrett you want to fill in some information here."
-			},
-			"criticalContext": {
-				"selectedFields": ["codebooks", "steps"]
-			}
+			"missingContext": "No context was left blank due to unknowns.",
+			"criticalContext": "dataLifecycle/manipulation/steps"
+
 		},
-		"archivingAndMaintenance": {
-			"officialMaintenance": {
-				"officialMaintainer": "MassGIS",
-				"maintenanceFrequency": "This data is updated frequently, roughly once a year, at no regular interval. Maintenance notes with all versions can be found in the codebook."
-			},
-			"lmecRecordLocation": "https://github.com/nblmc/metadata-examples/blob/master/boundaries/ma-towns-simplified.json",
-			"preferredCitation": "@garrett, what format do you think we should go with here"
+		"maintenance": {
+			"officialMaintainer": "Leventhal Map & Education Center",
+			"maintenanceFrequency": "Not frequently updated"
 		},
-		"cleaningAndAnalysis": {
-			"overview": "@garrett to fill in.",
-			"steps": {
-				"steps": [{
-					"stepNumber": 1,
-					"stepDescription": "@garrett to fill in.",
-					"stepActor": "Garrett Dash Nelson",
-					"stepDescriber": "Garrett Dash Nelson",
-					"stepMotivation": "@garrett to fill in."
+		"manipulation": {
+			"details": {
+				"documents": [{
+					"accessURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb",
+					"format": "Jupyter Notebook",
+					"author": "Garrett Dash Nelson",
+					"authorRelationshipToHost": "Curator",
+					"documentRelationshipToHost": "Published by hosting organization"
 				}]
 			},
-			"droppedFields": "@garrett to fill in.",
-			"addedFields": "@garrett to fill in.",
-			"successes": "@garrett to fill in.",
-			"challenges": "@garrett to fill in.",
-			"sandtraps": "@garrett to fill in.",
-			"gapsInProcessingInformation": "@garrett to fill in."
+			"actors": {
+				"name": "Garrett Dash Nelson",
+				"relationshipToHost": "Curator",
+				"processDescriber": "Garrett Dash Nelson",
+				"processDescriberRole": "Processor",
+				"missingProcessingInformation": "No information is missing about how this data was processed. This description is healthy."
+
+			},
+			"process": {
+				"shortDescription": "The LMEC has manipulated the original MassGIS towns file to create the data described by this record. This process was aimed to address the issue that the original MassGIS Towns Boundary file, which contains the most accurate geographies for municipal cities and towns in Massachusetts, does not contain census name or ID fields, which would facilitate the ability to join the official town data with other statistical information published by the census. Data is published by the census at the town level, but the census town geographies are generally less reliable than the frequently updated MassGIS boundaries. The goal was to create a new file that contains MassGIS geographies, but includes census attributes for each town. This processing uses Python and Python modules Geopandas and Difflib to perform a fuzzy string match between town names in both the official MassGIS towns data and the census towns data for Massachusetts. After performing the string match, the two files are joined, with the MassGIS data absorbing some of the census attributes, including census name and ID. The data is cleaned a bit, with extraneous cluttering field names removed. Resulting is a useful MassGIS town boundary file with census attributes. The full process can be followed along in the included Jupyter notebook tutorial.",
+				"successes": "This processing improves the source data by making it compatible with census statistical information.",
+				"challenges": "Challenges and technical hangups, which are mostly related to the idiosyncratic way towns are named across the two datasets, are described in full detail in the Jupyter tutorial."
+			}
 		}
 	}
 }
