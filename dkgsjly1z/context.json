@@ -1,0 +1,149 @@
+{
+	"directAccessEndpoints": {
+		"endpoints": [{
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz/Historic-Shoreline-1916.geojson",
+			"format": "GeoJSON",
+			"source": "Leventhal Map & Education Center"
+		}]
+	},
+	"coreCitation": {
+		"$id": "ark:/76611/dkgsjly1z",
+		"title": "Historic Boston Shoreline 1916",
+		"recordType": "Dataset",
+		"hostedBy": "Internal",
+		"shortDataDescription": "Depicts Boston's historic shoreline from the year 1916.",
+		"datasetType": "MultiPolygon",
+		"bboxEnvelope": {
+			"srs": "EPSG:4326",
+			"lowerCorner": [-71.099990, 42.282115],
+			"upperCorner": [-70.981191, 42.397989]
+		},
+		"accessCondition": "This item is in the public domain. There are no restrictions on use."
+	},
+	"subjectTagging": {
+		"thematic": {
+			"lcsh": {
+				"subjects": [{
+						"authority": "lcsh",
+						"authorityID": "http://id.loc.gov/authorities/subjects.html",
+						"language": "eng",
+						"subjectTag": "Coasts"
+					},
+					{
+						"authority": "lcsh",
+						"authorityID": "http://id.loc.gov/authorities/subjects.html",
+						"language": "eng",
+						"subjectTag": "Coastal mapping"
+					}
+				]
+			},
+			"ISO19115": {
+				"subjects": [{
+					"authority": "ISO191115TopicCategory",
+					"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
+					"language": "eng",
+					"valueID": "oceans",
+					"subjectTag": "Oceans"
+				}]
+			}
+		},
+		"geographic": {
+			"geonames": {
+				"places": [{
+						"authority": "geonames",
+						"authorityID": "http://www.geonames.org/ontology#",
+						"language": "eng",
+						"valueID": "http://sws.geonames.org/4930956",
+						"placeTag": "Boston"
+					},
+					{
+						"authority": "geonames",
+						"authorityID": "http://www.geonames.org/ontology#",
+						"language": "eng",
+						"valueID": "http://sws.geonames.org/4932780",
+						"placeTag": "Charles River"
+					},
+					{
+						"authority": "geonames",
+						"authorityID": "http://www.geonames.org/ontology#",
+						"language": "eng",
+						"valueID": "http://sws.geonames.org/4931972",
+						"placeTag": "Cambridge"
+					},
+					{
+						"authority": "geonames",
+						"authorityID": "http://www.geonames.org/ontology#",
+						"language": "eng",
+						"valueID": "http://sws.geonames.org/4951257",
+						"placeTag": "Somerville"
+					}
+				]
+			},
+			"epsg": {
+				"crs": [{
+					"authority": "EPSG",
+					"authorityID": "http://opengis.net/def/crs/EPSG/0/4326",
+					"epsgTag": "EPSG:4326"
+				}]
+
+			}
+		},
+		"temporal": {
+			"temporalNotes": "This data represents the historic state of the Boston shoreline in the year 1916. It was digitally derived in 2019 from born-digital maps published in 1995.",
+			"temporalRepresentation": {
+				"temporalType": "singularExpression",
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"value": "1916"
+			},
+			"temporalPublication": {
+				"temporalType": "singularExpression",
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"value": "2019"
+			}
+		}
+	},
+	"resourceConstellation": {
+		"suggestedEntryPoints": {
+			"entryPoint": [{
+				"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz/Historic-Shoreline-1916.geojson",
+				"title": "Historic Boston Shoreline 1916",
+				"notes": "Data download endpoint"
+			}]
+		},
+		"publications": {
+			"works": [{
+				"title": "The Atlas of Boston History",
+				"author": "Nancy Seasholes",
+				"publisher": "University of Chicago Press",
+				"datePublished": "2019-10-10"
+			}]
+		}
+	},
+	"dataLifeCycle": {
+		"description": {
+			"language": {
+				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
+				"value": "eng"
+			},
+			"contextProvider": {
+				"name": "LMEC Geospatial Data Librarian",
+				"relationshipToData": "Archivist"
+			},
+			"contextOnBehalfOf": {
+				"name": "Vickie Taylor",
+				"relationshipToData": ["Collector", "Cleaner/Processor"]
+			},
+			"contextPublicationDate": "2020-10-05",
+			"metadataSchema": {
+				"name": "LMEC Data Description Schema",
+				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
+			},
+			"missingContext": "There is no available context about the process by which this digitization project occurred. The LMEC has made attempts to track down original processes, but have not found any reliable information. We unfortunately do not have any context about how this information was originally created."
+
+		},
+		"maintenance": {
+			"officialMaintainer": "Leventhal Map & Education Center",
+			"maintenanceFrequency": "Not frequently updated"
+		}
+	}
+}
