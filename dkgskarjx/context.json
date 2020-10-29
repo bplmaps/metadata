@@ -1,5 +1,5 @@
 	{			
-	"directAccessURLs": {
+	"directAccessEndpoints": {
 		"endpoints": [{
 			"accessURL": "http://download.massgis.digital.mass.gov/shapefiles/state/townssurvey_shp.zip",
 			"format": "Shapefile",
