@@ -1,11 +1,4 @@
-	{			
-	"directAccessEndpoints": {
-		"endpoints": [{
-			"accessURL": "http://download.massgis.digital.mass.gov/shapefiles/state/townssurvey_shp.zip",
-			"format": "Shapefile",
-			"source": "MassGIS"
-		}]
-	},
+{
 	"coreCitation": {
 		"$id": "ark:/76611/dkgskarjx",
 		"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
@@ -20,63 +13,61 @@
 		},
 		"accessCondition": "This item is in the public domain. There are no restrictions on use."
 	},
+	"dataEndpoints": [{
+		"$id": "ark:/76611/dkgskarjx/endpoint/1",
+		"accessURL": "http://download.massgis.digital.mass.gov/shapefiles/state/townssurvey_shp.zip",
+		"format": "Shapefile",
+		"source": "MassGIS",
+		"accessedViaURL": "https://docs.digital.mass.gov/dataset/massgis-data-layers"
+	}],
 	"subjectTagging": {
 		"thematic": {
-			"lcsh": {
-				"subjects": [{
-						"authority": "lcsh",
-						"authorityID": "http://id.loc.gov/authorities/subjects.html",
-						"language": "eng",
-						"subjectTag": "Cities and towns"
-					},
-					{
-						"authority": "lcsh",
-						"authorityID": "http://id.loc.gov/authorities/subjects.html",
-						"language": "eng",
-						"subjectTag": "Towns"
-					},
-					{
-						"authority": "lcsh",
-						"authorityID": "http://id.loc.gov/authorities/subjects.html",
-						"language": "eng",
-						"subjectTag": "Municipalities"
-					},
-					{
-						"authority": "lcsh",
-						"authorityID": "http://id.loc.gov/authorities/subjects.html",
-						"language": "eng",
-						"subjectTag": "Cartography"
-					}
-				]
-			},
-			"ISO19115": {
-				"subjects": [{
-					"authority": "ISO191115TopicCategory",
-					"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
+			"lcsh": [{
+					"authority": "lcsh",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"language": "eng",
-					"valueID": "boundaries",
-					"subjectTag": "Boundaries"
-				}]
-			}
+					"subjectTag": "Cities and towns"
+				},
+				{
+					"authority": "lcsh",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Towns"
+				},
+				{
+					"authority": "lcsh",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Municipalities"
+				},
+				{
+					"authority": "lcsh",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Cartography"
+				}
+			],
+			"ISO19115": [{
+				"authority": "ISO191115TopicCategory",
+				"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
+				"language": "eng",
+				"valueID": "boundaries",
+				"subjectTag": "Boundaries"
+			}]
 		},
 		"geographic": {
-			"geonames": {
-				"places": [{
-					"authority": "geonames",
-					"authorityID": "http://www.geonames.org/ontology#",
-					"language": "eng",
-					"valueID": "http://sws.geonames.org/6254926",
-					"placeTag": "Massachusetts"
-				}]
-			},
-			"epsg": {
-				"crs": [{
-					"authority": "EPSG",
-					"authorityID": "http://opengis.net/def/crs/EPSG/0/4326",
-					"epsgTag": "EPSG:4326"
-				}]
-
-			}
+			"geonames": [{
+				"authority": "geonames",
+				"authorityID": "http://www.geonames.org/ontology#",
+				"language": "eng",
+				"valueID": "http://sws.geonames.org/6254926",
+				"placeTag": "Massachusetts"
+			}],
+			"epsg": [{
+				"authority": "EPSG",
+				"authorityID": "http://opengis.net/def/crs/EPSG/0/4326",
+				"epsgTag": "EPSG:4326"
+			}]
 		},
 		"temporal": {
 			"temporalNotes": "This data was derived from surveys published in atlases going back to the 1890s. The original surveys were conducted in the 1890s. The Atlas series was published in the early 1900s and has since been updated by the Survey Section of the Massachusetts Highway Department (now The Massachusetts Department of Transportation (MassDOT) - Highway Division) with changes as they are approved by the legislature.",
@@ -93,23 +84,19 @@
 		}
 	},
 	"resourceConstellation": {
-		"suggestedEntryPoints": {
-			"entryPoint": [{
-				"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
-				"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
-				"notes": "Official MassGIS record for this dataset."
-			}]
-		},
-		"codebooks": {
-			"codebook": [{
-				"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
-				"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
-				"maintainedBy": "MassGIS",
-				"notes": "Variable name breakdowns are available via the official MassGIS documentation for this dataset."
-			}]
-		}
+		"suggestedEntryPoints": [{
+			"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
+			"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
+			"notes": "Official MassGIS record for this dataset."
+		}],
+		"codebooks": [{
+			"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
+			"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
+			"maintainedBy": "MassGIS",
+			"notes": "Variable name breakdowns are available via the official MassGIS documentation for this dataset."
+		}]
 	},
-	"dataLifeCycle": {
+	"dataLifecycle": {
 		"description": {
 			"language": {
 				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
@@ -134,6 +121,12 @@
 		"maintenance": {
 			"officialMaintainer": "MassGIS",
 			"maintenanceFrequency": "This data is updated frequently, roughly once a year, at no regular interval. Maintenance notes with all versions can be found in the codebook."
+		},
+		"manipulation": {
+			"actors": [{
+				"notes": "This information can be found in the 'Production' section of the MassGIS documentation.",
+				"missingProcessingInformation": "This information is unknown."
+			}]
 		}
 	}
 }

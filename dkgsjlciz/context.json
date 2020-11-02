@@ -11,75 +11,66 @@
 	},
 	"subjectTagging": {
 		"thematic": {
-			"lcsh": {
-				"subjects": [{
-						"authority": "lcsh",
-						"authorityID": "http://id.loc.gov/authorities/subjects.html",
-						"language": "eng",
-						"subjectTag": "Coasts"
-					},
-					{
-						"authority": "lcsh",
-						"authorityID": "http://id.loc.gov/authorities/subjects.html",
-						"language": "eng",
-						"subjectTag": "Coastal mapping"
-					}
-				]
-			},
-			"ISO19115": {
-				"subjects": [{
-					"authority": "ISO191115TopicCategory",
-					"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
+			"lcsh": [{
+					"authority": "lcsh",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"language": "eng",
-					"valueID": "oceans",
-					"subjectTag": "Oceans"
-				}]
-			}
+					"subjectTag": "Coasts"
+				},
+				{
+					"authority": "lcsh",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Coastal mapping"
+				}
+			],
+			"ISO19115": [{
+				"authority": "ISO191115TopicCategory",
+				"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
+				"language": "eng",
+				"valueID": "oceans",
+				"subjectTag": "Oceans"
+			}]
 		},
 		"geographic": {
-			"geonames": {
-				"places": [{
-						"authority": "geonames",
-						"authorityID": "http://www.geonames.org/ontology#",
-						"language": "eng",
-						"valueID": "http://sws.geonames.org/4930956",
-						"placeTag": "Boston"
-					},
-					{
-						"authority": "geonames",
-						"authorityID": "http://www.geonames.org/ontology#",
-						"language": "eng",
-						"valueID": "http://sws.geonames.org/4932780",
-						"placeTag": "Charles River"
-					},
-					{
-						"authority": "geonames",
-						"authorityID": "http://www.geonames.org/ontology#",
-						"language": "eng",
-						"valueID": "http://sws.geonames.org/4931972",
-						"placeTag": "Cambridge"
-					},
-					{
-						"authority": "geonames",
-						"authorityID": "http://www.geonames.org/ontology#",
-						"language": "eng",
-						"valueID": "http://sws.geonames.org/4951257",
-						"placeTag": "Somerville"
-					}
-				]
-			},
-			"epsg": {
-				"crs": [{
-					"authority": "EPSG",
-					"authorityID": "http://opengis.net/def/crs/EPSG/0/4326",
-					"epsgTag": "EPSG:4326"
-				}]
-
-			}
+			"geonames": [{
+					"authority": "geonames",
+					"authorityID": "http://www.geonames.org/ontology#",
+					"language": "eng",
+					"valueID": "http://sws.geonames.org/4930956",
+					"placeTag": "Boston"
+				},
+				{
+					"authority": "geonames",
+					"authorityID": "http://www.geonames.org/ontology#",
+					"language": "eng",
+					"valueID": "http://sws.geonames.org/4932780",
+					"placeTag": "Charles River"
+				},
+				{
+					"authority": "geonames",
+					"authorityID": "http://www.geonames.org/ontology#",
+					"language": "eng",
+					"valueID": "http://sws.geonames.org/4931972",
+					"placeTag": "Cambridge"
+				},
+				{
+					"authority": "geonames",
+					"authorityID": "http://www.geonames.org/ontology#",
+					"language": "eng",
+					"valueID": "http://sws.geonames.org/4951257",
+					"placeTag": "Somerville"
+				}
+			],
+			"epsg": [{
+				"authority": "EPSG",
+				"authorityID": "http://opengis.net/def/crs/EPSG/0/4326",
+				"epsgTag": "EPSG:4326"
+			}]
 		},
 		"temporal": {
 			"temporalNotes": "This data represents the historic state of the Boston shoreline in the year 1916. It was digitally derived in 2019 from born-digital maps published in 1995.",
-			"temporalRepresentation":{
+			"temporalRepresentation": {
 				"temporalType": "temporalRange",
 				"startRangeValue": {
 					"encoding": "https://www.w3.org/TR/NOTE-datetime",
@@ -90,7 +81,7 @@
 					"value": "1995"
 				}
 			},
-			"temporalPublication":{
+			"temporalPublication": {
 				"temporalType": "singularExpression",
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
 				"value": "2019"
@@ -98,23 +89,19 @@
 		}
 	},
 	"resourceConstellation": {
-		"suggestedEntryPoints": {
-			"entryPoint": [{
-				"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz",
-				"title": "Historic Shoreline Collection Root Data Folder",
-				"notes": "Root folder of the Historic Shoreline collection"
-			}]
-		},
-		"publications": {
-			"work": [{
-				"title": "The Atlas of Boston History",
-				"author": "Nancy Seasholes",
-				"publisher": "University of Chicago Press",
-				"datePublished": "2019-10-10"
-			}]
-		}
+		"suggestedEntryPoints": [{
+			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz",
+			"title": "Historic Shoreline Collection Root Data Folder",
+			"notes": "Root folder of the Historic Shoreline collection"
+		}],
+		"publishedWorks": [{
+			"title": "The Atlas of Boston History",
+			"author": "Nancy Seasholes",
+			"publisher": "University of Chicago Press",
+			"datePublished": "2019-10-10"
+		}]
 	},
-	"dataLifeCycle": {
+	"dataLifecycle": {
 		"description": {
 			"language": {
 				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
@@ -139,6 +126,19 @@
 		"maintenance": {
 			"officialMaintainer": "Leventhal Map & Education Center",
 			"maintenanceFrequency": "Not frequently updated"
+		},
+		"manipulation": {
+			"actors": [{
+					"name": "Herb Heidt, Eliza McClennen, Alex Kreigger, David Cobb and Amy Turner",
+					"notes": "The original born-digital maps used as a source for this data were created by cartographers Herb Heidt and Eliza McClennen of MapWorks for Mapping Boston edited by Alex Krieger and David Cobb with Amy Turner in 1999. The LMEC, despite hosting these born-digital maps in our digital collections, does not have access to the origial GIS data that was used to produce these source maps in 1999.",
+					"missingProcessingInformation": "The LMEC has no records on the processing steps used to create the original Mapworks maps."
+				},
+				{
+					"name": "Herb Heidt, Eliza McClennen, Alex Kreigger, David Cobb and Amy Turner",
+					"notes": "Cartographer Vickie Taylor, as part of Nancy Seasholes' Atlas of Boston History project, re-vectorized the Mapworks maps, creating the 2019 shoreline boundaries described in this record.",
+					"missingProcessingInformation": "The LMEC has no records on the processing steps used to create the data this record describes."
+				}
+			]
 		}
 	}
 }

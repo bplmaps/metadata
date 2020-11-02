@@ -1,11 +1,4 @@
 {
-	"directAccessEndpoints": {
-		"endpoints": [{
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsk7g8m/mass-municipalities.geojson",
-			"format": "GeoJSON",
-			"source": "Leventhal Map & Education Center"
-		}]
-	},
 	"coreCitation": {
 		"$id": "ark:/76611/dkgsk7g8m",
 		"title": "Simplified Massachusetts Town Boundaries",
@@ -21,63 +14,60 @@
 		},
 		"accessCondition": "This item is in the public domain. There are no restrictions on use."
 	},
+	"dataEndpoints":[{
+		"$id": "ark:/76611/dkgsk7g8m/endpoint/1",
+		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsk7g8m/mass-municipalities.geojson",
+		"format": "GeoJSON",
+		"source": "Leventhal Map & Education Center"
+	}],
 	"subjectTagging": {
 		"thematic": {
-			"lcsh": {
-				"subjects": [{
-						"authority": "lcsh",
-						"authorityID": "http://id.loc.gov/authorities/subjects.html",
-						"language": "eng",
-						"subjectTag": "Cities and towns"
-					},
-					{
-						"authority": "lcsh",
-						"authorityID": "http://id.loc.gov/authorities/subjects.html",
-						"language": "eng",
-						"subjectTag": "Towns"
-					},
-					{
-						"authority": "lcsh",
-						"authorityID": "http://id.loc.gov/authorities/subjects.html",
-						"language": "eng",
-						"subjectTag": "Municipalities"
-					},
-					{
-						"authority": "lcsh",
-						"authorityID": "http://id.loc.gov/authorities/subjects.html",
-						"language": "eng",
-						"subjectTag": "Cartography"
-					}
-				]
-			},
-			"ISO19115": {
-				"subjects": [{
-					"authority": "ISO191115TopicCategory",
-					"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
+			"lcsh": [{
+					"authority": "lcsh",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"language": "eng",
-					"valueID": "boundaries",
-					"subjectTag": "Boundaries"
-				}]
-			}
+					"subjectTag": "Cities and towns"
+				},
+				{
+					"authority": "lcsh",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Towns"
+				},
+				{
+					"authority": "lcsh",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Municipalities"
+				},
+				{
+					"authority": "lcsh",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Cartography"
+				}
+			],
+			"ISO19115": [{
+				"authority": "ISO191115TopicCategory",
+				"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
+				"language": "eng",
+				"valueID": "boundaries",
+				"subjectTag": "Boundaries"
+			}]
 		},
 		"geographic": {
-			"geonames": {
-				"places": [{
-					"authority": "geonames",
-					"authorityID": "http://www.geonames.org/ontology#",
-					"language": "eng",
-					"valueID": "http://sws.geonames.org/6254926",
-					"placeTag": "Massachusetts"
-				}]
-			},
-			"epsg": {
-				"crs": [{
-					"authority": "EPSG",
-					"authorityID": "http://opengis.net/def/crs/EPSG/0/4326",
-					"epsgTag": "EPSG:4326"
-				}]
-
-			}
+			"geonames": [{
+				"authority": "geonames",
+				"authorityID": "http://www.geonames.org/ontology#",
+				"language": "eng",
+				"valueID": "http://sws.geonames.org/6254926",
+				"placeTag": "Massachusetts"
+			}],
+			"epsg": [{
+				"authority": "EPSG",
+				"authorityID": "http://opengis.net/def/crs/EPSG/0/4326",
+				"epsgTag": "EPSG:4326"
+			}]
 		},
 		"temporal": {
 			"temporalNotes": "This data cartographically improves upon data derived from surveys published in atlases going back to the 1890s. The original surveys were conducted in the 1890s. The Atlas series was published in the early 1900s and has since been updated by the Survey Section of the Massachusetts Highway Department (now The Massachusetts Department of Transportation (MassDOT) - Highway Division) with changes as they are approved by the legislature.",
@@ -94,44 +84,34 @@
 		}
 	},
 	"resourceConstellation": {
-		"suggestedEntryPoints": {
-			"entryPoints": [{
-					"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
-					"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
-					"notes": "MassGIS record for the original dataset this data improves upon."
-				},
-				{
-					"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
-					"title": "Creating a clean boundary file for Massachusetts municipalities",
-					"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset."
-				}
-			]
-		},
-		"codebooks": {
-			"codebook": [{
-				"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
+		"suggestedEntryPoints":[
+			{
+				"$id": "ark:/76611/dkgskarjx",
 				"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
-				"maintainedBy": "MassGIS",
-				"notes": "Variable name breakdowns are available via the official MassGIS documentation for this dataset. Please find the Data Lifecycle - Fields Added & Dropped section for notes on how the fields in this dataset differ from that of the original source."
-			}]
-		},
-		"tutorials": {
-			"tutorials": [{
-					"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
-					"title": "Creating a clean boundary file for Massachusetts municipalities",
-					"maintainedBy": "LMEC",
-					"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset."
-				},
-				{
-					"$id": "https://geoservices.leventhalmap.org/cartinal/guides/jupyter-binder.html",
-					"title": "Understanding Jupyter and Binder",
-					"maintainedBy": "LMEC",
-					"notes": "Guide with notes about why and how LMEC uses Jupyter and Binder as a tutorial environment."
-				}
-			]
-		}
+				"notes": "MassGIS dataset this data improves upon."
+			},
+			{
+				"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
+				"title": "Creating a clean boundary file for Massachusetts municipalities",
+				"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset."
+			}
+		],
+		"tutorials": [
+			{
+				"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
+				"title": "Creating a clean boundary file for Massachusetts municipalities",
+				"maintainedBy": "LMEC",
+				"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset."
+			},
+			{
+				"$id": "https://geoservices.leventhalmap.org/cartinal/guides/jupyter-binder.html",
+				"title": "Understanding Jupyter and Binder",
+				"maintainedBy": "LMEC",
+				"notes": "Guide with notes about why and how LMEC uses Jupyter and Binder as a tutorial environment."
+			}
+		]
 	},
-	"dataLifeCycle": {
+	"dataLifecycle": {
 		"acquisition": {
 			"ingredients": [{
 				"$id": "ark:/76611/dkgskarjx",
@@ -157,8 +137,7 @@
 				"name": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
 			},
-			"missingContext": "No context was left blank due to unknowns.",
-			"criticalContext": "dataLifecycle/manipulation/steps"
+			"missingContext": "No context was left blank due to unknowns."
 
 		},
 		"maintenance": {
@@ -166,16 +145,20 @@
 			"maintenanceFrequency": "Not frequently updated"
 		},
 		"manipulation": {
-			"details": {
-				"documents": [{
-					"accessURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb",
-					"format": "Jupyter Notebook",
-					"author": "Garrett Dash Nelson",
-					"authorRelationshipToHost": "Curator",
-					"documentRelationshipToHost": "Published by hosting organization"
-				}]
+			"records":{
+				"accessURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb",
+				"format": "Jupyter Notebook",
+				"author": "Garrett Dash Nelson"
 			},
-			"actors": {
+			"actors": [
+				{
+					"name":"Garrett Dash Nelson",
+					"notes": "The LMEC carried out this data process and also described the processing steps in a Jupyter notebook.",
+					"missingProcessingInformation":"No information is missing about the data processing. This processing description is healthy."
+				}
+			],
+
+			"actors2": {
 				"name": "Garrett Dash Nelson",
 				"relationshipToHost": "Curator",
 				"processDescriber": "Garrett Dash Nelson",
