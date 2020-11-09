@@ -22,13 +22,13 @@
 	"subjectTagging": {
 		"thematic": {
 			"LCSH": [{
-					"authority": "lcsh",
+					"authority": "LCSH",
 					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"language": "eng",
 					"subjectTag": "Coasts"
 				},
 				{
-					"authority": "lcsh",
+					"authority": "LCSH",
 					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"language": "eng",
 					"subjectTag": "Coastal mapping"
