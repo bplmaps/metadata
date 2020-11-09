@@ -22,7 +22,7 @@
 	}],
 	"subjectTagging": {
 		"thematic": {
-			"lcsh": [{
+			"LCSH": [{
 					"authority": "lcsh",
 					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"language": "eng",
