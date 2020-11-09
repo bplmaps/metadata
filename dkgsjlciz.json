@@ -117,7 +117,7 @@
 			},
 			"contextPublicationDate": "2020-10-05",
 			"metadataSchema": {
-				"name": "LMEC Data Description Schema",
+				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
 			},
 			"missingContext": "There is no available context about the process by which this digitization project occurred. The LMEC has made attempts to track down original processes, but have not found any reliable information. We unfortunately do not have any context about how this information was originally created."

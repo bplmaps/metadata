@@ -112,7 +112,7 @@
 			},
 			"contextPublicationDate": "2020-10-02",
 			"metadataSchema": {
-				"name": "LMEC Data Description Schema",
+				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
 			},
 			"missingContext": "No context was left blank due to unknowns.",
