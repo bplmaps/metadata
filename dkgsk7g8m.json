@@ -5,7 +5,7 @@
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
 		"shortDataDescription": "LMEC-recommended dataset for representing Massachusetts town features.",
-		"shortGenealogyDescription": "This data was simplified from the authoritative MassGIS municipal boundaries file by @garrett what did you do",
+		"shortGenealogyDescription": "The data described by this record was inferred from the official MassGIS-maintained town boundary data, and simplified in order to facilitate easier use with census products.",
 		"datasetType": "MultiPolygon",
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
