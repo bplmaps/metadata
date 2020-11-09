@@ -5,7 +5,7 @@
 		"recordType": "Dataset",
 		"hostedBy": "External",
 		"shortDataDescription": "Authoritative record of Massachusetts municipal (city and town) boundaries.",
-		"datasetType": "MultiPolygon",
+		"includesDataTypes": "MultiPolygon",
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-73.508210, 41.239062],

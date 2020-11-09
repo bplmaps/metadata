@@ -5,7 +5,7 @@
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
 		"shortDataDescription": "Depicts Boston's historic shoreline from the year 1916.",
-		"datasetType": "MultiPolygon",
+		"includesDataTypes": "MultiPolygon",
 		"bboxEnvelope": {
 			"srs": "EPSG:4326",
 			"lowerCorner": [-71.099990, 42.282115],
