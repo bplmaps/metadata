@@ -1,17 +1,21 @@
 {
 	"coreCitation": {
-		"$id": "ark:/76611/dkgsjlciz",
-		"title": "Historic Boston Shoreline",
-		"recordType": "Collection",
+		"$id": "ark:/76611/dkhgt8ebr",
+		"title": "Historic Boston Shoreline 1795",
+		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"shortDataDescription": "Collection of data files depicting Boston's historic shoreline across various years.",
-		"shortGenealogyDescription": "These files were created by manually 'digitizing' or  creating vector features from a collectin of born-digital maps held by the Leventhal Map and Education Center. This collection can be accessed here: https://collections.leventhalmap.org/search?utf8=%E2%9C%93&q=mapworks . As the original data used to create these maps was not preserved, the geospatial vector data was re-created in 2019, and this collection refers to the data created by that process.",
-		"accessCondition": "This collection is in the public domain. There are no restrictions on use.",
-		"collectionItems": ["ark:/76611/dkhgt7w5x", "ark:/76611/dkhgt8ebr", "ark:/76611/dkhgt8vf7", "ark:/76611/dkhgt9azf", "ark:/76611/dkgsjly1z", "ark:/76611/dkhgt9v8a", "ark:/76611/dkhgtbi20", "ark:/76611/dkhgtbvan"]
+		"shortDataDescription": "Depicts Boston's historic shoreline from the year 1795.",
+		"includesDataTypes": ["MultiPolygon"],
+		"bboxEnvelope": {
+			"srs": "EPSG:4326",
+			"lowerCorner": [-71.099990, 42.282115],
+			"upperCorner": [-70.981191, 42.397989]
+		},
+		"accessCondition": "This item is in the public domain. There are no restrictions on use."
 	},
 	"dataEndpoints":[{
-		"$id": "ark:/76611/dkgsjlciz/endpoint/1",
-		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz/dkgsjlciz.zip",
+		"$id": "ark:/76611/dkhgt8ebr/endpoint/1",
+		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz/Historic-Shoreline-1795.geojson",
 		"format": "GeoJSON",
 		"source": "Leventhal Map & Education Center"
 	}],
@@ -75,17 +79,11 @@
 			}]
 		},
 		"temporal": {
-			"temporalNotes": "This data represents the historic state of the Boston shoreline in the year 1916. It was digitally derived in 2019 from born-digital maps published in 1995.",
+			"temporalNotes": "This data represents the historic state of the Boston shoreline in the year 1795. It was digitally derived in 2019 from born-digital maps published in 1995.",
 			"temporalRepresentation": {
-				"temporalType": "temporalRange",
-				"startRangeValue": {
-					"encoding": "https://www.w3.org/TR/NOTE-datetime",
-					"value": "1630"
-				},
-				"endRangeValue": {
-					"encoding": "https://www.w3.org/TR/NOTE-datetime",
-					"value": "1995"
-				}
+				"temporalType": "singularExpression",
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"value": "1795"
 			},
 			"temporalPublication": {
 				"temporalType": "singularExpression",
@@ -95,11 +93,12 @@
 		}
 	},
 	"resourceConstellation": {
-		"suggestedEntryPoints": [{
-			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz",
-			"title": "Historic Shoreline Collection Root Data Folder",
-			"notes": "Root folder of the Historic Shoreline collection"
-		}],
+		"suggestedEntryPoints":[{
+				"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz/Historic-Shoreline-1795.geojson",
+				"title": "Historic Boston Shoreline 1795",
+				"notes": "Data download endpoint"
+			}
+		],
 		"publishedWorks": [{
 			"title": "The Atlas of Boston History",
 			"author": "Nancy Seasholes",
@@ -128,12 +127,13 @@
 				"name": "Vickie Taylor",
 				"relationshipToData": ["Collector", "Processor/Cleaner"]
 			},
-			"contextPublicationDate": "2020-10-05",
+			"contextPublicationDate": "2020-11-13",
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
 			},
-			"missingContext": "There is no available context about the process by which this digitization project occurred. The LMEC has made attempts to track down original processes, but have not found any reliable information. We unfortunately do not have any context about how this information was originally created."
+			"missingContext": "There is no available context about the process by which this digitization project occurred. The LMEC has made attempts to track down original processes, but have not found any reliable information. We unfortunately do not have any context about how this information was originally created.",
+			"criticalContext": ["publishedWorks"]
 
 		},
 		"maintenance": {
