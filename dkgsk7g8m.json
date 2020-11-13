@@ -6,7 +6,7 @@
 		"hostedBy": "Internal",
 		"shortDataDescription": "LMEC-recommended dataset for representing Massachusetts town features.",
 		"shortGenealogyDescription": "The data described by this record was inferred from the official MassGIS-maintained town boundary data, and simplified in order to facilitate easier use with census products.",
-		"includesDataTypes": "MultiPolygon",
+		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-73.508210, 41.239062],
@@ -48,7 +48,7 @@
 				}
 			],
 			"ISO19115": [{
-				"authority": "ISO191115TopicCategory",
+				"authority": "ISO19115TopicCategory",
 				"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
 				"language": "eng",
 				"valueID": "boundaries",
@@ -125,7 +125,7 @@
 				"value": "eng"
 			},
 			"contextProvider": {
-				"name": "Belle Lipton",
+				"name": ["Belle Lipton"],
 				"relationshipToData": "Archivist"
 			},
 			"contextOnBehalfOf": {

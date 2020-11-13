@@ -5,7 +5,7 @@
 		"recordType": "Dataset",
 		"hostedBy": "External",
 		"shortDataDescription": "Authoritative record of Massachusetts municipal (city and town) boundaries.",
-		"includesDataTypes": "MultiPolygon",
+		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-73.508210, 41.239062],
@@ -48,7 +48,7 @@
 				}
 			],
 			"ISO19115": [{
-				"authority": "ISO191115TopicCategory",
+				"authority": "ISO19115TopicCategory",
 				"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
 				"language": "eng",
 				"valueID": "boundaries",
@@ -103,7 +103,7 @@
 				"value": "eng"
 			},
 			"contextProvider": {
-				"name": "Belle Lipton",
+				"name": ["Belle Lipton"],
 				"relationshipToData": "Archivist"
 			},
 			"contextOnBehalfOf": {
