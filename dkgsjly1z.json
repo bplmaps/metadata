@@ -5,7 +5,7 @@
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
 		"shortDataDescription": "Depicts Boston's historic shoreline from the year 1916.",
-		"includesDataTypes": "MultiPolygon",
+		"includesDataTypes": ["MultiPolygon"],
 		"bboxEnvelope": {
 			"srs": "EPSG:4326",
 			"lowerCorner": [-71.099990, 42.282115],
@@ -35,7 +35,7 @@
 				}
 			],
 			"ISO19115": [{
-				"authority": "ISO191115TopicCategory",
+				"authority": "ISO19115TopicCategory",
 				"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
 				"language": "eng",
 				"valueID": "oceans",
@@ -104,6 +104,13 @@
 			"author": "Nancy Seasholes",
 			"publisher": "University of Chicago Press",
 			"datePublished": "2019-10-10"
+		},
+		{
+			"$id": "https://www.nationalgeographic.com/news/2017/06/Boston-landfill-maps-history/#close",
+			"title": "All Over the Map: How Boston Made Itself Bigger",
+			"author": "Betsy Mason",
+			"publisher": "National Geographic",
+			"datePublished": "2017-06-13"
 		}]
 	},
 	"dataLifecycle": {
@@ -113,19 +120,20 @@
 				"value": "eng"
 			},
 			"contextProvider": {
-				"name": "LMEC Geospatial Data Librarian",
-				"relationshipToData": "Archivist"
+				"name": "Belle Lipton",
+				"relationshipToData": ["Archivist"]
 			},
 			"contextOnBehalfOf": {
 				"name": "Vickie Taylor",
-				"relationshipToData": ["Collector", "Cleaner/Processor"]
+				"relationshipToData": ["Collector", "Processor/Cleaner"]
 			},
 			"contextPublicationDate": "2020-10-05",
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
 			},
-			"missingContext": "There is no available context about the process by which this digitization project occurred. The LMEC has made attempts to track down original processes, but have not found any reliable information. We unfortunately do not have any context about how this information was originally created."
+			"missingContext": "There is no available context about the process by which this digitization project occurred. The LMEC has made attempts to track down original processes, but have not found any reliable information. We unfortunately do not have any context about how this information was originally created.",
+			"criticalContext": ["publishedWorks"]
 
 		},
 		"maintenance": {
