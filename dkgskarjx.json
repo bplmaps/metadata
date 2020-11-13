@@ -116,7 +116,7 @@
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
 			},
 			"missingContext": "No context was left blank due to unknowns.",
-			"criticalContext": "codebooks"
+			"criticalContext": ["codebooks"]
 		},
 		"maintenance": {
 			"officialMaintainer": "MassGIS",
