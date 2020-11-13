@@ -103,12 +103,12 @@
 				"value": "eng"
 			},
 			"contextProvider": {
-				"name": ["Belle Lipton"],
-				"relationshipToData": "Archivist"
+				"name": "Belle Lipton",
+				"relationshipToData": ["Archivist"]
 			},
 			"contextOnBehalfOf": {
 				"name": "MassGIS",
-				"relationshipToData": ["Collector", "Maintainer", "Publisher", "Owner"]
+				"relationshipToData": ["Collector", "Maintainer", "Publisher"]
 			},
 			"contextPublicationDate": "2020-10-02",
 			"metadataSchema": {
