@@ -88,7 +88,7 @@
 			"temporalPublication": {
 				"temporalType": "singularExpression",
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"value": "2019"
+				"singularExpressionValue": "2019"
 			}
 		}
 	},

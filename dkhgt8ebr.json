@@ -83,12 +83,12 @@
 			"temporalRepresentation": {
 				"temporalType": "singularExpression",
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"value": "1795"
+				"singularExpressionValue": "1795"
 			},
 			"temporalPublication": {
 				"temporalType": "singularExpression",
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"value": "2019"
+				"singularExpressionValue": "2019"
 			}
 		}
 	},

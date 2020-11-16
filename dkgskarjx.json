@@ -79,7 +79,7 @@
 			"temporalPublication": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
 				"temporalType": "singularExpression",
-				"value": "2020-06-16"
+				"singularExpressionValue": "2020-06-16"
 			}
 		}
 	},
