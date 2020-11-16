@@ -78,14 +78,9 @@
 			"temporalNotes": "This data represents the historic state of the Boston shoreline in the year 1916. It was digitally derived in 2019 from born-digital maps published in 1995.",
 			"temporalRepresentation": {
 				"temporalType": "temporalRange",
-				"startRangeValue": {
-					"encoding": "https://www.w3.org/TR/NOTE-datetime",
-					"value": "1630"
-				},
-				"endRangeValue": {
-					"encoding": "https://www.w3.org/TR/NOTE-datetime",
-					"value": "1995"
-				}
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"startRangeValue": "1630",
+				"endRangeValue": "1995"
 			},
 			"temporalPublication": {
 				"temporalType": "singularExpression",
