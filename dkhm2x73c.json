@@ -69,11 +69,11 @@
 			},
 			"contextProvider": {
 				"name": "Belle Lipton",
-				"relationshipToData": ["Archivist"]
+				"relationshipToData": "Archivist"
 			},
 			"contextOnBehalfOf": {
 				"name": "Lynn Brown and Michelle LeBlanc",
-				"relationshipToData": ["Educator"]
+				"relationshipToData": "Educators"
 			},
 			"contextPublicationDate": "2020-11-17",
 			"metadataSchema": {

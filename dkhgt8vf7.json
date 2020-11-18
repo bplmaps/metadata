@@ -121,11 +121,11 @@
 			},
 			"contextProvider": {
 				"name": "Belle Lipton",
-				"relationshipToData": ["Archivist"]
+				"relationshipToData": "Archivist"
 			},
 			"contextOnBehalfOf": {
 				"name": "Vickie Taylor",
-				"relationshipToData": ["Collector", "Processor/Cleaner"]
+				"relationshipToData": "Processor/Cleaner"
 			},
 			"contextPublicationDate": "2020-11-13",
 			"metadataSchema": {

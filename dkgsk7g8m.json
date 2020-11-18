@@ -125,12 +125,12 @@
 				"value": "eng"
 			},
 			"contextProvider": {
-				"name": ["Belle Lipton"],
+				"name": "Belle Lipton",
 				"relationshipToData": "Archivist"
 			},
 			"contextOnBehalfOf": {
 				"name": "Garrett Dash Nelson",
-				"relationshipToData": ["Processor/Cleaner"]
+				"relationshipToData": "Processor/Cleaner"
 			},
 			"contextPublicationDate": "2020-10-02",
 			"metadataSchema": {
