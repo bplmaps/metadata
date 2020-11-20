@@ -111,11 +111,11 @@
 			},
 			"contextProvider": {
 				"name": "",
-				"relationshipToData": [""]
+				"relationshipToData": ""
 			},
 			"contextOnBehalfOf": {
 				"name": "",
-				"relationshipToData": [""]
+				"relationshipToData": ""
 			},
 			"contextPublicationDate": "",
 			"metadataSchema": {
@@ -133,8 +133,9 @@
 		},
 		"manipulation": {
 			"records": [{
-				"accessURL": "",
+				"relatedResourceURL": "",
 				"format": "",
+				"title": "",
 				"author": ""
 			}],
 			"actors": [{

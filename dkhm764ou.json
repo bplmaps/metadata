@@ -38,19 +38,20 @@
 		},
 		"geographic": {
 			"geonames": [{
-				"authority": "geonames",
-				"authorityID": "http://www.geonames.org/ontology#",
-				"language": "eng",
-				"valueID": "http://www.geonames.org/6255149/north-america.html",
-				"placeTag": "North America"
-			},
-			{
-				"authority": "geonames",
-				"authorityID": "http://www.geonames.org/ontology#",
-				"language": "eng",
-				"valueID": "http://www.geonames.org/6255150/south-america.html",
-				"placeTag": "South America"
-			}],
+					"authority": "geonames",
+					"authorityID": "http://www.geonames.org/ontology#",
+					"language": "eng",
+					"valueID": "http://www.geonames.org/6255149/north-america.html",
+					"placeTag": "North America"
+				},
+				{
+					"authority": "geonames",
+					"authorityID": "http://www.geonames.org/ontology#",
+					"language": "eng",
+					"valueID": "http://www.geonames.org/6255150/south-america.html",
+					"placeTag": "South America"
+				}
+			],
 			"EPSG": [{
 				"authority": "EPSG",
 				"authorityID": "http://opengis.net/def/crs/EPSG/0/4326",
@@ -90,31 +91,52 @@
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
 			},
-			"missingContext": "No context was left blank due to unknowns.",
-			"criticalContext": ""
+			"missingContext": "No context was left blank due to unknowns."
 
 		},
 		"maintenance": {
-			"officialMaintainer": "",
-			"maintenanceFrequency": "",
-			"typicalUpdates": ""
+			"officialMaintainer": "Leventhal Map & Education Center",
+			"maintenanceFrequency": "Never updated"
 		},
 		"manipulation": {
 			"records": [{
-				"accessURL": "",
-				"format": "",
-				"author": ""
-			}],
+					"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/README/README.txt",
+					"format": "Plain-text README",
+					"title": "Boston Rent - Maptivist Collection - Process README",
+					"author": "Daniel Huffman"
+				},
+				{
+					"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhmea44m/README/README.txt",
+					"format": "Plain-text README",
+					"title": "Boston Gentrification -White Population Change - Maptivist Collection - Process README",
+					"author": "Daniel Huffman"
+				},
+				{
+					"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/README/README.txt",
+					"format": "Plain-text README",
+					"title": "Boston Gentrification - Housing Value Change - Maptivist Collection - Process README",
+					"author": "Daniel Huffman"
+				},
+				{
+					"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/README/README.txt",
+					"format": "Plain-text README",
+					"title": "Boston Transit - Maptivist Collection - Process README",
+					"author": "Daniel Huffman"
+				},
+				{
+					"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhot9qwp/README/README.txt",
+					"format": "Plain-text README",
+					"title": "Boston Wifi - Maptivist Collection - Process README",
+					"author": "Daniel Huffman"
+				}
+			],
 			"actors": [{
-				"name": "",
-				"notes": "",
-				"missingProcessingInformation": ""
+				"name": "Daniel Huffman",
+				"notes": "Daniel Huffman was contracted by the Leventhal Map & Education Center to create a series of maps using Boston-focused data for the purpose of in-class learning activities within the context of the LMEC's K-12 Maptivist Initiative. Daniel created maps for four distinctive topics: rent, gentrification, access to internet, and transportation, designed to meet the learning objectives set forth by education staff at the LMEC. Each map used American Community Survey data, data meant only for cartographic purposes, such as the land and water Open Street Map basemap extracts, and some uniquely Boston data, like Boston neighborhood labels and locations of free WiFi. Daniel's processes are described in the README files associated with each thematic data topic.",
+				"missingProcessingInformation": "It is unclear which OSM extract tool was used and how exactly geographies for extract were selected."
 			}],
 			"process": {
-				"shortProcessDescription": "",
-				"successes": "",
-				"challenges": "",
-				"sandtraps": ""
+				"shortProcessDescription": "The general process for this workflow resembles extracting official census data from the US Census, cleaning it up a bit by removing columns not pertinent to the area of study, joining that census data to census geographies (tracts), overlaying that demographic data onto data used as a base layer, like this land data. This process was done in GIS software, and made to look nicer in Adobe Illustrator. The .AI files are available in the supplemental files section of this metadata document, and a full description of the process can be found in records > README."
 			}
 		}
 	}
