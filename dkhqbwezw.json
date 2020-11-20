@@ -96,107 +96,107 @@
 			"notes": ""
 		}]
 	},
-	"dataBiography": {
-		"sampling": {
-			"universe": [{
-				"notes": "",
+	"dataBiography":{
+		"sampling":{
+			"universe":[{
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
-			"sampleSize": [{
-				"notes": "",
+			"sampleSize":[{
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
-			"sampleSizeReasons": [{
-				"notes": "",
+			"sampleSizeReasons":[{
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
-			"knownSampleSizeProblems": [{
-				"notes": "",
+			"knownSampleSizeProblems":[{
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
-			"marginOfError": [{
-				"notes": "",
+			"marginOfError":[{
+				"notes":"",
 				"relatedResourceURL": ""
 			}]
 		},
-		"privacy": {
-			"unitOfAggretaion": [{
-				"notes": "",
+		"privacy":{
+			"unitOfAggretaion":[{
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"aggregationProblems": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"consent": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"anonymization": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"privacyIssues": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}]
 		},
-		"dataCollection": {
+		"dataCollection":{
 			"whoCollected": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"startDate": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"endDate": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"whoConceived": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"whoDesigned": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"whoIncluded": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"collectionConditions": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"collectorsLocations": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"collectionMethods": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"miscountRisk": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}],
 			"missingData": [{
-				"notes": "",
+				"notes":"",
 				"relatedResourceURL": ""
 			}]
 		},
-		"funding": [{
-			"notes": "",
+		"funding":[{
+			"notes":"",
 			"relatedResourceURL": ""
 		}],
-		"potentialBenefit": [{
-			"notes": "",
+		"potentialBenefit":[{
+			"notes":"",
 			"relatedResourceURL": ""
 		}],
-		"potentialHarm": [{
-			"notes": "",
+		"potentialHarm":[{
+			"notes":"",
 			"relatedResourceURL": ""
 		}]
 	},
