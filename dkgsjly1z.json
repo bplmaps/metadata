@@ -13,11 +13,12 @@
 		},
 		"accessCondition": "This item is in the public domain. There are no restrictions on use."
 	},
-	"dataEndpoints":[{
+	"dataEndpoints": [{
 		"$id": "ark:/76611/dkgsjly1z/endpoint/1",
 		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz/Historic-Shoreline-1916.geojson",
 		"format": "GeoJSON",
-		"source": "Leventhal Map & Education Center"
+		"source": "Leventhal Map & Education Center",
+		"suggestedEntryPoint": true
 	}],
 	"subjectTagging": {
 		"thematic": {
@@ -93,25 +94,20 @@
 		}
 	},
 	"resourceConstellation": {
-		"suggestedEntryPoints":[{
-				"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz/Historic-Shoreline-1916.geojson",
-				"title": "Historic Boston Shoreline 1916",
-				"notes": "Data download endpoint"
-			}
-		],
 		"publishedWorks": [{
-			"title": "The Atlas of Boston History",
-			"author": "Nancy Seasholes",
-			"publisher": "University of Chicago Press",
-			"datePublished": "2019-10-10"
-		},
-		{
-			"$id": "https://www.nationalgeographic.com/news/2017/06/Boston-landfill-maps-history/#close",
-			"title": "All Over the Map: How Boston Made Itself Bigger",
-			"author": "Betsy Mason",
-			"publisher": "National Geographic",
-			"datePublished": "2017-06-13"
-		}]
+				"title": "The Atlas of Boston History",
+				"author": "Nancy Seasholes",
+				"publisher": "University of Chicago Press",
+				"datePublished": "2019-10-10"
+			},
+			{
+				"$id": "https://www.nationalgeographic.com/news/2017/06/Boston-landfill-maps-history/#close",
+				"title": "All Over the Map: How Boston Made Itself Bigger",
+				"author": "Betsy Mason",
+				"publisher": "National Geographic",
+				"datePublished": "2017-06-13"
+			}
+		]
 	},
 	"dataLifecycle": {
 		"description": {
@@ -131,10 +127,7 @@
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
-			},
-			"missingContext": "There is no available context about the process by which this digitization project occurred. The LMEC has made attempts to track down original processes, but have not found any reliable information. We unfortunately do not have any context about how this information was originally created.",
-			"criticalContext": ["publishedWorks"]
-
+			}
 		},
 		"maintenance": {
 			"officialMaintainer": "Leventhal Map & Education Center",
@@ -150,8 +143,8 @@
 					"notes": "Cartographer Vickie Taylor, as part of Nancy Seasholes' Atlas of Boston History project, re-vectorized the Mapworks maps, creating the 2019 shoreline boundaries described in this record."
 				}
 			],
-			"process":{
-				"missingProcessingInformation": "The LMEC has no records on the processing steps used to create the original Mapworks maps or on the processing steps used to create the data this record describes."
+			"process": {
+				"missingProcessingInformation": "There is no available context about the process by which this digitization project occurred. The LMEC has made attempts to track down original processes, but have not found any reliable information. We unfortunately do not have any context about how this information was originally created."
 			}
 		}
 	}
