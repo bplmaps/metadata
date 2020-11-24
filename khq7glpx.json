@@ -96,9 +96,9 @@
 			"typicalUpdates": "Unknown"
 		},
 		"manipulation": {
-			"actors": [{
+			"process": {
 				"missingProcessingInformation": "All information about how this data was created is missing."
-			}]
+			}
 		}
 	}
 }

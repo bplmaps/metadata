@@ -240,14 +240,14 @@
 			}],
 			"actors": [{
 				"name": "",
-				"notes": "",
-				"missingProcessingInformation": ""
+				"notes": ""
 			}],
 			"process": {
 				"shortProcessDescription": "",
 				"successes": "",
 				"challenges": "",
-				"sandtraps": ""
+				"sandtraps": "",
+				"missingProcessingInformation": ""
 			}
 		}
 	}

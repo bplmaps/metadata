@@ -138,15 +138,16 @@
 		"manipulation": {
 			"actors": [{
 					"name": "Herb Heidt, Eliza McClennen, Alex Kreigger, David Cobb and Amy Turner",
-					"notes": "The original born-digital maps used as a source for this data were created by cartographers Herb Heidt and Eliza McClennen of MapWorks for Mapping Boston edited by Alex Krieger and David Cobb with Amy Turner in 1999. The LMEC, despite hosting these born-digital maps in our digital collections, does not have access to the origial GIS data that was used to produce these source maps in 1999.",
-					"missingProcessingInformation": "The LMEC has no records on the processing steps used to create the original Mapworks maps."
+					"notes": "The original born-digital maps used as a source for this data were created by cartographers Herb Heidt and Eliza McClennen of MapWorks for Mapping Boston edited by Alex Krieger and David Cobb with Amy Turner in 1999. The LMEC, despite hosting these born-digital maps in our digital collections, does not have access to the origial GIS data that was used to produce these source maps in 1999."
 				},
 				{
 					"name": "Herb Heidt, Eliza McClennen, Alex Kreigger, David Cobb and Amy Turner",
-					"notes": "Cartographer Vickie Taylor, as part of Nancy Seasholes' Atlas of Boston History project, re-vectorized the Mapworks maps, creating the 2019 shoreline boundaries described in this record.",
-					"missingProcessingInformation": "The LMEC has no records on the processing steps used to create the data this record describes."
+					"notes": "Cartographer Vickie Taylor, as part of Nancy Seasholes' Atlas of Boston History project, re-vectorized the Mapworks maps, creating the 2019 shoreline boundaries described in this record."
 				}
-			]
+			],
+			"process":{
+				"missingProcessingInformation": "The LMEC has no records on the processing steps used to create the original Mapworks maps or on the processing steps used to create the data this record describes."
+			}
 		}
 	}
 }
