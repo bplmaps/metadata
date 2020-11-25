@@ -26,6 +26,13 @@
 			"format": "Shapefile",
 			"source": "Boston Open Data",
 			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0"
+		},
+		{
+			"$id": "ark:/76611/dkhq7glpx/endpoint/3",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhq7glpx/Boston_Neighborhoods.geojson",
+			"format": "GeoJSON",
+			"source": "Leventhal Map & Education Center",
+			"suggestedEntryPoint": true
 		}
 	],
 	"subjectTagging": {
@@ -86,18 +93,24 @@
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
-			},
-			"missingContext": "A lot of information about this dataset is missing. Boston Open Data has provided very little information about how the data was created, by who, how often it is updated, and so on."
-
+			}
 		},
 		"maintenance": {
 			"officialMaintainer": "Boston Open Data",
 			"maintenanceFrequency": "Unknown",
-			"typicalUpdates": "Unknown"
+			"typicalUpdates": "Unknown",
+			"contextMissing": true
 		},
 		"manipulation": {
+			"records": [{
+				"contextMissing": true
+			}],
+			"actors": [{
+				"contextMissing": true
+			}],
 			"process": {
-				"missingProcessingInformation": "All information about how this data was created is missing."
+				"missingProcessingInformation": "A lot of information about this dataset is missing. Boston Open Data has provided very little information about how the data was created, by who, how often it is updated, and so on.",
+				"importantContext": true
 			}
 		}
 	}

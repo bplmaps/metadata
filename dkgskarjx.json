@@ -18,7 +18,8 @@
 		"accessURL": "http://download.massgis.digital.mass.gov/shapefiles/state/townssurvey_shp.zip",
 		"format": "Shapefile",
 		"source": "MassGIS",
-		"accessedViaURL": "https://docs.digital.mass.gov/dataset/massgis-data-layers"
+		"accessedViaURL": "https://docs.digital.mass.gov/dataset/massgis-data-layers",
+		"suggestedEntryPoint": true
 	}],
 	"subjectTagging": {
 		"thematic": {
@@ -84,16 +85,12 @@
 		}
 	},
 	"resourceConstellation": {
-		"suggestedEntryPoints": [{
-			"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
-			"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
-			"notes": "Official MassGIS record for this dataset."
-		}],
 		"codebooks": [{
 			"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
 			"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
 			"maintainedBy": "MassGIS",
-			"notes": "Variable name breakdowns are available via the official MassGIS documentation for this dataset."
+			"notes": "Variable name breakdowns are available via the official MassGIS documentation for this dataset.",
+			"important": true
 		}]
 	},
 	"dataLifecycle": {
@@ -114,9 +111,7 @@
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
-			},
-			"missingContext": "No context was left blank due to unknowns.",
-			"criticalContext": ["codebooks"]
+			}
 		},
 		"maintenance": {
 			"officialMaintainer": "MassGIS",
@@ -124,7 +119,8 @@
 		},
 		"manipulation": {
 			"actors": [{
-				"notes": "This information can be found in the 'Production' section of the MassGIS documentation."
+				"notes": "This information can be found in the 'Production' section of the MassGIS documentation.",
+				"contextMissing": true
 			}],
 			"process": {
 				"missingProcessingInformation": "This information is unknown."

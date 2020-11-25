@@ -18,7 +18,8 @@
 		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm76trq/OSMWaterExtract.zip",
 		"format": "Shapefile",
 		"source": "Open Street Maps",
-		"accessedViaURL": "https://osmdata.openstreetmap.de/"
+		"accessedViaURL": "https://osmdata.openstreetmap.de/",
+		"suggestedEntryPoint": true
 	}],
 	"subjectTagging": {
 		"thematic": {
@@ -89,9 +90,7 @@
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
-			},
-			"missingContext": "No context was left blank due to unknowns."
-
+			}
 		},
 		"maintenance": {
 			"officialMaintainer": "Leventhal Map & Education Center",

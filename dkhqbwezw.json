@@ -54,17 +54,21 @@
 		}
 	},
 	"resourceConstellation": {
-		"suggestedEntryPoints": [{
-			"$id": "https://data2.nhgis.org/main",
-			"title": "NHGIS.org Data Extract Tool",
-			"notes": "This tool is recommended for acquiring extracts of any Decennial or American Community Survey census data."
-		}],
 		"tutorials": [{
+			"$id": "https://www.youtube.com/watch?v=P1znKKm8vX4",
+			"title": "NHGIS Data Finder Tutorial",
+			"author": "IPUMS",
+			"datePublished": "2013-09-18",
+			"notes": "Two minute YouTube video",
+			"suggestedEntryPoint": true
+		},
+		{
 			"$id": "http://steppingintothemap.com/mappinghistory/wp-content/uploads/2018/03/Working-with-NHGIS-and-Joins.pdf",
 			"title": "Working with NHGIS and Joins",
 			"author": "Creighton University Digital Humanities",
 			"datePublished": "2018-03-01",
-			"notes": "This dataset represents only the shape outlines of US census tracts. In order to join this geometry file to meaninful statistical demographic data, one can refer to this helpful Working with NHGIS and Joins Tutorial."
+			"notes": "This dataset represents only the shape outlines of US census tracts. In order to join this geometry file to meaninful statistical demographic data, one can refer to this helpful Working with NHGIS and Joins Tutorial.",
+			"suggestedEntryPoint": true
 		}]
 	},
 	"dataBiography": {
@@ -91,12 +95,12 @@
 				"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf"
 			}],
 			"privacyIssues": [{
-				"notes": "This information was not prominently featured or obviously discoverable via the official maintainer's documentation or metadata."
+				"contextMissing": true
 			}]
 		},
 		"dataCollection": {
 			"whoCollected": [{
-				"notes": "This information was not prominently featured or obviously discoverable via the official maintainer's documentation or metadata."
+				"missingContext": true
 			}],
 			"startDate": [{
 				"notes": "Notes about the history of and practices centered on resolving discrepencies in smaller unit statistical geographies are available in the Census Bureau's Geographic Areas Reference Manual Census Tracts and Block Numbering Areas.",
@@ -111,10 +115,10 @@
 				"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/Ch10GARM.pdf"
 			}],
 			"whoDesigned": [{
-				"notes": "This information was not prominently featured or obviously discoverable via the official maintainer's documentation or metadata."
+				"missingContext": true
 			}],
 			"whoIncluded": [{
-				"notes": "This information was not prominently featured or obviously discoverable via the official maintainer's documentation or metadata."
+				"missingContext": true
 			}]
 		}
 	},
@@ -132,10 +136,7 @@
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
-			},
-			"missingContext": "No context was left blank due to unknowns.",
-			"criticalContext": ["tutorials"]
-
+			}
 		},
 		"maintenance": {
 			"officialMaintainer": "NHGIS.org",

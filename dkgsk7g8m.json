@@ -18,7 +18,8 @@
 		"$id": "ark:/76611/dkgsk7g8m/endpoint/1",
 		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsk7g8m/mass-municipalities.geojson",
 		"format": "GeoJSON",
-		"source": "Leventhal Map & Education Center"
+		"source": "Leventhal Map & Education Center",
+		"suggestedEntryPoint": true
 	}],
 	"subjectTagging": {
 		"thematic": {
@@ -84,24 +85,13 @@
 		}
 	},
 	"resourceConstellation": {
-		"suggestedEntryPoints":[
-			{
-				"$id": "ark:/76611/dkgskarjx",
-				"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
-				"notes": "MassGIS dataset this data improves upon."
-			},
-			{
-				"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
-				"title": "Creating a clean boundary file for Massachusetts municipalities",
-				"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset."
-			}
-		],
 		"tutorials": [
 			{
 				"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
 				"title": "Creating a clean boundary file for Massachusetts municipalities",
 				"maintainedBy": "LMEC",
-				"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset."
+				"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset.",
+				"suggestedEntryPoint": true
 			},
 			{
 				"$id": "https://geoservices.leventhalmap.org/cartinal/guides/jupyter-binder.html",
@@ -136,9 +126,7 @@
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
-			},
-			"missingContext": "No context was left blank due to unknowns."
-
+			}
 		},
 		"maintenance": {
 			"officialMaintainer": "Leventhal Map & Education Center",

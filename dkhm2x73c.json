@@ -79,8 +79,7 @@
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
-			},
-			"missingContext": "No context was left blank due to unknowns."
+			}
 		},
 		"maintenance": {
 			"officialMaintainer": "Leventhal Map & Education Center"

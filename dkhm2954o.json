@@ -18,7 +18,8 @@
 			"$id": "ark:/76611/dkhm2954o/endpoint/1",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/dataEndpoints/Rents.geojson",
 			"format": "GeoJSON",
-			"source": "Leventhal Map & Education Center"
+			"source": "Leventhal Map & Education Center",
+			"suggestedEntryPoint": true
 		},
 		{
 			"$id": "ark:/76611/dkhm2954o/endpoint/2",
@@ -127,7 +128,7 @@
 				}
 			],
 			"privacyIssues": [{
-				"notes": "This information was not prominently featured or obviously discoverable via the official maintainer's documentation or metadata."
+				"contextMissing": true
 			}]
 		},
 		"dataCollection": {
@@ -152,10 +153,10 @@
 				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch02_2014.pdf"
 			}],
 			"collectionConditions": [{
-				"notes": "This information was not prominently featured or obviously discoverable via the official maintainer's documentation or metadata."
+				"contextMissing": true
 			}],
 			"collectorsLocations": [{
-				"notes": "This information was not prominently featured or obviously discoverable via the official maintainer's documentation or metadata."
+				"contextMissing": true
 			}],
 			"collectionMethods": [{
 					"notes": "Information about how survey collection is connected to the census's Master Address File (MAF) is included in the ACS Design and Methodology Report Frame Development.",
@@ -172,7 +173,7 @@
 			}]
 		},
 		"funding": [{
-			"notes": "This information was not prominently featured or obviously discoverable via the official maintainer's documentation or metadata."
+			"contextMissing": true
 		}],
 		"potentialHarm": [{
 			"notes": "Notes about the editing and imputation process are described in the ACS Design and Methodology Report Data Preparation and Processing Editing and Imputation.",
@@ -180,10 +181,6 @@
 		}]
 	},
 	"resourceConstellation": {
-		"suggestedEntryPoints": [{
-			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/dataEndpoints/Rents.geojson",
-			"title": "Boston Rent GIS File"
-		}],
 		"supplementaryFiles": [{
 			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/supplementaryFiles/RentMapCartographyFiles.zip",
 			"title": "Supplementary cartography files",
@@ -222,9 +219,7 @@
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
-			},
-			"missingContext": "After downloading official statistical census data, the cartographer cleaned up the dataset to include only the fields pertinent to this research question. In doing so, they renamed the fields, but no codebooks for these new field names are available."
-
+			}
 		},
 		"maintenance": {
 			"officialMaintainer": "Leventhal Map & Education Center",

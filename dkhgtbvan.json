@@ -17,7 +17,8 @@
 		"$id": "ark:/76611/dkhgtbvan/endpoint/1",
 		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz/Historic-Shoreline-1995.geojson",
 		"format": "GeoJSON",
-		"source": "Leventhal Map & Education Center"
+		"source": "Leventhal Map & Education Center",
+		"suggestedEntryPoint": true
 	}],
 	"subjectTagging": {
 		"thematic": {
@@ -93,12 +94,6 @@
 		}
 	},
 	"resourceConstellation": {
-		"suggestedEntryPoints":[{
-				"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz/Historic-Shoreline-1995.geojson",
-				"title": "Historic Boston Shoreline 1995",
-				"notes": "Data download endpoint"
-			}
-		],
 		"publishedWorks": [{
 			"title": "The Atlas of Boston History",
 			"author": "Nancy Seasholes",
@@ -131,10 +126,7 @@
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
-			},
-			"missingContext": "There is no available context about the process by which this digitization project occurred. The LMEC has made attempts to track down original processes, but have not found any reliable information. We unfortunately do not have any context about how this information was originally created.",
-			"criticalContext": ["publishedWorks"]
-
+			}
 		},
 		"maintenance": {
 			"officialMaintainer": "Leventhal Map & Education Center",
@@ -151,7 +143,7 @@
 				}
 			],
 			"process":{
-				"missingProcessingInformation": "The LMEC has no records on the processing steps used to create the original Mapworks maps or on the processing steps used to create the data this record describes."
+				"missingProcessingInformation": "There is no available context about the process by which this digitization project occurred. The LMEC has made attempts to track down original processes, but have not found any reliable information. We unfortunately do not have any context about how this information was originally created."
 			}
 		}
 	}

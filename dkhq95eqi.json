@@ -25,7 +25,8 @@
 			"accessURL": "https://opendata.arcgis.com/datasets/4b803745fedd4e88861967d16a1e07fb_0.zip",
 			"format": "Shapefile",
 			"source": "Boston Open Data",
-			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/4b803745fedd4e88861967d16a1e07fb_0"
+			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/4b803745fedd4e88861967d16a1e07fb_0",
+			"suggestedEntryPoint": true
 		}
 	],
 	"subjectTagging": {
@@ -87,19 +88,25 @@
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
-			},
-			"missingContext": "A lot of information about this dataset is missing. Boston Open Data has provided very little information about how the data was created, by who, how often it is updated, and so on."
-
+			}
 		},
 		"maintenance": {
 			"officialMaintainer": "Boston Open Data",
 			"maintenanceFrequency": "Unknown",
-			"typicalUpdates": "Unknown"
+			"typicalUpdates": "Unknown",
+			"contextMissing": true
 		},
 		"manipulation": {
+			"records": [{
+				"contextMissing": true
+			}],
+			"actors": [{
+				"contextMissing": true
+			}],
 			"process": {
-				"missingProcessingInformation": "All information about how this data was created is missing."
+				"missingProcessingInformation": "A lot of information about this dataset is missing. Boston Open Data has provided very little information about how the data was created, by who, how often it is updated, and so on.",
+				"importantContext": true
 			}
 		}
 	}
-}
+}}
