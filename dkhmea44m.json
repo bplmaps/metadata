@@ -252,7 +252,7 @@
 			],
 			"process": {
 				"shortProcessDescription": "To make the maps, Daniel downloaded official census data -- statisitcal information about Boston and census tracts. After cleaning up the statistical census data a little bit, these two files were joined together. The newly-joined geospatial demographic data layer was overlaid on top of data used only for cartographic purposes, such as land and water files used to create a basemap. The supplementary cartographic materials, including Adobe Illustrator files, can be accessed via the supplementaryFiles section of this record.",
-				"successes": "This data project has public benefit because it narrows down census data to present only attribute information that might be useful if one is interested in studying gentrification in Boston. It narrows the data to a distinct geographic extent of the city of Boston, and joins the data to census geography data for us. Anyone can now download this file to study changing rent phenomena in Boston.",
+				"successes": "This data project has public benefit because it narrows down census data to present only attribute information that might be useful if one is interested in studying gentrification in Boston. It narrows the data to a distinct geographic extent of the city of Boston, and joins the data to census geography data for us. Anyone can now download this file to study changing white population change phenomena in Boston.",
 				"missingProcessingInformation": "No information is missing about the data processing. This processing description is healthy."
 			}
 		}
