@@ -50,7 +50,7 @@
 				},
 				{
 					"authority": "LCSH",
-					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"authorityID": "https://id.loc.gov/authorities/subjects/sh85053952.html",
 					"language": "eng",
 					"subjectTag": "Gentrification"
 				}
@@ -191,7 +191,7 @@
 			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhmea44m/supplementaryFiles/SupplementaryCartographyFiles.zip",
 			"title": "Supplementary cartography files",
 			"datePublished": "2020-11-24",
-			"notes": "Daniel Huffman provided final versions of the Boston rent map in PDF, JPEG and Adobe Illustrator .AI file formats."
+			"notes": "Daniel Huffman provided final versions of the Boston gentrification maps in PDF, JPEG and Adobe Illustrator .AI file formats."
 		}]
 	},
 	"dataLifecycle": {

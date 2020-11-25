@@ -1,35 +1,60 @@
-{
+​{
 	"coreCitation": {
-		"$id": "",
-		"title": "",
-		"recordType": "",
-		"hostedBy": "",
-		"shortDataDescription": "",
-		"shortGenealogyDescription": "",
-		"includesDataTypes": [""],
+		"$id": "ark:/76611/dkhm2yy1r",
+		"title": "Boston Gentrification - Housing Value Change - Maptivist Collection ",
+		"recordType": "Dataset",
+		"hostedBy": "Internal",
+		"shortDataDescription": "Statistical and geographic data comparing the 2006-2010 and 2014-2018 5-year American Community Survey summaries depicting change in median housing value for the city of Boston, Massachusetts. Created for the purpose of using within the K-12 Maptivist Initiative at the Leventhal Map & Education Center. In Maptivist classrooms, students work with a variety of historical and modern map resources to better understand the past and present of Boston and advocate for change. Students connect with community resources, from individuals working for social justice to City of Boston data sets that enable them to analyze everything from gentrification in their neighborhoods, to health care access by race across the city, to climate resilience’s relationship to income inequality.",
+		"shortGenealogyDescription": "Demographic data were downloaded from official census products, cleaned up to contain only the information pertinent to the subject of study, joined with geospatial census data, and combined with other cartographic materials to produce the maps used in classroom activities.",
+		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
-			"lowerCorner": [-73.508210, 41.239062],
-			"upperCorner": [-69.928093, 42.886778]
+			"lowerCorner": [-71.191154, 42.227925],
+			"upperCorner": [-70.958796, 42.450117]
 		},
-		"accessCondition": "",
-		"collectionItems": []
+		"accessCondition": "This dataset is in the public domain. There are no restrictions on use."
 	},
 	"dataEndpoints": [{
-		"$id": "",
-		"accessURL": "",
-		"format": "",
-		"source": "",
-		"accessedViaURL": ""
-	}],
+			"$id": "ark:/76611/dkhm2yy1r/endpoint/1",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/dataEndpoints/MedianValues.geojson",
+			"format": "GeoJSON",
+			"source": "Leventhal Map & Education Center",
+			"suggestedEntryPoint": true
+		},
+		{
+			"$id": "ark:/76611/dkhm2yy1r/endpoint/2",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/dataEndpoints/ToJoin2010.csv",
+			"format": "CSV",
+			"source": "Leventhal Map & Education Center"
+		},
+		{
+			"$id": "ark:/76611/dkhm2yy1r/endpoint/3",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/dataEndpoints/ToJoin2018.csv",
+			"format": "CSV",
+			"source": "Leventhal Map & Education Center"
+		}
+	],
 	"subjectTagging": {
 		"thematic": {
 			"LCSH": [{
-				"authority": "LCSH",
-				"authorityID": "http://id.loc.gov/authorities/subjects.html",
-				"language": "eng",
-				"subjectTag": ""
-			}],
+					"authority": "LCSH",
+					"authorityID": "https://id.loc.gov/authorities/subjects/sh85146547.html",
+					"language": "eng",
+					"subjectTag": "Housing"
+				},
+				{
+					"authority": "LCSH",
+					"authorityID": "https://id.loc.gov/authorities/subjects/sh85061703.html",
+					"language": "eng",
+					"subjectTag": "Home ownership"
+				},
+				{
+					"authority": "LCSH",
+					"authorityID": "https://id.loc.gov/authorities/subjects/sh85053952.html",
+					"language": "eng",
+					"subjectTag": "Gentrification"
+				}
+			],
 			"ISO19115": [{
 				"authority": "ISO19115TopicCategory",
 				"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
@@ -43,8 +68,8 @@
 				"authority": "geonames",
 				"authorityID": "http://www.geonames.org/ontology#",
 				"language": "eng",
-				"valueID": "http://sws.geonames.org/6254926",
-				"placeTag": "Massachusetts"
+				"valueID": "http://www.geonames.org/4930956/boston.html",
+				"placeTag": "Boston"
 			}],
 			"EPSG": [{
 				"authority": "EPSG",
@@ -53,51 +78,135 @@
 			}]
 		},
 		"temporal": {
-			"temporalNotes": "",
+			"temporalNotes": "This project compares census data from the 2006-2010 and 2014-2018 American Community Survey estimates.",
 			"temporalRepresentation": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"temporalType": "",
-				"singularExpressionValue": "",
-				"startRangeValue": "",
-				"endRangeValue": ""
+				"temporalType": "temporalRange",
+				"startRangeValue": "2006",
+				"endRangeValue": "2018"
 			},
 			"temporalPublication": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
 				"temporalType": "singularExpression",
-				"singularExpressionValue": "",
-				"startRangeValue": "",
-				"endRangeValue": ""
+				"singularExpressionValue": "2020-11-24"
 			}
 		}
 	},
+	"dataBiography": {
+		"sampling": {
+			"universe": [{
+				"notes": "Interview or survey rules define the universe or target population for a survey, and so identify the units and people eligible for inclusion. This includes considerations like how incarcerated or those in health care facilities are categorized and counted, as well as those experiencing homelessness. There are also special considerations for how children are included. All of these rules, as defined by the Census Bureau, are described in the ACS Design and Methodology Report Survey Rules, Concepts, Definitions.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch06_2014.pdf"
+			}],
+			"sampleSize": [{
+				"notes": "The sampling process is described in the ACS Design and Methodology Report Sample Design and Selection.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch04_2014.pdf"
+			}],
+			"knownSampleSizeProblems": [{
+				"notes": "Notes about complexity of survey size are included in the ACS Design and Methodology Report Variance Estimation.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch12_2014.pdf"
+			}],
+			"marginOfError": [{
+				"notes": "The process by which margins of error are calculated for this data is available in the ACS Design and Methodology Report Variance Estimation.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch12_2014.pdf"
+			}]
+		},
+		"privacy": {
+			"unitOfAggretaion": [{
+				"notes": "Information about the relationship of the different official census geographic hierarchies can be found in the ACS Design and Methodology Report Frame Development Master Address File Content.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch03_2014.pdf"
+			}],
+			"aggregationProblems": [{
+				"notes": "The Census Bureau describes some of the challenges inherent in grouping areas into 'homogenous' sections with firm separating boundaries between adjacent entities in the Geographic Area Reference Manual Homogeneity and Functional Integration",
+				"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf"
+			}],
+			"consent": [{
+				"notes": "Notes about how the Census Bureau conceives of its questionnaire content in relation to the mandatory nature of the ACS is available in the ACS Design and Methodology Report Content Development Process.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch05_2014.pdf"
+			}],
+			"anonymization": [{
+					"notes": "Notes about the Census Bureau's activities geared towards confidentiality in preparing data products are available in the ACS Design and Methodology Preparation/Review of Data Products.",
+					"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch13_2014.pdf"
+				},
+				{
+					"notes": "Post-processing steps performed on this data to ensure anonymization are described in the ACS Desgin and Methodology Preparation/Review of Data Products.",
+					"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch13_2014.pdf"
+				}
+			],
+			"privacyIssues": [{
+				"contextMissing": true
+			}]
+		},
+		"dataCollection": {
+			"startDate": [{
+				"notes": "With full implementation beginning in 2005, population and housing profiles for 2005 first became available in the summer of 2006 and have been available every year thereafter for specific geographic areas with populations of 65,000 or more. Three-year period estimates, reflecting combined data from the 2005−2007 ACS, were available for the first time late in 2008 for specific areas with populations of 20,000 or more, and 5-year period estimates, reflecting combined data from the 2005−2009 ACS, became available late in 2010 for areas down to the smallest block groups, census tracts, and small local governments. Beginning in 2010, the nation had a 5-year period estimate, available as an alternative to the decennial census long-form sample, for nearly all geographic areas recognized by the Census Bureau, including census tracts and block groups.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch02_2014.pdf"
+			}],
+			"endDate": [{
+				"notes": "This survey is continuously rolling. It uses a series of monthly samples to produce annually updated estimates."
+			}],
+			"whoConceived": [{
+					"notes": "Survey conception is described in the ACS Design and Methodology Report Program History.",
+					"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch02_2014.pdf"
+				},
+				{
+					"notes": "Notes on how new content questions are added and worded are described in the ACS Design and Methodology Content Development Process.",
+					"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch05_2014.pdf"
+				}
+			],
+			"whoIncluded": [{
+				"notes": "A list of included stakeholders is defined in the ACS Design and Methodology Report Program History ACS Stakeholders and External Engagement.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch02_2014.pdf"
+			}],
+			"collectionConditions": [{
+				"contextMissing": true
+			}],
+			"collectorsLocations": [{
+				"contextMissing": true
+			}],
+			"collectionMethods": [{
+					"notes": "Information about how survey collection is connected to the census's Master Address File (MAF) is included in the ACS Design and Methodology Report Frame Development.",
+					"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch03_2014.pdf"
+				},
+				{
+					"notes": "Collection techniques and methodology is described in the ACS Design and Methodology Report Data Collection.",
+					"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch07_2014.pdf"
+				}
+			],
+			"miscountRisk": [{
+				"notes": "Notes about how incarcerated people are surveyed are referred to in the ACS Design and Methodology Report Data Collection and Capture for Group Quarters.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch08_2014.pdf"
+			}]
+		},
+		"funding": [{
+			"contextMissing": true
+		}],
+		"potentialHarm": [{
+			"notes": "Notes about the editing and imputation process are described in the ACS Design and Methodology Report Data Preparation and Processing Editing and Imputation.",
+			"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch10_2014.pdf"
+		}]
+	},
 	"resourceConstellation": {
-		"codebooks": [{
-			"$id": "",
-			"title": "",
-			"maintainedBy": "",
-			"notes": ""
-		}],
-		"publishedWorks": [{
-			"$id": "",
-			"title": "",
-			"author": "",
-			"publisher": "",
-			"datePublished": ""
-		}],
-		"tutorials": [{
-			"$id": "",
-			"title": "",
-			"maintainedBy": "",
-			"notes": ""
+		"supplementaryFiles": [{
+			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/supplementaryFiles/SupplementaryCartographyFiles.zip",
+			"title": "Supplementary cartography files",
+			"datePublished": "2020-11-24",
+			"notes": "Daniel Huffman provided final versions of the Boston gentrification maps in PDF, JPEG and Adobe Illustrator .AI file formats."
 		}]
 	},
 	"dataLifecycle": {
 		"acquisition": {
 			"ingredients": [{
-				"$id": "",
-				"type": "",
-				"notes": ""
-			}]
+					"$id": "ark:/76611/dkhqbwezw",
+					"type": "compositeIngredient",
+					"notes": "This census tract geography data was joined to other statistical census data."
+				},
+				{
+					"$id": "ark:/76611/dkhqhgkkt",
+					"type": "compositeIngredient",
+					"notes": "This statistical census data was joined to census tract geography data."
+				}
+			]
 		},
 		"description": {
 			"language": {
@@ -105,40 +214,46 @@
 				"value": "eng"
 			},
 			"contextProvider": {
-				"name": "",
-				"relationshipToData": [""]
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
 			},
 			"contextOnBehalfOf": {
-				"name": "",
-				"relationshipToData": [""]
+				"name": "Daniel Huffman",
+				"relationshipToData": "Cartographer"
 			},
-			"contextPublicationDate": "",
+			"contextPublicationDate": "2020-11-24",
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
 				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
 			}
 		},
 		"maintenance": {
-			"officialMaintainer": "",
-			"maintenanceFrequency": "",
-			"typicalUpdates": ""
+			"officialMaintainer": "Leventhal Map & Education Center",
+			"maintenanceFrequency": "Never updated. These maps created from this data were a one-time commission, desgined for educational purposes."
 		},
 		"manipulation": {
 			"records": [{
-				"accessURL": "",
-				"format": "",
-				"author": ""
+				"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/README/README.txt",
+				"format": "Plain-text README",
+				"author": "Daniel Huffman"
 			}],
 			"actors": [{
-				"name": "",
-				"notes": ""
-			}],
+					"name": "Michelle LeBlanc",
+					"notes": "Michelle is the Director of Education at the Leventhal Map & Education Center. She led the IMLS-funded Maptivists project, which allowed for Daniel Huffman to be included as a project cartographer. She also worked with Daniel and Education Coordinator Lynn Brown to conceptualize ideas for the cartographic resources."
+				},
+				{
+					"name": "Lynn Brown",
+					"notes": "Lynn is the Education Coordinator at the Leventhal Map & Education Center. She worked with Cartographer Daniel Huffman and Director of Education Michelle LeBlanc to conceptualize the ideas for the maps."
+				},
+				{
+					"name": "Daniel Huffman",
+					"notes": "Daniel Huffman is a freelance cartographer hired by the Leventhal Map & Education Center to create maps with strong arguments based around important issues in Boston, designed to aid teaching in classrooms partaking in the LMEC Maptivist Initiative. In addition to designing the maps, Daniel provided lots of great notes on their mapmaking process, which can be found throughout this document, and especially in the README made available from the `records` section of this document."
+				}
+			],
 			"process": {
-				"shortProcessDescription": "",
-				"successes": "",
-				"challenges": "",
-				"sandtraps": "",
-				"missingProcessingInformation": ""
+				"shortProcessDescription": "To make the maps, Daniel downloaded official census data -- statisitcal information about Boston and census tracts. After cleaning up the statistical census data a little bit, these two files were joined together. The newly-joined geospatial demographic data layer was overlaid on top of data used only for cartographic purposes, such as land and water files used to create a basemap. The supplementary cartographic materials, including Adobe Illustrator files, can be accessed via the supplementaryFiles section of this record.",
+				"successes": "This data project has public benefit because it narrows down census data to present only attribute information that might be useful if one is interested in studying gentrification in Boston. It narrows the data to a distinct geographic extent of the city of Boston, and joins the data to census geography data for us. Anyone can now download this file to study changing rent phenomena in Boston.",
+				"missingProcessingInformation": "No information is missing about the data processing. This processing description is healthy."
 			}
 		}
 	}
