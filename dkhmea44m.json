@@ -38,19 +38,19 @@
 		"thematic": {
 			"LCSH": [{
 					"authority": "LCSH",
-					"authorityID": "https://id.loc.gov/authorities/subjects/sh85146547.html",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"language": "eng",
 					"subjectTag": "Whites"
 				},
 				{
 					"authority": "LCSH",
-					"authorityID": "https://id.loc.gov/authorities/subjects/sh00006969.html",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"language": "eng",
 					"subjectTag": "Population"
 				},
 				{
 					"authority": "LCSH",
-					"authorityID": "https://id.loc.gov/authorities/subjects/sh85053952.html",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"language": "eng",
 					"subjectTag": "Gentrification"
 				}

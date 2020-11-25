@@ -38,19 +38,19 @@
 		"thematic": {
 			"LCSH": [{
 					"authority": "LCSH",
-					"authorityID": "https://id.loc.gov/authorities/subjects/sh85146547.html",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"language": "eng",
 					"subjectTag": "Housing"
 				},
 				{
 					"authority": "LCSH",
-					"authorityID": "https://id.loc.gov/authorities/subjects/sh85061703.html",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"language": "eng",
 					"subjectTag": "Home ownership"
 				},
 				{
 					"authority": "LCSH",
-					"authorityID": "https://id.loc.gov/authorities/subjects/sh85053952.html",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"language": "eng",
 					"subjectTag": "Gentrification"
 				}
