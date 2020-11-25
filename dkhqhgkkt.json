@@ -67,7 +67,7 @@
 			"title": "Working with NHGIS and Joins",
 			"author": "Creighton University Digital Humanities",
 			"datePublished": "2018-03-01",
-			"notes": "This dataset represents only the shape outlines of US census tracts. In order to join this geometry file to meaninful statistical demographic data, one can refer to this helpful Working with NHGIS and Joins Tutorial.",
+			"notes": "Learn how to join census data with demographic data in QGIS",
 			"suggestedEntryPoint": true
 		}]
 	},
