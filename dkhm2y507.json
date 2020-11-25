@@ -1,7 +1,7 @@
 {
 	"coreCitation": {
 		"$id": "ark:/76611/dkhm2y507",
-		"title": "Boston Rent - Maptivist Collection",
+		"title": "Boston Transit - Maptivist Collection",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
 		"shortDataDescription": "Statistical and geographic data from the 2014-2018 5-year American Community Survey summaries depicting the most popular mode of transportation for the city of Boston, Massachusetts. Created for the purpose of using within the K-12 Maptivist Initiative at the Leventhal Map & Education Center. In Maptivist classrooms, students work with a variety of historical and modern map resources to better understand the past and present of Boston and advocate for change. Students connect with community resources, from individuals working for social justice to City of Boston data sets that enable them to analyze everything from gentrification in their neighborhoods, to health care access by race across the city, to climate resilience’s relationship to income inequality.",
@@ -186,11 +186,6 @@
 					"$id": "ark:/76611/dkhqhgkkt",
 					"type": "compositeIngredient",
 					"notes": "This statistical census data was joined to census tract geography data."
-				},
-				{
-					"$id": "ark:/76611/dkhq7glpx",
-					"type": "compositeIngredient",
-					"notes": "The Boston Neighborhoods file was used to show neighborhood labels on the map"
 				}
 			]
 		},
@@ -238,7 +233,7 @@
 			],
 			"process": {
 				"shortProcessDescription": "To make the maps, Daniel downloaded official census data -- statisitcal information about Boston and census tracts. After cleaning up the statistical census data a little bit, these two files were joined together. The newly-joined geospatial demographic data layer was overlaid on top of data used only for cartographic purposes, such as land and water files used to create a basemap. The supplementary cartographic materials, including Adobe Illustrator files, can be accessed via the supplementaryFiles section of this record.",
-				"successes": "This data project has public benefit because it narrows down census data to present only attribute information that might be useful if one is interested in studying gentrification in Boston. It narrows the data to a distinct geographic extent of the city of Boston, and joins the data to census geography data for us. Anyone can now download this file to study changing rent phenomena in Boston.",
+				"successes": "This data project has public benefit because it narrows down census data to present only attribute information that might be useful if one is interested in studying transit in Boston. It narrows the data to a distinct geographic extent of the city of Boston, and joins the data to census geography data for us. Anyone can now download this file to study transit phenomena in Boston.",
 				"missingProcessingInformation": "No information is missing about the data processing. This processing description is healthy."
 			}
 		}
