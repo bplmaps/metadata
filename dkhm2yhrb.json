@@ -23,7 +23,7 @@
 		},
 		{
 			"$id": "ark:/76611/dkhm2yhrb/endpoint/2",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/dataEndpoints/ToJoinNew.csv",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/dataEndpoints/ToJoin.csv",
 			"format": "CSV",
 			"source": "Leventhal Map & Education Center"
 		}
