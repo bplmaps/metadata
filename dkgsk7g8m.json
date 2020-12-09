@@ -106,7 +106,7 @@
 			"ingredients": [{
 				"$id": "ark:/76611/dkgskarjx",
 				"type": "linearPredecessor",
-				"notes": "This data directly improves upon the MassGIS Data: Community Boundaries (Towns) from Survey Points"
+				"notes": "This ingredient was used as the sole ingredient for creating the new simplified towns dataset"
 			}]
 		},
 		"description": {
