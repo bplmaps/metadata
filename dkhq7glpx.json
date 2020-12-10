@@ -1,7 +1,7 @@
 {
 	"coreCitation": {
 		"$id": "ark:/76611/dkhq7glpx",
-		"title": "Boston Neighborhoods - Maptivist Collection",
+		"title": "Boston Neighborhoods (Maptivist Collection)",
 		"recordType": "Dataset",
 		"hostedBy": "External",
 		"shortDataDescription": "The Neighborhood boundaries data layer is a combination of zoning neighborhood boundaries, zip code boundaries and 2010 Census tract boundaries.  These boundaries are used in the broad sense for visualization purposes for zoning and planning studies.   However these boundaries are not official neighborhood boundaries for the City of Boston.  The Boston Planning and Development Agency (BPDA) is not responsible for any districts or boundaries within the City of Boston except for the districts or boundaries we use for zoning and planning studies.",
