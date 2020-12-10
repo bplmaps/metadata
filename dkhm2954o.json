@@ -187,12 +187,12 @@
 			"ingredients": [{
 					"$id": "ark:/76611/dkhqbwezw",
 					"type": "compositeIngredient",
-					"notes": "This census tract geography data was joined to other statistical census data."
+					"notes": "This census tract geography data was joined to census statistical demographic data"
 				},
 				{
 					"$id": "ark:/76611/dkhqhgkkt",
 					"type": "compositeIngredient",
-					"notes": "This statistical census data was joined to census tract geography data."
+					"notes": "This statistical census data was joined to census tract geography data"
 				}
 			]
 		},
