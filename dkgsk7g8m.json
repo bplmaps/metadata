@@ -19,7 +19,6 @@
 		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsk7g8m/mass-municipalities.geojson",
 		"format": "GeoJSON",
 		"source": "Leventhal Map & Education Center",
-		"alias": "GeoJSON Download",
 		"suggestedEntryPoint": true
 	}],
 	"subjectTagging": {

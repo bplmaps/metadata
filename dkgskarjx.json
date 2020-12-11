@@ -16,10 +16,9 @@
 	"dataEndpoints": [{
 		"$id": "ark:/76611/dkgskarjx/endpoint/1",
 		"accessURL": "http://download.massgis.digital.mass.gov/shapefiles/state/townssurvey_shp.zip",
-		"format": "Shapefile",
+		"format": "Zipped Shapefile",
 		"source": "MassGIS",
 		"accessedViaURL": "https://docs.digital.mass.gov/dataset/massgis-data-layers",
-		"alias": "Shapefile Download",
 		"suggestedEntryPoint": true
 	}],
 	"subjectTagging": {
