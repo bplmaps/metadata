@@ -19,6 +19,7 @@
 		"format": "Shapefile",
 		"source": "MassGIS",
 		"accessedViaURL": "https://docs.digital.mass.gov/dataset/massgis-data-layers",
+		"alias": "Shapefile Download",
 		"suggestedEntryPoint": true
 	}],
 	"subjectTagging": {

@@ -18,6 +18,7 @@
 			"accessURL": "http://mapservices.bostonredevelopmentauthority.org/arcproxy/arcgis/rest/services/Maps/Bos_Neighborhoods_2018/mapserver/0",
 			"format": "Web Service",
 			"source": "Boston Open Data",
+			"alias": "ArcGIS Web Service Link",
 			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0"
 		},
 		{
@@ -25,6 +26,7 @@
 			"accessURL": "https://opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0.zip",
 			"format": "Shapefile",
 			"source": "Boston Open Data",
+			"alias": "Zipped Shapefile Download",
 			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0"
 		},
 		{

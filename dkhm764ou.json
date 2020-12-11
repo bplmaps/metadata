@@ -18,6 +18,7 @@
 		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm764ou/OSMLandExtract.zip",
 		"format": "Shapefile",
 		"source": "Open Street Maps",
+		"alias": "Zipped Shapefile Download",
 		"accessedViaURL": "https://osmdata.openstreetmap.de/",
 		"suggestedEntryPoint": true
 	}],

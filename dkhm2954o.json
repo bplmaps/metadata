@@ -19,11 +19,13 @@
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/dataEndpoints/Rents.geojson",
 			"format": "GeoJSON",
 			"source": "Leventhal Map & Education Center",
+			"alias": "GeoJSON Download",
 			"suggestedEntryPoint": true
 		},
 		{
 			"$id": "ark:/76611/dkhm2954o/endpoint/2",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/dataEndpoints/ToJoin.csv",
+			"alias": "Census Data CSV Download",
 			"format": "CSV",
 			"source": "Leventhal Map & Education Center"
 		}

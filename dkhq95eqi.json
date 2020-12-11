@@ -18,6 +18,7 @@
 			"accessURL": "http://gis.cityofboston.gov/arcgis/rest/services/Collector/Wifi/MapServer/0",
 			"format": "Web Service",
 			"source": "Boston Open Data",
+			"alias": "ArcGIS Web Service Link",
 			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/4b803745fedd4e88861967d16a1e07fb_0"
 		},
 		{
@@ -25,6 +26,7 @@
 			"accessURL": "https://opendata.arcgis.com/datasets/4b803745fedd4e88861967d16a1e07fb_0.zip",
 			"format": "Shapefile",
 			"source": "Boston Open Data",
+			"alias": "Zipped Shapefile Download",
 			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/4b803745fedd4e88861967d16a1e07fb_0",
 			"suggestedEntryPoint": true
 		}

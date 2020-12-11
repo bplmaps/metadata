@@ -18,6 +18,7 @@
 		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsjlciz/Historic-Shoreline-1995.geojson",
 		"format": "GeoJSON",
 		"source": "Leventhal Map & Education Center",
+		"alias": "GeoJSON Download",
 		"suggestedEntryPoint": true
 	}],
 	"subjectTagging": {
