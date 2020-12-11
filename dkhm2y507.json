@@ -19,13 +19,12 @@
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/dataEndpoints/TransitMode.geojson",
 			"format": "GeoJSON",
 			"source": "Leventhal Map & Education Center",
-			"alias": "GeoJSON Download",
 			"suggestedEntryPoint": true
 		},
 		{
 			"$id": "ark:/76611/dkhm2y507/endpoint/2",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/dataEndpoints/ToJoin.csv",
-			"format": "Census Data CSV Download",
+			"format": "CSV",
 			"source": "Leventhal Map & Education Center"
 		}
 	],

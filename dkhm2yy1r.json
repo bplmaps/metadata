@@ -20,14 +20,12 @@
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/dataEndpoints/MedianValues.geojson",
 			"format": "GeoJSON",
 			"source": "Leventhal Map & Education Center",
-			"alias": "GeoJSON Download",
 			"suggestedEntryPoint": true
 		},
 		{
 			"$id": "ark:/76611/dkhm2yy1r/endpoint/2",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/dataEndpoints/ToJoin2010.csv",
 			"format": "CSV",
-			"alias": "2010 Census Data CSV Download",
 			"source": "Leventhal Map & Education Center"
 		},
 		{

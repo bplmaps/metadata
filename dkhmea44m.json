@@ -20,21 +20,18 @@
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhmea44m/dataEndpoints/WhiteChange.geojson",
 			"format": "GeoJSON",
 			"source": "Leventhal Map & Education Center",
-			"alias": "GeoJSON Download",
 			"suggestedEntryPoint": true
 		},
 		{
 			"$id": "ark:/76611/dkhmea44m/endpoint/2",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhmea44m/dataEndpoints/ToJoin2010.csv",
 			"format": "CSV",
-			"alias": "2010 Census Data CSV Download",
 			"source": "Leventhal Map & Education Center"
 		},
 		{
 			"$id": "ark:/76611/dkhmea44m/endpoint/3",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhmea44m/dataEndpoints/ToJoin2018.csv",
 			"format": "CSV",
-			"alias": "2018 Census Data CSV Download",
 			"source": "Leventhal Map & Education Center"
 		}
 	],

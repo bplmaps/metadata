@@ -16,9 +16,8 @@
 	"dataEndpoints": [{
 		"$id": "ark:/76611/dkhm76trq/endpoint/1",
 		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm76trq/OSMWaterExtract.zip",
-		"format": "Shapefile",
+		"format": "Zipped Shapefile",
 		"source": "Open Street Maps",
-		"alias": "Zipped Shapefile Download",
 		"accessedViaURL": "https://osmdata.openstreetmap.de/",
 		"suggestedEntryPoint": true
 	}],

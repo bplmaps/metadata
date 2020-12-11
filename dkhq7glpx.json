@@ -16,17 +16,15 @@
 	"dataEndpoints": [{
 			"$id": "ark:/76611/dkhq7glpx/endpoint/1",
 			"accessURL": "http://mapservices.bostonredevelopmentauthority.org/arcproxy/arcgis/rest/services/Maps/Bos_Neighborhoods_2018/mapserver/0",
-			"format": "Web Service",
+			"format": "ArcGIS Web Service",
 			"source": "Boston Open Data",
-			"alias": "ArcGIS Web Service Link",
 			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0"
 		},
 		{
 			"$id": "ark:/76611/dkhq7glpx/endpoint/2",
 			"accessURL": "https://opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0.zip",
-			"format": "Shapefile",
+			"format": "Zipped Shapefile",
 			"source": "Boston Open Data",
-			"alias": "Zipped Shapefile Download",
 			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0"
 		},
 		{
@@ -34,7 +32,6 @@
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhq7glpx/Boston_Neighborhoods.geojson",
 			"format": "GeoJSON",
 			"source": "Leventhal Map & Education Center",
-			"alias": "GeoJSON Download",
 			"suggestedEntryPoint": true
 		}
 	],
