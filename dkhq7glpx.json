@@ -34,6 +34,7 @@
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhq7glpx/Boston_Neighborhoods.geojson",
 			"format": "GeoJSON",
 			"source": "Leventhal Map & Education Center",
+			"alias": "GeoJSON Download",
 			"suggestedEntryPoint": true
 		}
 	],
