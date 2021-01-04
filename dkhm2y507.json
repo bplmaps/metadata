@@ -4,7 +4,8 @@
 		"title": "Boston Transit (Maptivist Collection)",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"shortDataDescription": "Statistical and geographic data from the 2014-2018 5-year American Community Survey summaries depicting the most popular mode of transportation for the city of Boston, Massachusetts. Created for the purpose of using within the K-12 Maptivist Initiative at the Leventhal Map & Education Center. In Maptivist classrooms, students work with a variety of historical and modern map resources to better understand the past and present of Boston and advocate for change. Students connect with community resources, from individuals working for social justice to City of Boston data sets that enable them to analyze everything from gentrification in their neighborhoods, to health care access by race across the city, to climate resilience’s relationship to income inequality.",
+		"previewDescription": "Modes of transportation in Boston for the years 2014-2018.",
+		"detailsFull": "Statistical and geographic data from the 2014-2018 5-year American Community Survey summaries depicting the most popular mode of transportation for the city of Boston, Massachusetts. Created for the purpose of using within the K-12 Maptivist Initiative at the Leventhal Map & Education Center. In Maptivist classrooms, students work with a variety of historical and modern map resources to better understand the past and present of Boston and advocate for change. Students connect with community resources, from individuals working for social justice to City of Boston data sets that enable them to analyze everything from gentrification in their neighborhoods, to health care access by race across the city, to climate resilience’s relationship to income inequality.",
 		"shortGenealogyDescription": "Demographic data were downloaded from official census products, cleaned up to contain only the information pertinent to the subject of study, joined with geospatial census data, and combined with other cartographic materials to produce the maps used in classroom activities.",
 		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
@@ -18,12 +19,14 @@
 			"$id": "ark:/76611/dkhm2y507/endpoint/1",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/dataEndpoints/TransitMode.geojson",
 			"format": "GeoJSON",
+			"title": "Boston Modes of Transportation GeoJSON",
 			"source": "Leventhal Map & Education Center",
 			"suggestedEntryPoint": true
 		},
 		{
 			"$id": "ark:/76611/dkhm2y507/endpoint/2",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/dataEndpoints/ToJoin.csv",
+			"title": "Boston Modes of Transportation Statistical Tables",
 			"format": "CSV",
 			"source": "Leventhal Map & Education Center"
 		}
