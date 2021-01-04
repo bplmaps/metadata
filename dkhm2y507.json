@@ -4,9 +4,9 @@
 		"title": "Boston Transit (Maptivist Collection)",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"previewDescription": "Modes of transportation in Boston for the years 2014-2018.",
-		"detailsFull": "Statistical and geographic data from the 2014-2018 5-year American Community Survey summaries depicting the most popular mode of transportation for the city of Boston, Massachusetts. Created for the purpose of using within the K-12 Maptivist Initiative at the Leventhal Map & Education Center. In Maptivist classrooms, students work with a variety of historical and modern map resources to better understand the past and present of Boston and advocate for change. Students connect with community resources, from individuals working for social justice to City of Boston data sets that enable them to analyze everything from gentrification in their neighborhoods, to health care access by race across the city, to climate resilience’s relationship to income inequality.",
-		"shortGenealogyDescription": "Demographic data were downloaded from official census products, cleaned up to contain only the information pertinent to the subject of study, joined with geospatial census data, and combined with other cartographic materials to produce the maps used in classroom activities.",
+		"briefDescription": "Modes of transportation in Boston for the years 2014-2018.",
+		"fullNotes": "Statistical and geographic data from the 2014-2018 5-year American Community Survey summaries depicting the most popular mode of transportation for the city of Boston, Massachusetts. Created for the purpose of using within the K-12 Maptivist Initiative at the Leventhal Map & Education Center. In Maptivist classrooms, students work with a variety of historical and modern map resources to better understand the past and present of Boston and advocate for change. Students connect with community resources, from individuals working for social justice to City of Boston data sets that enable them to analyze everything from gentrification in their neighborhoods, to health care access by race across the city, to climate resilience’s relationship to income inequality.",
+		"briefGenealogy": "Demographic data were downloaded from official census products, cleaned up to contain only the information pertinent to the subject of study, joined with geospatial census data, and combined with other cartographic materials to produce the maps used in classroom activities.",
 		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",

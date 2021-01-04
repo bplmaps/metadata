@@ -4,8 +4,9 @@
 		"title": "United States Census Bureau TIGER/Line Census Tracts",
 		"recordType": "Dataset",
 		"hostedBy": "External",
-		"shortDataDescription": "Census data is obtained by using online websites such as the official Census Bureau tool, American Fact Finder, or websites from other reputable census data providers. The Leventhal Map & Education Center recommends using NHGIS.org, which streamlines the process of accessing census data for GIS purposes, specifically. You can go to NHGIS.org to access the exact demographic characteristics and geographical units necessary for your research project. You can scroll down in this metadata record to find the 'tutorials' section, which will point to step-by-step instructions for working with census data using NHGIS.org.",
-		"includesDataTypes": ["MultiPolygon"],
+		"briefDescription": "Census tract geographies",
+		"briefGenealogy": "A common process is to join statistical demographic data from the American Community Survey or decennial census with census shape data like tracts, counties or states.",
+		"fullNotes": "Census data is obtained by using online websites such as the official Census Bureau tool, American Fact Finder, or websites from other reputable census data providers. The Leventhal Map & Education Center recommends using [NHGIS.org](http://nhgis.org/), which streamlines the process of accessing census data for GIS purposes, specifically. You can go to [NHGIS.org](http://nhgis.org/) to access the exact demographic characteristics and geographical units necessary for your research project. You can scroll down in this metadata record to find the 'tutorials' section, which will point to step-by-step instructions for working with census data using [NHGIS.org](http://nhgis.org/).",		"includesDataTypes": ["MultiPolygon"],
 		"accessCondition": "This data is in the public domain. There are no restrictions on use."
 	},
 	"subjectTagging": {

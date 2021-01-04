@@ -4,8 +4,8 @@
 		"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
 		"recordType": "Dataset",
 		"hostedBy": "External",
-		"previewDescription": "Authoritative record of Massachusetts municipal (city and town) boundaries.",
-		"detailsFull": "This data represents the officially-maintained town boundary data made available by MassGIS. It is the input source data used to create the LMEC's census-compatible Massachusetts Town Boundary dataset.",
+		"briefDescription": "Authoritative record of Massachusetts municipal (city and town) boundaries.",
+		"fullNotes": "This data represents the officially-maintained town boundary data made available by MassGIS. It is the input source data used to create the LMEC's census-compatible Massachusetts Town Boundary dataset.",
 		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",

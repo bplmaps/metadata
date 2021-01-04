@@ -4,7 +4,7 @@
 		"title": "Wicked Free Wi-Fi (Maptivist Collection)",
 		"recordType": "Dataset",
 		"hostedBy": "External",
-		"shortDataDescription": "Wicked Free Wi-Fi is Boston's outdoor wireless network. ",
+		"briefDescription": "Wicked Free Wi-Fi is Boston's outdoor wireless network. ",
 		"includesDataTypes": ["Point"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
@@ -17,6 +17,7 @@
 			"$id": "ark:/76611/dkhq95eqi/endpoint/1",
 			"accessURL": "http://gis.cityofboston.gov/arcgis/rest/services/Collector/Wifi/MapServer/0",
 			"format": "ArcGIS Web Service",
+			"title": "Boston Free Wi-Fi ESRI Web Service",
 			"source": "Boston Open Data",
 			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/4b803745fedd4e88861967d16a1e07fb_0"
 		},
@@ -25,6 +26,7 @@
 			"accessURL": "https://opendata.arcgis.com/datasets/4b803745fedd4e88861967d16a1e07fb_0.zip",
 			"format": "Zipped Shapefile",
 			"source": "Boston Open Data",
+			"title": "Boston Free Wi-Fi Zipped Shapefile",
 			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/4b803745fedd4e88861967d16a1e07fb_0",
 			"suggestedEntryPoint": true
 		}

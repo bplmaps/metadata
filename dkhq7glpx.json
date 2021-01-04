@@ -4,7 +4,8 @@
 		"title": "Boston Neighborhoods (Maptivist Collection)",
 		"recordType": "Dataset",
 		"hostedBy": "External",
-		"shortDataDescription": "The Neighborhood boundaries data layer is a combination of zoning neighborhood boundaries, zip code boundaries and 2010 Census tract boundaries.  These boundaries are used in the broad sense for visualization purposes for zoning and planning studies.   However these boundaries are not official neighborhood boundaries for the City of Boston.  The Boston Planning and Development Agency (BPDA) is not responsible for any districts or boundaries within the City of Boston except for the districts or boundaries we use for zoning and planning studies.",
+		"briefDescription": "Boston neighborhood boundaries",
+		"fullNotes": "The Neighborhood boundaries data layer is a combination of zoning neighborhood boundaries, zip code boundaries and 2010 Census tract boundaries. These boundaries are used in the broad sense for visualization purposes for zoning and planning studies. However these boundaries are not official neighborhood boundaries for the City of Boston. The Boston Planning and Development Agency (BPDA) is not responsible for any districts or boundaries within the City of Boston except for the districts or boundaries we use for zoning and planning studies.",
 		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
@@ -17,6 +18,7 @@
 			"$id": "ark:/76611/dkhq7glpx/endpoint/1",
 			"accessURL": "http://mapservices.bostonredevelopmentauthority.org/arcproxy/arcgis/rest/services/Maps/Bos_Neighborhoods_2018/mapserver/0",
 			"format": "ArcGIS Web Service",
+			"title": "Boston Neighborhoods ESRI Web Service",
 			"source": "Boston Open Data",
 			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0"
 		},
@@ -24,6 +26,7 @@
 			"$id": "ark:/76611/dkhq7glpx/endpoint/2",
 			"accessURL": "https://opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0.zip",
 			"format": "Zipped Shapefile",
+			"title": "Boston Neighborhoods Zipped Shapefile",	
 			"source": "Boston Open Data",
 			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0"
 		},
@@ -31,6 +34,7 @@
 			"$id": "ark:/76611/dkhq7glpx/endpoint/3",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhq7glpx/Boston_Neighborhoods.geojson",
 			"format": "GeoJSON",
+			"title": "Boston Neighborhoods GeoJSON",	
 			"source": "Leventhal Map & Education Center",
 			"suggestedEntryPoint": true
 		}
