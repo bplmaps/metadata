@@ -4,8 +4,9 @@
 		"title": "",
 		"recordType": "",
 		"hostedBy": "",
-		"shortDataDescription": "",
-		"shortGenealogyDescription": "",
+		"briefDescription": "",
+		"briefGenealogy": "",
+		"fullNotes":"",
 		"includesDataTypes": [""],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",

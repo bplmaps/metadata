@@ -176,6 +176,20 @@
 			"title": "Supplementary cartography files",
 			"datePublished": "2020-11-24",
 			"notes": "Daniel Huffman provided final versions of the Boston internet map in PDF, JPEG and Adobe Illustrator .AI file formats."
+		}],
+		"publishedWorks": [{
+			"$id": "https://collections.leventhalmap.org/search/commonwealth:3x817734d",
+			"title": "Plenty of free wi-fi is keeping Boston connected!",
+			"author": "Huffman, Daniel P.",
+			"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
+			"datePublished": "2020"
+		},
+		{
+			"$id": "https://collections.leventhalmap.org/search/commonwealth:3x817744n",
+			"title": "Disconnected : Boston's free wi-fi leaves many in the dark",
+			"author": "Huffman, Daniel P.",
+			"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
+			"datePublished": "2020"
 		}]
 	},
 	"dataLifecycle": {

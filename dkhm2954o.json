@@ -183,6 +183,13 @@
 			"title": "Supplementary cartography files",
 			"datePublished": "2020-11-24",
 			"notes": "Daniel Huffman provided final versions of the Boston rent map in PDF, JPEG and Adobe Illustrator .AI file formats."
+		}],
+		"publishedWorks": [{
+			"$id": "https://collections.leventhalmap.org/search/commonwealth:3x8177512",
+			"title": "Proportion of units where rent costs over 30% of resident's income",
+			"author": "Huffman, Daniel P.",
+			"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
+			"datePublished": "2020"
 		}]
 	},
 	"dataLifecycle": {
