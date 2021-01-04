@@ -4,8 +4,9 @@
 		"title": "Simplified Massachusetts Town Boundaries",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"shortDataDescription": "LMEC-recommended dataset for representing Massachusetts town features.",
+		"previewDescription": "LMEC-recommended dataset for representing modern-day Massachusetts town features.",
 		"shortGenealogyDescription": "The data described by this record was inferred from the official MassGIS-maintained town boundary data, and simplified in order to facilitate easier use with census products.",
+		"detailsFull": "This is a dataset representing modern-day Massachusetts towns, for which the LMEC has improved upon the officially maintained town dataset hosted by MassGIS. The LMEC has made edits to this dataset and made the result public, for the purposes of opening access to a Massachusetts town dataset which has properly-formatted census join fields, in order to enable compatibility with statistical census data.",
 		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
@@ -19,6 +20,7 @@
 		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsk7g8m/mass-municipalities.geojson",
 		"format": "GeoJSON",
 		"source": "Leventhal Map & Education Center",
+		"title": "Massachusetts Town Boundaries GeoJSON",
 		"suggestedEntryPoint": true
 	}],
 	"subjectTagging": {
