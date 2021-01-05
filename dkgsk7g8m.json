@@ -4,7 +4,7 @@
 		"title": "Simplified Massachusetts Town Boundaries",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"briefDescription": "LMEC-recommended dataset for representing modern-day Massachusetts town features.",
+		"briefDescription": "LMEC-recommended dataset for representing modern-day Massachusetts town features",
 		"briefGenealogy": "The data described by this record was inferred from the official MassGIS-maintained town boundary data, and simplified in order to facilitate easier use with census products.",
 		"fullNotes": "This is a dataset representing modern-day Massachusetts towns, for which the LMEC has improved upon the officially maintained town dataset hosted by MassGIS. The LMEC has made edits to this dataset and made the result public, for the purposes of opening access to a Massachusetts town dataset which has properly-formatted census join fields, in order to enable compatibility with statistical census data.",
 		"includesDataTypes": ["MultiPolygon"],

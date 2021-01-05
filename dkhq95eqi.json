@@ -4,7 +4,7 @@
 		"title": "Wicked Free Wi-Fi (Maptivist Collection)",
 		"recordType": "Dataset",
 		"hostedBy": "External",
-		"briefDescription": "Wicked Free Wi-Fi is Boston's outdoor wireless network. ",
+		"briefDescription": "Wicked Free Wi-Fi is Boston's outdoor wireless network",
 		"includesDataTypes": ["Point"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
