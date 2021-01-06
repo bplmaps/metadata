@@ -74,7 +74,7 @@
 	},
 	"dataBiography": {
 		"privacy": {
-			"unitOfAggretaion": [{
+			"unitOfAggregation": [{
 					"notes": "The Census Bureau definition for census tracts is documented in the Geographic Areas Reference Manual Glossary as: 'A small, relatively permanent statistical subdivision of a county in a metropolitan area (MA) or a selected nonmetropolitan county, delineated by a local committee of census data users (a CSAC) for the purpose of presenting decennial census data. Census tract boundaries normally follow visible features, but may follow governmental unit boundaries and other nonvisible features in some instances; they always nest within counties. Designed to be relatively homogeneous units with respect to population characteristics, economic status, and living conditions at the time the CSAC established them, census tracts usually contain between 2,500 and 8,000 inhabitants. They may be split by any subcounty geographic entity. See also block numbering area, census statistical areas committee, census tract number, central business district.'",
 					"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/glosGARM.pdf"
 				},
