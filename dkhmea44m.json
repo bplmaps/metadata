@@ -245,7 +245,7 @@
 		},
 		"manipulation": {
 			"records": [{
-				"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhmea44m/README/README.txt",
+				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhmea44m/README/README.txt",
 				"format": "Plain-text README",
 				"title": "Daniel Huffman's data cleaning choices and reasoning",
 				"author": "Daniel Huffman"

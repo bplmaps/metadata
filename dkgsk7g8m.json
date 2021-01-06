@@ -136,7 +136,7 @@
 		},
 		"manipulation": {
 			"records":[{
-				"accessURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb",
+				"relatedResourceURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb",
 				"format": "Jupyter Notebook",
 				"title": "Garrett Dash Nelson's Step-by-Step Process",
 				"author": "Garrett Dash Nelson"
