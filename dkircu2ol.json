@@ -155,7 +155,7 @@
 			"records": [{
 				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/processor.py",
 				"format": "Python script",
-				"title": "Processor.py",
+				"title": "Garrett Dash Nelson's data processing",
 				"author": "Garrett Dash Nelson"
 			}],
 			"actors": [{
