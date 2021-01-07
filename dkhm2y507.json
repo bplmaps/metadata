@@ -220,7 +220,8 @@
 		},
 		"maintenance": {
 			"officialMaintainer": "Leventhal Map & Education Center",
-			"maintenanceFrequency": "Never updated. This data was a one-time extract using a census data download tool, which was then cleaned up by Daniel Huffman and archived by the LMEC."		},
+			"maintenanceFrequency": "Never updated. Daniel Huffman downloaded this data using a census data extract tool, cleaned it up a bit, and sent it to be archived by the LMEC."		
+		},
 		"manipulation": {
 			"records": [{
 				"relatedResourceURL":"https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/README/README.txt",
