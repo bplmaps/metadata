@@ -233,7 +233,7 @@
 			"records": [{
 				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/README/README.txt",
 				"format": "Plain-text README",
-				"title": "Daniel Huffman's data cleaning choices and reasoning",
+				"title": "Data Cleaning and Cartography Choices",
 				"author": "Daniel Huffman"
 			}],
 			"actors": [{
