@@ -235,6 +235,12 @@
 				"format": "Plain-text README",
 				"title": "Data Cleaning and Cartography Choices",
 				"author": "Daniel Huffman"
+			},
+			{
+				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/README/README.txt",
+				"format": "Hairbrush",
+				"title": "TESTTESTTESTEST",
+				"author": "Testy McTesterson"
 			}],
 			"actors": [{
 					"name": "Michelle LeBlanc",
