@@ -1,0 +1,147 @@
+{
+	"coreCitation": {
+		"$id": "ark:/76611/dkhqbwezw",
+		"title": "United States Census Bureau TIGER/Line Census Tracts",
+		"recordType": "Dataset",
+		"hostedBy": "External",
+		"briefDescription": "Census tract geographies",
+		"briefGenealogy": "A common process is to join statistical demographic data from the American Community Survey or decennial census with census shape data like tracts, counties or states.",
+		"fullNotes": "Census data is obtained by using online websites such as the official Census Bureau tool, American Fact Finder, or websites from other reputable census data providers. The Leventhal Map & Education Center recommends using [NHGIS.org](http://nhgis.org/), which streamlines the process of accessing census data for GIS purposes, specifically. You can go to [NHGIS.org](http://nhgis.org/) to access the exact demographic characteristics and geographical units necessary for your research project. You can scroll down in this metadata record to find the 'tutorials' section, which will point to step-by-step instructions for working with census data using [NHGIS.org](http://nhgis.org/).",		"includesDataTypes": ["MultiPolygon"],
+		"accessCondition": "This data is in the public domain. There are no restrictions on use."
+	},
+	"subjectTagging": {
+		"thematic": {
+			"LCSH": [{
+					"authority": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Population"
+				},
+				{
+					"authority": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Census"
+				},
+				{
+					"authority": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Population statistics"
+				},
+				{
+					"authority": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Demographic surveys"
+				},
+				{
+					"authority": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Demographic surveys--United States"
+				}
+			],
+			"ISO19115": [{
+				"authority": "ISO19115TopicCategory",
+				"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
+				"language": "eng",
+				"valueID": "society",
+				"subjectTag": "Society"
+			}]
+		},
+		"temporal": {
+			"temporalNotes": "Census data, while dating back to the 1790s, was collected in slightly different ways for every census year. This means that the way census geographies and demographic categories are available is subject to nuance, depending on which year you are looking for. NHGIS.org has this handy documentation that includes data availability tables for any given census year: https://nhgis.org/user-resources/data-availability"
+		}
+	},
+	"resourceConstellation": {
+		"tutorials": [{
+			"$id": "https://www.youtube.com/watch?v=P1znKKm8vX4",
+			"title": "NHGIS Data Finder Tutorial",
+			"author": "IPUMS",
+			"datePublished": "2013-09-18",
+			"notes": "Two minute YouTube video",
+			"suggestedEntryPoint": true
+		},
+		{
+			"$id": "http://steppingintothemap.com/mappinghistory/wp-content/uploads/2018/03/Working-with-NHGIS-and-Joins.pdf",
+			"title": "Working with NHGIS and Joins",
+			"author": "Creighton University Digital Humanities",
+			"datePublished": "2018-03-01",
+			"notes": "Learn how to join census data with demographic data in QGIS",
+			"suggestedEntryPoint": true
+		}]
+	},
+	"dataBiography": {
+		"privacy": {
+			"unitOfAggregation": [{
+					"notes": "The Census Bureau definition for census tracts is documented in the Geographic Areas Reference Manual Glossary as: 'A small, relatively permanent statistical subdivision of a county in a metropolitan area (MA) or a selected nonmetropolitan county, delineated by a local committee of census data users (a CSAC) for the purpose of presenting decennial census data. Census tract boundaries normally follow visible features, but may follow governmental unit boundaries and other nonvisible features in some instances; they always nest within counties. Designed to be relatively homogeneous units with respect to population characteristics, economic status, and living conditions at the time the CSAC established them, census tracts usually contain between 2,500 and 8,000 inhabitants. They may be split by any subcounty geographic entity. See also block numbering area, census statistical areas committee, census tract number, central business district.'",
+					"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/glosGARM.pdf"
+				},
+				{
+					"notes": "The Geographic Areas Reference Manual provides a helpful breakdown of entities commonly used by different federal agencies using population data, beginning on page 11 of the Geographic Overview.",
+					"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf"
+				},
+				{
+					"notes": "Notes about some considerations specific to tract-level data are available in the Census Bureau's Geographic Area Reference Manual Census Tracts and Block Numbering Areas.",
+					"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/Ch10GARM.pdf"
+				}
+			],
+			"aggregationProblems": [{
+				"notes": "The Census Bureau describes some of the challenges inherent in grouping areas into 'homogenous' sections with firm separating boundaries between adjacent entities in the Geographic Area Reference Manual Homogeneity and Functional Integration",
+				"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf"
+			}],
+			"anonymization": [{
+				"notes": "Issues of confidentiality are addressed in the Geographic Areas Reference Manual Geographic Overview Census Bureau Confidentiality",
+				"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf"
+			}],
+			"privacyIssues": [{
+				"contextMissing": true
+			}]
+		},
+		"dataCollection": {
+			"whoCollected": [{
+				"missingContext": true
+			}],
+			"startDate": [{
+				"notes": "Notes about the history of and practices centered on resolving discrepencies in smaller unit statistical geographies are available in the Census Bureau's Geographic Areas Reference Manual Census Tracts and Block Numbering Areas.",
+				"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/Ch10GARM.pdf"
+			}],
+			"endDate": [{
+				"notes": "The process of resolving discrepencies in changing smaller unit statistical geographies is on-going and described in the Census Bureau's Geographic Areas Reference Manual Census Tracts and Block Numbering Areas.",
+				"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/Ch10GARM.pdf"
+			}],
+			"whoConceived": [{
+				"notes": "The history of collecting data at the tract level is included in the Census Bureau's Geographic Areas Reference Manual Census Tracts and Block Numbering Areas.",
+				"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/Ch10GARM.pdf"
+			}],
+			"whoDesigned": [{
+				"missingContext": true
+			}],
+			"whoIncluded": [{
+				"missingContext": true
+			}]
+		}
+	},
+	"dataLifecycle": {
+		"description": {
+			"language": {
+				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
+				"value": "eng"
+			},
+			"contextProvider": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
+			},
+			"contextPublicationDate": "2020-11-20",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
+			}
+		},
+		"maintenance": {
+			"officialMaintainer": "NHGIS.org",
+			"maintenanceFrequency": "NHGIS aims to add data released by the Census Bureau within four - six weeks of the official release."
+		}
+	}
+}

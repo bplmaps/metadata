@@ -1,0 +1,190 @@
+{
+	"coreCitation": {
+		"$id": "ark:/76611/dkhqhgkkt",
+		"title": "American Community Survey Demographic Statistics",
+		"recordType": "Dataset",
+		"hostedBy": "External",
+		"briefDescription": "American Community Survey (ACS) statistical tables",
+		"fullNotes": "Census data is obtained by using online websites such as the official Census Bureau tool, American Fact Finder, or websites from other reputable census data providers. The Leventhal Map & Education Center recommends using NHGIS.org, which streamlines the process of accessing census data for GIS purposes, specifically. You can go to NHGIS.org to access the exact demographic characteristics and geographical units necessary for your research project. You can scroll down in this metadata record to find the 'tutorials' section, which will point to step-by-step instructions for working with census data using NHGIS.org.",
+		"briefGenealogy": "A common process is to join statistical demographic data from the American Community Survey or decennial census with census shape data like tracts, counties or states.",
+		"accessCondition": "This data is in the public domain. There are no restrictions on access."
+	},
+	"subjectTagging": {
+		"thematic": {
+			"LCSH": [{
+					"authority": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Population"
+				},
+				{
+					"authority": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Census"
+				},
+				{
+					"authority": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Population statistics"
+				},
+				{
+					"authority": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Demographic surveys"
+				},
+				{
+					"authority": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Demographic surveys--United States"
+				}
+			],
+			"ISO19115": [{
+				"authority": "ISO19115TopicCategory",
+				"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
+				"language": "eng",
+				"valueID": "society",
+				"subjectTag": "Society"
+			}]
+		},
+		"temporal": {
+			"temporalNotes": "Census data, while dating back to the 1790s, was collected in slightly different ways for every census year. This means that the way census geographies and demographic categories are available is subject to nuance, depending on which year you are looking for. NHGIS.org has this handy documentation that includes data availability tables for any given census year: https://nhgis.org/user-resources/data-availability"
+		}
+	},
+	"resourceConstellation": {
+		"tutorials": [{
+			"$id": "https://www.youtube.com/watch?v=P1znKKm8vX4",
+			"title": "NHGIS Data Finder Tutorial",
+			"author": "IPUMS",
+			"datePublished": "2013-09-18",
+			"notes": "Two minute YouTube video",
+			"suggestedEntryPoint": true
+		},
+		{
+			"$id": "http://steppingintothemap.com/mappinghistory/wp-content/uploads/2018/03/Working-with-NHGIS-and-Joins.pdf",
+			"title": "Working with NHGIS and Joins",
+			"author": "Creighton University Digital Humanities",
+			"datePublished": "2018-03-01",
+			"notes": "Learn how to join census data with demographic data in QGIS",
+			"suggestedEntryPoint": true
+		}]
+	},
+	"dataBiography": {
+		"sampling": {
+			"universe": [{
+				"notes": "Interview or survey rules define the universe or target population for a survey, and so identify the units and people eligible for inclusion. This includes considerations like how incarcerated or those in health care facilities are categorized and counted, as well as those experiencing homelessness. There are also special considerations for how children are included. All of these rules, as defined by the Census Bureau, are described in the ACS Design and Methodology Report Survey Rules, Concepts, Definitions.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch06_2014.pdf"
+			}],
+			"sampleSize": [{
+				"notes": "The sampling process is described in the ACS Design and Methodology Report Sample Design and Selection.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch04_2014.pdf"
+			}],
+			"knownSampleSizeProblems": [{
+				"notes": "Notes about complexity of survey size are included in the ACS Design and Methodology Report Variance Estimation.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch12_2014.pdf"
+			}],
+			"marginOfError": [{
+				"notes": "The process by which margins of error are calculated for this data is available in the ACS Design and Methodology Report Variance Estimation.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch12_2014.pdf"
+			}]
+		},
+		"privacy": {
+			"unitOfAggregation": [{
+				"notes": "Information about the relationship of the different official census geographic hierarchies can be found in the ACS Design and Methodology Report Frame Development Master Address File Content.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch03_2014.pdf"
+			}],
+			"aggregationProblems": [{
+				"notes": "The Census Bureau describes some of the challenges inherent in grouping areas into 'homogenous' sections with firm separating boundaries between adjacent entities in the Geographic Area Reference Manual Homogeneity and Functional Integration",
+				"relatedResourceURL": "https://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf"
+			}],
+			"consent": [{
+				"notes": "Notes about how the Census Bureau conceives of its questionnaire content in relation to the mandatory nature of the ACS is available in the ACS Design and Methodology Report Content Development Process.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch05_2014.pdf"
+			}],
+			"anonymization": [{
+					"notes": "Notes about the Census Bureau's activities geared towards confidentiality in preparing data products are available in the ACS Design and Methodology Preparation/Review of Data Products.",
+					"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch13_2014.pdf"
+				},
+				{
+					"notes": "Post-processing steps performed on this data to ensure anonymization are described in the ACS Desgin and Methodology Preparation/Review of Data Products.",
+					"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch13_2014.pdf"
+				}
+			],
+			"privacyIssues": [{
+				"contextMissing": true
+			}]
+		},
+		"dataCollection": {
+			"startDate": [{
+				"notes": "With full implementation beginning in 2005, population and housing profiles for 2005 first became available in the summer of 2006 and have been available every year thereafter for specific geographic areas with populations of 65,000 or more. Three-year period estimates, reflecting combined data from the 2005−2007 ACS, were available for the first time late in 2008 for specific areas with populations of 20,000 or more, and 5-year period estimates, reflecting combined data from the 2005−2009 ACS, became available late in 2010 for areas down to the smallest block groups, census tracts, and small local governments. Beginning in 2010, the nation had a 5-year period estimate, available as an alternative to the decennial census long-form sample, for nearly all geographic areas recognized by the Census Bureau, including census tracts and block groups.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch02_2014.pdf"
+			}],
+			"endDate": [{
+				"notes": "This survey is continuously rolling. It uses a series of monthly samples to produce annually updated estimates."
+			}],
+			"whoConceived": [{
+					"notes": "Survey conception is described in the ACS Design and Methodology Report Program History.",
+					"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch02_2014.pdf"
+				},
+				{
+					"notes": "Notes on how new content questions are added and worded are described in the ACS Design and Methodology Content Development Process.",
+					"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch05_2014.pdf"
+				}
+			],
+			"whoIncluded": [{
+				"notes": "A list of included stakeholders is defined in the ACS Design and Methodology Report Program History ACS Stakeholders and External Engagement.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch02_2014.pdf"
+			}],
+			"collectionConditions": [{
+				"contextMissing": true
+			}],
+			"collectorsLocations": [{
+				"contextMissing": true
+			}],
+			"collectionMethods": [{
+					"notes": "Information about how survey collection is connected to the census's Master Address File (MAF) is included in the ACS Design and Methodology Report Frame Development.",
+					"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch03_2014.pdf"
+				},
+				{
+					"notes": "Collection techniques and methodology is described in the ACS Design and Methodology Report Data Collection.",
+					"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch07_2014.pdf"
+				}
+			],
+			"miscountRisk": [{
+				"notes": "Notes about how incarcerated people are surveyed are referred to in the ACS Design and Methodology Report Data Collection and Capture for Group Quarters.",
+				"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch08_2014.pdf"
+			}]
+		},
+		"funding": [{
+			"contextMissing": true
+		}],
+		"potentialHarm": [{
+			"notes": "Notes about the editing and imputation process are described in the ACS Design and Methodology Report Data Preparation and Processing Editing and Imputation.",
+			"relatedResourceURL": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch10_2014.pdf"
+		}]
+	},
+	"dataLifecycle": {
+		"description": {
+			"language": {
+				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
+				"value": "eng"
+			},
+			"contextProvider": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
+			},
+			"contextPublicationDate": "2020-11-20",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
+			}
+		},
+		"maintenance": {
+			"officialMaintainer": "NHGIS.org",
+			"maintenanceFrequency": "NHGIS aims to add data released by the Census Bureau within four - six weeks of the official release."
+		}
+	}
+}

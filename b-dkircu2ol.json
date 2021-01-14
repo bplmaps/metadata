@@ -1,0 +1,171 @@
+{
+	"coreCitation": {
+		"$id": "ark:/76611/dkircu2ol",
+		"title": "Historic Boston Shoreline",
+		"recordType": "Dataset",
+		"hostedBy": "Internal",
+		"briefDescription": "Depicts Boston's historic shoreline at various intervals or snapshots throughout time (1630, 1975, 1852, 1880, 1916, 1934, 1950, 1995, and present-day)",
+		"fullNotes": "This dataset is organized into multiple features, each feature depicting the state of the Boston shoreline, at various snapshots in time: 1630, 1795, 1852, 1880, 1916, 1934, 1950 and 1995. The dataset will need to be filtered (right-click layer → filter in QGIS) to display each historic year's shoreline. This data is made available as two separate layers, land and water, which are a direct inverse representation of one another.",
+		"briefGenealogy": "This data was derived from the original MapWorks files. Vickie Taylor, as part of the Atlas of Boston History project, used the born-digital maps created from the original MapWorks data to re-digitize the historic shoreline features. No information is available about how the original MapWorks data was created.",
+		"includesDataTypes": ["MultiPolygon"],
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
+			"lowerCorner": [-71.100081, 42.281814],
+			"upperCorner": [-70.981065, 42.398006]
+		},
+		"accessCondition": "This item is in the public domain. There are no restrictions on use."
+	},
+	"dataEndpoints": [{
+			"$id": "ark:/76611/dkircu2ol/endpoint/1",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/land.geojson",
+			"format": "GeoJSON",
+			"title": "Boston Historic Shoreline Land Extent GeoJSON",
+			"source": "Leventhal Map & Education Center"
+		},
+		{
+			"$id": "ark:/76611/dkircu2ol/endpoint/2",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/water.geojson",
+			"format": "GeoJSON",
+			"title": "Boston Historic Shoreline Water Extent GeoJSON",
+			"source": "Leventhal Map & Education Center"
+		}
+	],
+	"subjectTagging": {
+		"thematic": {
+			"LCSH": [{
+					"authority": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Coasts"
+				},
+				{
+					"authority": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"language": "eng",
+					"subjectTag": "Coastal mapping"
+				}
+			],
+			"ISO19115": [{
+				"authority": "ISO19115TopicCategory",
+				"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
+				"language": "eng",
+				"valueID": "oceans",
+				"subjectTag": "Oceans"
+			}]
+		},
+		"geographic": {
+			"geonames": [{
+					"authority": "geonames",
+					"authorityID": "http://www.geonames.org/ontology#",
+					"language": "eng",
+					"valueID": "http://sws.geonames.org/4930956",
+					"placeTag": "Boston"
+				},
+				{
+					"authority": "geonames",
+					"authorityID": "http://www.geonames.org/ontology#",
+					"language": "eng",
+					"valueID": "http://sws.geonames.org/4932780",
+					"placeTag": "Charles River"
+				},
+				{
+					"authority": "geonames",
+					"authorityID": "http://www.geonames.org/ontology#",
+					"language": "eng",
+					"valueID": "http://sws.geonames.org/4931972",
+					"placeTag": "Cambridge"
+				},
+				{
+					"authority": "geonames",
+					"authorityID": "http://www.geonames.org/ontology#",
+					"language": "eng",
+					"valueID": "http://sws.geonames.org/4951257",
+					"placeTag": "Somerville"
+				}
+			],
+			"EPSG": [{
+				"authority": "EPSG",
+				"authorityID": "http://opengis.net/def/crs/EPSG/0/4326",
+				"epsgTag": "EPSG:4326"
+			}]
+		},
+		"temporal": {
+			"temporalNotes": "This data represents the historic state of the Boston shoreline in the year 1995. It was digitally derived in 2019 from born-digital maps published in 1995.",
+			"temporalRepresentation": {
+				"temporalType": "temporalRange",
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"startRangeValue": "1630",
+				"endRangeValue": "1995"
+			},
+			"temporalPublication": {
+				"temporalType": "singularExpression",
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"singularExpressionValue": "2019"
+			}
+		}
+	},
+	"resourceConstellation": {
+		"publishedWorks": [{
+				"title": "The Atlas of Boston History",
+				"author": "Nancy Seasholes",
+				"publisher": "University of Chicago Press",
+				"datePublished": "2019-10-10"
+			},
+			{
+				"$id": "https://www.nationalgeographic.com/news/2017/06/Boston-landfill-maps-history/#close",
+				"title": "All Over the Map: How Boston Made Itself Bigger",
+				"author": "Betsy Mason",
+				"publisher": "National Geographic",
+				"datePublished": "2017-06-13"
+			}
+		]
+	},
+	"dataLifecycle": {
+		"acquisition": {
+			"ingredients": [{
+				"$id": "ark:/76611/dkircrh2v",
+				"type": "linearPredecessor",
+				"notes": "This source data, which contained separate files for each year, was consolidated and cleaned up into singular land and water files"
+			}]
+		},
+		"description": {
+			"language": {
+				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
+				"value": "eng"
+			},
+			"contextProvider": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
+			},
+			"contextOnBehalfOf": {
+				"name": "Garrett Dash Nelson",
+				"relationshipToData": "Processor/Cleaner"
+			},
+			"contextPublicationDate": "2020-12-16",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
+			}
+		},
+		"maintenance": {
+			"officialMaintainer": "Leventhal Map & Education Center",
+			"maintenanceFrequency": "Not frequently updated"
+		},
+		"manipulation": {
+			"records": [{
+				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/processor.py",
+				"format": "Python script",
+				"title": "Data Processing Script",
+				"author": "Garrett Dash Nelson"
+			}],
+			"actors": [{
+				"name": "Garrett Dash Nelson",
+				"notes": "Garrett, in the process of working on LMEC projects using the historic shoreline data, has combined the individual layers from the original MapWorks source data into two files: land.geojson and water.geojson. Processor.py is the script that handles that conversion, and is commented to describe each step of the process."
+			}],
+			"process": {
+				"shortProcessDescription": "Original source files contain one data file for each year. These have been combined into single land/water files that contain geographies for all years as geometry features.",
+				"missingProcessingInformation": "No information is missing about how the LMEC transformed the source data into the new land/water data layers. This processing description is healthy."
+			}
+		}
+	}
+}
