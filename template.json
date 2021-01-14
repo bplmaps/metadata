@@ -99,102 +99,59 @@
 	},
 	"dataBiography": {
 		"sampling": {
-			"universe": [{
-				"notes": "",
-				"relatedResourceURL": ""
+			"notes":"",
+			"relatedResourceURL":[{
+				"$id":"",
+				"title":"",
+				"publisher":"",
+				"datePublished": ""
 			}],
-			"sampleSize": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"knownSampleSizeProblems": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"marginOfError": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}]
+			"healthCheckScore": 5,
+			"healthCheckQualifier": ""
 		},
 		"privacy": {
-			"unitOfAggregation": [{
-				"notes": "",
-				"relatedResourceURL": ""
+			"notes":"",
+			"relatedResourceURL":[{
+				"$id":"",
+				"title":"",
+				"publisher":"",
+				"datePublished": ""
 			}],
-			"aggregationProblems": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"consent": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"anonymization": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"privacyIssues": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}]
+			"healthCheckScore": 5,
+			"healthCheckQualifier": ""
 		},
 		"dataCollection": {
-			"whoCollected": [{
-				"notes": "",
-				"relatedResourceURL": ""
+			"notes":"",
+			"relatedResourceURL":[{
+				"$id":"",
+				"title":"",
+				"publisher":"",
+				"datePublished": ""
 			}],
-			"startDate": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"endDate": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"whoConceived": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"whoDesigned": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"whoIncluded": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"collectionConditions": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"collectorsLocations": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"collectionMethods": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"miscountRisk": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}],
-			"missingData": [{
-				"notes": "",
-				"relatedResourceURL": ""
-			}]
+			"healthCheckScore": 5,
+			"healthCheckQualifier": ""
 		},
 		"funding": [{
-			"notes": "",
-			"relatedResourceURL": ""
-		}],
-		"potentialBenefit": [{
-			"notes": "",
-			"relatedResourceURL": ""
+			"notes":"",
+			"relatedResourceURL":[{
+				"$id":"",
+				"title":"",
+				"publisher":"",
+				"datePublished": ""
+			}],
+			"healthCheckScore": 5,
+			"healthCheckQualifier": ""
 		}],
 		"potentialHarm": [{
-			"notes": "",
-			"relatedResourceURL": ""
+			"notes":"",
+			"relatedResourceURL":[{
+				"$id":"",
+				"title":"",
+				"publisher":"",
+				"datePublished": ""
+			}],
+			"healthCheckScore": 5,
+			"healthCheckQualifier": ""
 		}]
 	},
 	"dataLifecycle": {
