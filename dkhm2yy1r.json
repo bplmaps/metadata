@@ -99,7 +99,7 @@
 	},
 	"dataBiography": {
 		"sampling": {
-			"notes":"The Census Bureau publishes high quality documentation describing considerations related to American Community Survey (ACS) universes, rules for who is included, sampling methodology, known problems with sampling and the process by which margins or error are calculated. This information is available via the American Community Survey (ACS) Design and Methodology documentation. ",
+			"overview":"The Census Bureau publishes high quality documentation describing considerations related to American Community Survey (ACS) universes, rules for who is included, sampling methodology, known problems with sampling and the process by which margins or error are calculated. This information is available via the American Community Survey (ACS) Design and Methodology documentation. ",
 			"relatedResourceURL":[{
 				"$id":"United States Census Bureau",
 				"title":"ACS Design and Methodology Report Survey Rules, Concepts, Definitions",
@@ -122,7 +122,7 @@
 			"healthCheckQualifier": "This documentation is easily discoverable and extensive."
 		},
 		"privacy": {
-			"notes":"The Census Bureau publishes high quality documentation describing considerations related to American Community Survey (ACS) geographic aggregation methodology and challenges inherent in grouping responses into 'homogenous' geographic areas with firm separating boundaries. This is included in the ACS Design and Methodology Report. Also present in this report are some comments related to consent, at least in how the Census Bureau conceptualizes the mandatory nature of the census. It does not discuss in detail efforts towards making sure participants understand the implications of their mandatory participation, and all of the ways their data will be used. The Design and Methodology Report also includes confidentiality considerations and anonymization methodologies. The Census Bureau does not include here any easily discoverable documentation about known privacy issues. ",
+			"overview":"The Census Bureau publishes high quality documentation describing considerations related to American Community Survey (ACS) geographic aggregation methodology and challenges inherent in grouping responses into 'homogenous' geographic areas with firm separating boundaries. This is included in the ACS Design and Methodology Report. Also present in this report are some comments related to consent, at least in how the Census Bureau conceptualizes the mandatory nature of the census. It does not discuss in detail efforts towards making sure participants understand the implications of their mandatory participation, and all of the ways their data will be used. The Design and Methodology Report also includes confidentiality considerations and anonymization methodologies. The Census Bureau does not include here any easily discoverable documentation about known privacy issues. ",
 			"relatedResourceURL":[{
 				"$id":"https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch03_2014.pdf",
 				"title":"ACS Design and Methodology Report Frame Development Master Address File Content",
@@ -151,7 +151,7 @@
 			"healthCheckQualifier": "The documentation is strong and healthy for issues related to geographic aggregation and anonymization methods. There could be healthier context made available for known privacy issues and the steps taken to ensure all participants understand how their data will be used."
 		},
 		"dataCollection": {
-			"notes":"The Census Bureau publishes decent documentation describing considerations related to American Community Survey (ACS) data collection methodology. Included in the ACS Design and Methodology Report are explanations of how the survey came to be, data collection start and end dates, and methodology about how the data are collected and linked up to authoritative address databases. The documentation also touches on considerations related to how survey questions are worded, and the process by which new questions are added. Throughout the documentation, there are sections about how data is collected under various circumstances, for instance methodology for collecting information about those who live in group quarters, like nursing homes or prisons. The documentation includes a section on how stakeholders were initially consulted upon survey design, but it doesn't necessarily get into the process by which the Census Bureau continuously ensures and measures adequate representation in survey design and data collection.",
+			"overview":"The Census Bureau publishes decent documentation describing considerations related to American Community Survey (ACS) data collection methodology. Included in the ACS Design and Methodology Report are explanations of how the survey came to be, data collection start and end dates, and methodology about how the data are collected and linked up to authoritative address databases. The documentation also touches on considerations related to how survey questions are worded, and the process by which new questions are added. Throughout the documentation, there are sections about how data is collected under various circumstances, for instance methodology for collecting information about those who live in group quarters, like nursing homes or prisons. The documentation includes a section on how stakeholders were initially consulted upon survey design, but it doesn't necessarily get into the process by which the Census Bureau continuously ensures and measures adequate representation in survey design and data collection.",
 			"relatedResourceURL":[{
 				"$id":"https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch02_2014.pdf",
 				"title":"ACS Design and Methodology Report Program History",
@@ -180,7 +180,7 @@
 			"healthCheckQualifier": "The documentation is strong and healthy for issues related to the technical aspects of collection methodology and linkage to the authoritative address database. There could be healthier context made available for continuous efforts to ensure representation in the survey design and collection process. "
 		},
 		"funding": {
-			"notes":"The Census Bureau makes their fiscal year budget estimates available via census.gov.",
+			"overview":"The Census Bureau makes their fiscal year budget estimates available via census.gov.",
 			"relatedResourceURL":[{
 				"$id":"https://www2.census.gov/about/budget/FY-2020-Congressional-Budget-Submission.pdf",
 				"title":"U.S. Census Bureau's Budget Fiscal Year 2020",
@@ -191,7 +191,7 @@
 			"healthCheckQualifier": "Funding information is available, but more user-friendly documentation could be published and or made more easily discoverable about how to interpret and understand how budgets are allocated, and how everyday people can understand the budgeting process"
 		},
 		"potentialImpact": {
-			"notes": "Census publications document the ways that census data can improve life for people by helping the government decide where to allocate federal funds, on the basis of demographic statistics. On the other hand, while much official Census Bureau documentation is available about the methodology of how they count vulnerable populations, there is not very much documentation containing explicit explantations of how these methodologies could negatively impact populations, or any information about how the Bureau attempts to give a voice to those represented by the data. There is a Center for Economic Studies (CES) within the Research and Methodology division, which 'partners with stakeholders within and outside the Census Bureau to improve measures of the economy and people of the United States through research and the development of innovative data products.' The CES publishes updates about the projects and topics they are focused on. ",
+			"overview": "Census publications document the ways that census data can improve life for people by helping the government decide where to allocate federal funds, on the basis of demographic statistics. On the other hand, while much official Census Bureau documentation is available about the methodology of how they count vulnerable populations, there is not very much documentation containing explicit explantations of how these methodologies could negatively impact populations, or any information about how the Bureau attempts to give a voice to those represented by the data. There is a Center for Economic Studies (CES) within the Research and Methodology division, which 'partners with stakeholders within and outside the Census Bureau to improve measures of the economy and people of the United States through research and the development of innovative data products.' The CES publishes updates about the projects and topics they are focused on. ",
 			"relatedResourceURL":[{
 				"$id":"https://www.census.gov/programs-surveys/ces/news-and-updates/updates.html",
 				"title":"Updates",
