@@ -142,7 +142,7 @@
 			"healthCheckScore": 5,
 			"healthCheckQualifier": ""
 		}],
-		"potentialHarm": [{
+		"potentialImpact": [{
 			"notes":"",
 			"relatedResourceURL":[{
 				"$id":"",
