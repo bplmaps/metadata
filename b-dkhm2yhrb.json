@@ -158,7 +158,7 @@
 			"healthCheckScore": 3,
 			"healthCheckQualifier": "The documentation is strong and healthy for issues related to the technical aspects of collection methodology and linkage to the authoritative address database. There could be healthier context made available for continuous efforts to ensure representation in the survey design and collection process. "
 		},
-		"funding": [{
+		"funding": {
 			"notes":"The Census Bureau makes their fiscal year budget estimates available via census.gov.",
 			"relatedResourceURL":[{
 				"$id":"https://www2.census.gov/about/budget/FY-2020-Congressional-Budget-Submission.pdf",
@@ -168,8 +168,8 @@
 			}],
 			"healthCheckScore": 3,
 			"healthCheckQualifier": "Funding information is available, but more user-friendly documentation could be published and or made more easily discoverable about how to interpret and understand how budgets are allocated, and how everyday people can understand the budgeting process"
-		}],
-		"potentialImpact": [{
+		},
+		"potentialImpact": {
 			"notes": "Census publications document the ways that census data can improve life for people by helping the government decide where to allocate federal funds, on the basis of demographic statistics. On the other hand, while much official Census Bureau documentation is available about the methodology of how they count vulnerable populations, there is not very much documentation containing explicit explantations of how these methodologies could negatively impact populations, or any information about how the Bureau attempts to give a voice to those represented by the data. There is a Center for Economic Studies (CES) within the Research and Methodology division, which 'partners with stakeholders within and outside the Census Bureau to improve measures of the economy and people of the United States through research and the development of innovative data products.' The CES publishes updates about the projects and topics they are focused on. ",
 			"relatedResourceURL":[{
 				"$id":"https://www.census.gov/programs-surveys/ces/news-and-updates/updates.html",
@@ -178,7 +178,7 @@
 			}],
 			"healthCheckScore": 3,
 			"healthCheckQualifier": "There is healthy documentation about potential positive impact, but not very much easily discoverable documentation about potential negative impact, especially on vulnerable populations. "
-		}]
+		}
 	},
 	"resourceConstellation": {
 		"supplementaryFiles": [{
