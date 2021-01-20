@@ -2,7 +2,7 @@
 {
 	"coreCitation": {
 		"$id": "ark:/76611/dkhm2yy1r",
-		"title": "Boston Housing Value Change (Maptivist Collection)",
+		"title": "Boston Housing Value Change",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
 		"briefDescription": "Median housing value change in Boston for the years 2010-2018",
