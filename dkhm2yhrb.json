@@ -8,7 +8,7 @@
 		"fullNotes": "This dataset, which was acquired from data.census.gov, contains statistical information aggregated to the Census tract level and clipped to the extent of the city of Boston. It includes information about the total number of households in Boston per Census tract, the total number of households without an internet subscription in Boston per Census tract, and a normalized field for the percent of households for each Census tract in Boston without internet. This data came from the American Community Survey rolling 5-year estimates, and covers a time period from 2014-2018. ",
 		"briefGenealogy": "This recipe was created from two ingredients: (1) Census tract geometry shapes, and (2) Statistical tables containing the number of total households and internet subscriptions in each Census tract. These two ingredients were combined together using GIS software. The statistical tables were cleaned to include only fields that are noteworthy for this particular subject of study. ",
 		"includesDataTypes": ["MultiPolygon"],
-		"importantAttributes": ["Households", "No Internet Count", "No Internet Percent"],
+		"importantAttributes": ["Total Households", "No Internet Total Count", "No Internet as Percent of Total Households"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-71.191154, 42.227925],
