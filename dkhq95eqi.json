@@ -91,13 +91,7 @@
 			"author": "Huffman, Daniel P.",
 			"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
 			"datePublished": "2020"
-		}],
-		"codebooks": [{
-			"$id": "",
-			"title": "",
-			"maintainedBy": "",
-			"notes": ""
-		}],
+		}]
 	},
 	"dataLifecycle": {
 		"description": {
