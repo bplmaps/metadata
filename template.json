@@ -189,24 +189,20 @@
 			"maintenanceFrequency": "",
 			"typicalUpdates": ""
 		},
-		"manipulation": {
-			"records": [{
+		"processing": {
+			"choices": [{
 				"relatedResourceURL": "",
 				"format": "",
 				"title": "",
 				"author": ""
 			}],
-			"actors": [{
-				"name": "",
-				"notes": ""
+			"tools": [{
+				"relatedResourceURL": "",
+				"format": "",
+				"title": "",
+				"author": ""
 			}],
-			"process": {
-				"shortProcessDescription": "",
-				"successes": "",
-				"challenges": "",
-				"sandtraps": "",
-				"missingProcessingInformation": ""
-			}
+			"unknown": true
 		}
 	}
 }

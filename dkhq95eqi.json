@@ -97,18 +97,6 @@
 			"maintenanceFrequency": "This dataset is missing information about how frequently it is updated",
 			"typicalUpdates": "Unknown",
 			"contextMissing": true
-		},
-		"manipulation": {
-			"records": [{
-				"contextMissing": true
-			}],
-			"actors": [{
-				"contextMissing": true
-			}],
-			"process": {
-				"missingProcessingInformation": "A lot of information about this dataset is missing. Boston Open Data has provided very little information about how the data was created, by who, how often it is updated, and so on.",
-				"importantContext": true
-			}
 		}
 	}
 }

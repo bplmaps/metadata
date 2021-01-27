@@ -118,15 +118,6 @@
 		"maintenance": {
 			"officialMaintainer": "MassGIS",
 			"maintenanceFrequency": "This dataset is updated frequently, roughly once a year, at no regular interval. Maintenance notes with all versions can be found in the codebook."
-		},
-		"manipulation": {
-			"actors": [{
-				"notes": "This information can be found in the 'Production' section of the MassGIS documentation.",
-				"contextMissing": true
-			}],
-			"process": {
-				"missingProcessingInformation": "This information is unknown."
-			}
 		}
 	}
 }

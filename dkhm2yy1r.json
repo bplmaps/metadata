@@ -253,31 +253,13 @@
 			"officialMaintainer": "Leventhal Map & Education Center",
 			"maintenanceFrequency": "This dataset is never updated"		
 		},
-		"manipulation": {
-			"records": [{
+		"processing": {
+			"choices": [{
 				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/README/README.txt",
 				"format": "Plain-text README",
 				"title": "Data Cleaning and Cartography Choices",
 				"author": "Daniel Huffman"
-			}],
-			"actors": [{
-					"name": "Michelle LeBlanc",
-					"notes": "Michelle is the Director of Education at the Leventhal Map & Education Center. She led the IMLS-funded Maptivists project, which allowed for Daniel Huffman to be included as a project cartographer. She also worked with Daniel and Education Coordinator Lynn Brown to conceptualize ideas for the cartographic resources."
-				},
-				{
-					"name": "Lynn Brown",
-					"notes": "Lynn is the Education Coordinator at the Leventhal Map & Education Center. She worked with Cartographer Daniel Huffman and Director of Education Michelle LeBlanc to conceptualize the ideas for the maps."
-				},
-				{
-					"name": "Daniel Huffman",
-					"notes": "Daniel Huffman is a freelance cartographer hired by the Leventhal Map & Education Center to create maps with strong arguments based around important issues in Boston, designed to aid teaching in classrooms partaking in the LMEC Maptivist Initiative. In addition to designing the maps, Daniel provided lots of great notes on their mapmaking process, which can be found throughout this document, and especially in the README made available from the `records` section of this document."
-				}
-			],
-			"process": {
-				"shortProcessDescription": "To make the maps, Daniel downloaded official census data -- statisitcal information about Boston and census tracts. After cleaning up the statistical census data a little bit, these two files were joined together. The newly-joined geospatial demographic data layer was overlaid on top of data used only for cartographic purposes, such as land and water files used to create a basemap. The supplementary cartographic materials, including Adobe Illustrator files, can be accessed via the supplementaryFiles section of this record.",
-				"successes": "This data project has public benefit because it narrows down census data to present only attribute information that might be useful if one is interested in studying gentrification in Boston. It narrows the data to a distinct geographic extent of the city of Boston, and joins the data to census geography data for us. Anyone can now download this file to study changing median housing values in Boston.",
-				"missingProcessingInformation": "No information is missing about the data processing. This processing description is healthy."
-			}
+			}]
 		}
 	}
 }

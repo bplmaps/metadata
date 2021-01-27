@@ -151,21 +151,13 @@
 			"officialMaintainer": "Leventhal Map & Education Center",
 			"maintenanceFrequency": "This dataset is not frequently updated"
 		},
-		"manipulation": {
-			"records": [{
+		"processing": {
+			"tools": [{
 				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/processor.py",
 				"format": "Python script",
 				"title": "Data Processing Script",
 				"author": "Garrett Dash Nelson"
-			}],
-			"actors": [{
-				"name": "Garrett Dash Nelson",
-				"notes": "Garrett, in the process of working on LMEC projects using the historic shoreline data, has combined the individual layers from the original MapWorks source data into two files: land.geojson and water.geojson. Processor.py is the script that handles that conversion, and is commented to describe each step of the process."
-			}],
-			"process": {
-				"shortProcessDescription": "Original source files contain one data file for each year. These have been combined into single land/water files that contain geographies for all years as geometry features.",
-				"missingProcessingInformation": "No information is missing about how the LMEC transformed the source data into the new land/water data layers. This processing description is healthy."
-			}
+			}]
 		}
 	}
 }
