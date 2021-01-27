@@ -101,9 +101,7 @@
 	"dataLifecycle": {
 		"acquisition": {
 			"ingredients": [{
-				"$id": "ark:/76611/dkgskarjx",
-				"type": "linearPredecessor",
-				"notes": "The Leventhal Map & Education Center changed this ingredient dataset to create the new simplified towns dataset"
+				"$id": "ark:/76611/dkgskarjx"
 			}]
 		},
 		"description": {
