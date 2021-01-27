@@ -251,7 +251,7 @@
 		},
 		"maintenance": {
 			"officialMaintainer": "Leventhal Map & Education Center",
-			"maintenanceFrequency": "Never updated. Daniel Huffman downloaded this data using a census data extract tool, cleaned it up a bit, and sent it to be archived by the LMEC."		
+			"maintenanceFrequency": "This dataset is never updated"		
 		},
 		"manipulation": {
 			"records": [{

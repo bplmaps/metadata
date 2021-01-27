@@ -94,7 +94,7 @@
 		},
 		"maintenance": {
 			"officialMaintainer": "Boston Open Data",
-			"maintenanceFrequency": "Unknown",
+			"maintenanceFrequency": "This dataset is missing information about how frequently it is updated",
 			"typicalUpdates": "Unknown",
 			"contextMissing": true
 		},
