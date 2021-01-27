@@ -105,10 +105,6 @@
 				"name": "Belle Lipton",
 				"relationshipToData": "Archivist"
 			},
-			"contextOnBehalfOf": {
-				"name": "MassGIS",
-				"relationshipToData": "Maintainer and publisher"
-			},
 			"contextPublicationDate": "2020-10-02",
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
