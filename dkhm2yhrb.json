@@ -8,6 +8,7 @@
 		"fullNotes": "This dataset, which was acquired from data.census.gov, contains statistical information aggregated to the Census tract level and clipped to the extent of the city of Boston. It includes information about the total number of households in Boston per Census tract, the total number of households without an internet subscription in Boston per Census tract, and a normalized field for the percent of households for each Census tract in Boston without internet. This data came from the American Community Survey rolling 5-year estimates, and covers a time period from 2014-2018. ",
 		"briefGenealogy": "This recipe was created from two ingredients: (1) Census tract geometry shapes, and (2) Statistical tables containing the number of total households and internet subscriptions in each Census tract. These two ingredients were combined together using GIS software. The statistical tables were cleaned to include only fields that are noteworthy for this particular subject of study. ",
 		"includesDataTypes": ["MultiPolygon"],
+		"importantAttributes": ["Households", "No Internet Count", "No Internet Percent"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-71.191154, 42.227925],
@@ -181,12 +182,6 @@
 		}
 	},
 	"resourceConstellation": {
-		"supplementaryFiles": [{
-			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/supplementaryFiles/supplementaryCartographyFiles.zip",
-			"title": "Supplementary cartography files",
-			"datePublished": "2020-11-24",
-			"notes": "Daniel Huffman provided final versions of the Boston internet map in PDF, JPEG and Adobe Illustrator .AI file formats."
-		}],
 		"publishedWorks": [{
 			"$id": "https://collections.leventhalmap.org/search/commonwealth:3x817734d",
 			"title": "Plenty of free wi-fi is keeping Boston connected!",
@@ -200,6 +195,12 @@
 			"author": "Huffman, Daniel P.",
 			"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
 			"datePublished": "2020"
+		}],
+		"codebooks": [{
+			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/codebooks/fields.txt",
+			"title": "Renamed Fields Dictionary",
+			"maintainedBy": "Leventhal Map & Education Center",
+			"notes": "Cartographer Daniel Huffman provided a codebook for how they renamed fields when cleaning this dataset."
 		}]
 	},
 	"dataLifecycle": {
