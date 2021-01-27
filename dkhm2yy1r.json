@@ -9,6 +9,7 @@
 		"fullNotes": "Statistical and geographic data comparing the 2006-2010 and 2014-2018 5-year American Community Survey summaries depicting change in median housing value for the city of Boston, Massachusetts. Created for the purpose of using within the K-12 Maptivist Initiative at the Leventhal Map & Education Center. In Maptivist classrooms, students work with a variety of historical and modern map resources to better understand the past and present of Boston and advocate for change. Students connect with community resources, from individuals working for social justice to City of Boston data sets that enable them to analyze everything from gentrification in their neighborhoods, to health care access by race across the city, to climate resilience’s relationship to income inequality.",
 		"briefGenealogy": "Demographic data were downloaded from official census products, cleaned up to contain only the information pertinent to the subject of study, joined with geospatial census data, and combined with other cartographic materials to produce the maps used in classroom activities.",
 		"includesDataTypes": ["MultiPolygon"],
+		"importantAttributes": ["White Population 2010", "White Population 2018", "White Population Change 2010 - 2018"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-71.191154, 42.227925],
@@ -202,18 +203,18 @@
 		}
 	},
 	"resourceConstellation": {
-		"supplementaryFiles": [{
-			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/supplementaryFiles/SupplementaryCartographyFiles.zip",
-			"title": "Supplementary cartography files",
-			"datePublished": "2020-11-24",
-			"notes": "Daniel Huffman provided final versions of the Boston gentrification maps in PDF, JPEG and Adobe Illustrator .AI file formats."
-		}],
 		"publishedWorks": [{
 			"$id": "https://collections.leventhalmap.org/search/commonwealth:3x8177466",
 			"title": "Change in median housing value, 2010 to 2018",
 			"author": "Huffman, Daniel P.",
 			"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
 			"datePublished": "2020"
+		}],
+		"codebooks": [{
+			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/codebooks/fields.txt",
+			"title": "Renamed Fields Dictionary",
+			"maintainedBy": "Leventhal Map & Education Center",
+			"notes": "Cartographer Daniel Huffman provided a codebook for how they renamed fields when cleaning this dataset."
 		}]
 	},
 	"dataLifecycle": {
