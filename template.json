@@ -98,61 +98,22 @@
 		}]
 	},
 	"dataBiography": {
-		"sampling": {
-			"notes":"",
-			"relatedResourceURL":[{
-				"$id":"",
-				"title":"",
-				"publisher":"",
-				"datePublished": ""
-			}],
+		"representation":{
 			"healthCheckScore": 5,
 			"healthCheckQualifier": ""
 		},
-		"privacy": {
-			"notes":"",
-			"relatedResourceURL":[{
-				"$id":"",
-				"title":"",
-				"publisher":"",
-				"datePublished": ""
-			}],
+		"publicResponsibility":{
 			"healthCheckScore": 5,
 			"healthCheckQualifier": ""
 		},
-		"dataCollection": {
-			"notes":"",
-			"relatedResourceURL":[{
-				"$id":"",
-				"title":"",
-				"publisher":"",
-				"datePublished": ""
-			}],
+		"historicContext":{
 			"healthCheckScore": 5,
 			"healthCheckQualifier": ""
 		},
-		"funding": [{
-			"notes":"",
-			"relatedResourceURL":[{
-				"$id":"",
-				"title":"",
-				"publisher":"",
-				"datePublished": ""
-			}],
+		"potentialImpact":{
 			"healthCheckScore": 5,
 			"healthCheckQualifier": ""
-		}],
-		"potentialImpact": [{
-			"notes":"",
-			"relatedResourceURL":[{
-				"$id":"",
-				"title":"",
-				"publisher":"",
-				"datePublished": ""
-			}],
-			"healthCheckScore": 5,
-			"healthCheckQualifier": ""
-		}]
+		}
 	},
 	"dataLifecycle": {
 		"acquisition": {

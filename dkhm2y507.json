@@ -78,107 +78,21 @@
 		}
 	},
 	"dataBiography": {
-		"sampling": {
-			"overview":"The Census Bureau publishes high quality documentation describing considerations related to American Community Survey (ACS) universes, rules for who is included, sampling methodology, known problems with sampling and the process by which margins or error are calculated. This information is available via the American Community Survey (ACS) Design and Methodology documentation. ",
-			"relatedResourceURL":[{
-				"$id":"United States Census Bureau",
-				"title":"ACS Design and Methodology Report Survey Rules, Concepts, Definitions",
-				"publisher":"United States Census Bureau",
-				"datePublished": "2014-01-30"
-			},
-			{
-				"$id":"https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch04_2014.pdf",
-				"title":"ACS Design and Methodology Report Sample Design and Selection",
-				"publisher":"United States Census Bureau",
-				"datePublished": "2014-01-30"
-			},
-			{
-				"$id":"https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch12_2014.pdf",
-				"title":"ACS Design and Methodology Report Variance Estimation",
-				"publisher":"United States Census Bureau",
-				"datePublished": "2014-01-30"
-			}],
-			"healthCheckScore": 5,
-			"healthCheckQualifier": "This documentation is easily discoverable and extensive."
+		"representation":{
+			"healthCheckScore": 2,
+			"healthCheckQualifier": "There is strong documentation about the process by which survey questions were initially designed, how stakeholders were involved, and the process by which new questions are added. There could be healthier context made available for continuous efforts to ensure adequate representation in the survey design and collection process."
 		},
-		"privacy": {
-			"overview":"The Census Bureau publishes high quality documentation describing considerations related to American Community Survey (ACS) geographic aggregation methodology and challenges inherent in grouping responses into 'homogenous' geographic areas with firm separating boundaries. This is included in the ACS Design and Methodology Report. Also present in this report are some comments related to consent, at least in how the Census Bureau conceptualizes the mandatory nature of the census. It does not discuss in detail efforts towards making sure participants understand the implications of their mandatory participation, and all of the ways their data will be used. The Design and Methodology Report also includes confidentiality considerations and anonymization methodologies. The Census Bureau does not include here any easily discoverable documentation about known privacy issues. ",
-			"relatedResourceURL":[{
-				"$id":"https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch03_2014.pdf",
-				"title":"ACS Design and Methodology Report Frame Development Master Address File Content",
-				"publisher":"United States Census Bureau",
-				"datePublished": "2014-01-30"
-			},
-			{
-				"$id":"https://www2.census.gov/geo/pdfs/reference/GARM/Ch2GARM.pdf",
-				"title":"Geographic Area Reference Manual Homogeneity and Functional Integration",
-				"publisher":"United States Census Bureau",
-				"datePublished": "2014-01-30"
-			},
-			{
-				"$id":"https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch05_2014.pdf",
-				"title":"ACS Design and Methodology Report Content Development Process",
-				"publisher":"United States Census Bureau",
-				"datePublished": "2014-01-30"
-			},
-			{
-				"$id":"https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch13_2014.pdf",
-				"title":"ACS Design and Methodology Preparation/Review of Data Products",
-				"publisher":"United States Census Bureau",
-				"datePublished": "2014-01-30"
-			}],
-			"healthCheckScore": 3,
-			"healthCheckQualifier": "The documentation is strong and healthy for issues related to geographic aggregation and anonymization methods. There could be healthier context made available for known privacy issues and the steps taken to ensure all participants understand how their data will be used."
+		"publicResponsibility":{
+			"healthCheckScore": 2,
+			"healthCheckQualifier": "The documentation is strong for issues related to technical methodology for geographic aggregation and anonymization. It discusses why the data is beneficial to society. There could be healthier context made available for known privacy issues and the steps taken to ensure all participants understand how their data will be used. The documentation could also state more clearly how the data should and should not be used, with clear remarks about known limitations."
 		},
-		"dataCollection": {
-			"overview":"The Census Bureau publishes decent documentation describing considerations related to American Community Survey (ACS) data collection methodology. Included in the ACS Design and Methodology Report are explanations of how the survey came to be, data collection start and end dates, and methodology about how the data are collected and linked up to authoritative address databases. The documentation also touches on considerations related to how survey questions are worded, and the process by which new questions are added. Throughout the documentation, there are sections about how data is collected under various circumstances, for instance methodology for collecting information about those who live in group quarters, like nursing homes or prisons. The documentation includes a section on how stakeholders were initially consulted upon survey design, but it doesn't necessarily get into the process by which the Census Bureau continuously ensures and measures adequate representation in survey design and data collection.",
-			"relatedResourceURL":[{
-				"$id":"https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch02_2014.pdf",
-				"title":"ACS Design and Methodology Report Program History",
-				"publisher":"United States Census Bureau",
-				"datePublished": "2014-01-30"
-			},
-			{
-				"$id":"https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch05_2014.pdf",
-				"title":"ACS Design and Methodology Report Content Development Process",
-				"publisher":"United States Census Bureau",
-				"datePublished": "2014-01-30"
-			},
-			{
-				"$id":"https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch03_2014.pdf",
-				"title":"ACS Design and Methodology Report Content Frame Development",
-				"publisher":"United States Census Bureau",
-				"datePublished": "2014-01-30"
-			},
-			{
-				"$id":"https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch07_2014.pdf",
-				"title":"ACS Design and Methodology Report Content Data Collection",
-				"publisher":"United States Census Bureau",
-				"datePublished": "2014-01-30"
-			}],
-			"healthCheckScore": 3,
-			"healthCheckQualifier": "The documentation is strong and healthy for issues related to the technical aspects of collection methodology and linkage to the authoritative address database. There could be healthier context made available for continuous efforts to ensure representation in the survey design and collection process. "
+		"historicContext":{
+			"healthCheckScore": 0,
+			"healthCheckQualifier": "The documentation does not reflect on the ways the data program is at risk for repeating past harms. It does not describe the ways in which U.S. census data collection has considered its relationship and contribution to systemic injustice."
 		},
-		"funding": {
-			"overview":"The Census Bureau makes their fiscal year budget estimates available via census.gov.",
-			"relatedResourceURL":[{
-				"$id":"https://www2.census.gov/about/budget/FY-2020-Congressional-Budget-Submission.pdf",
-				"title":"U.S. Census Bureau's Budget Fiscal Year 2020",
-				"publisher":"United States Census Bureau",
-				"datePublished": "2019-03"
-			}],
-			"healthCheckScore": 3,
-			"healthCheckQualifier": "Funding information is available, but more user-friendly documentation could be published and or made more easily discoverable about how to interpret and understand how budgets are allocated, and how everyday people can understand the budgeting process"
-		},
-		"potentialImpact": {
-			"overview": "Census publications document the ways that census data can improve life for people by helping the government decide where to allocate federal funds, on the basis of demographic statistics. On the other hand, while much official Census Bureau documentation is available about the methodology of how they count vulnerable populations, there is not very much documentation containing explicit explantations of how these methodologies could negatively impact populations, or any information about how the Bureau attempts to give a voice to those represented by the data. There is a Center for Economic Studies (CES) within the Research and Methodology division, which 'partners with stakeholders within and outside the Census Bureau to improve measures of the economy and people of the United States through research and the development of innovative data products.' The CES publishes updates about the projects and topics they are focused on. ",
-			"relatedResourceURL":[{
-				"$id":"https://www.census.gov/programs-surveys/ces/news-and-updates/updates.html",
-				"title":"Updates",
-				"publisher":"United States Census Bureau Center for Economic Studies (CES)"
-			}],
-			"healthCheckScore": 3,
-			"healthCheckQualifier": "There is healthy documentation about potential positive impact, but not very much easily discoverable documentation about potential negative impact, especially on vulnerable populations. "
+		"potentialImpact":{
+			"healthCheckScore": 2,
+			"healthCheckQualifier": "There is healthy documentation about potential positive impact and future funding dependent on this data program. There is not very much easily discoverable documentation about potential negative impact, especially if there are existing factors which should be flagged to avoid harm."
 		}
 	},
 	"resourceConstellation": {
