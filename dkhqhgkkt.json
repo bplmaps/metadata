@@ -85,11 +85,11 @@
 	},
 	"dataBiography": {
 		"representation":{
-			"healthCheckScore": 2,
+			"healthCheckScore": 3,
 			"healthCheckQualifier": "There is strong documentation about the process by which survey questions were initially designed, how stakeholders were involved, and the process by which new questions are added. There could be healthier context made available for continuous efforts to ensure adequate representation in the survey design and collection process."
 		},
 		"publicResponsibility":{
-			"healthCheckScore": 2,
+			"healthCheckScore": 3,
 			"healthCheckQualifier": "The documentation is strong for issues related to technical methodology for geographic aggregation and anonymization. It discusses why the data is beneficial to society. There could be healthier context made available for known privacy issues and the steps taken to ensure all participants understand how their data will be used. The documentation could also state more clearly how the data should and should not be used, with clear remarks about known limitations."
 		},
 		"historicContext":{
@@ -97,8 +97,12 @@
 			"healthCheckQualifier": "The documentation does not reflect on the ways the data program is at risk for repeating past harms. It does not describe the ways in which U.S. census data collection has considered its relationship and contribution to systemic injustice."
 		},
 		"potentialImpact":{
-			"healthCheckScore": 2,
+			"healthCheckScore": 3,
 			"healthCheckQualifier": "There is healthy documentation about potential positive impact and future funding dependent on this data program. There is not very much easily discoverable documentation about potential negative impact, especially if there are existing factors which should be flagged to avoid harm."
+		},
+		"methodology": {
+			"healthCheckScore": 4,
+			"healthCheckQualifier": "Filler text"
 		}
 	},
 	"dataLifecycle": {
