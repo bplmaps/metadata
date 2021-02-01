@@ -55,6 +55,11 @@
 		}
 	},
 	"resourceConstellation": {
+		"documentation": [{
+			"$id": "https://www.nhgis.org/user-resources/data-availability",
+			"title": "Data Availability",
+			"maintainedBy": "National Historic GIS (NHGIS)"
+		}],
 		"tutorials": [{
 			"$id": "https://www.youtube.com/watch?v=P1znKKm8vX4",
 			"title": "NHGIS Data Finder Tutorial",
