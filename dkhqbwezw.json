@@ -62,7 +62,12 @@
 		},
 		{
 			"$id": "https://www2.census.gov/geo/pdfs/reference/GARM/glosGARM.pdf",
-			"title": "Geographic Areas Reference Manual",
+			"title": "Geographic Areas Reference Manual: Glossary",
+			"maintainedBy": "United States Census Bureau"
+		},
+		{
+			"$id": "https://www2.census.gov/geo/pdfs/reference/GARM/Ch10GARM.pdf",
+			"title": "Geographic Areas Reference Manual: Census Tracts and Block Numbering Areas",
 			"maintainedBy": "United States Census Bureau"
 		}],
 		"tutorials": [{
