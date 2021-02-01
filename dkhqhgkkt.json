@@ -62,6 +62,11 @@
 		},
 		{
 			"$id": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/",
+			"title": "ACS Summary File Handbook: What Data Users Need to Know",
+			"maintainedBy": "National Historic GIS (NHGIS)"
+		},
+		{
+			"$id": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/",
 			"title": "American Community Survey (ACS) Design and Methodology",
 			"maintainedBy": "United States Census Bureau"
 		}],
