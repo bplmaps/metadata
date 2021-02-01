@@ -57,7 +57,7 @@
 	"resourceConstellation": {
 		"documentation": [
 		{
-			"$id": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/",
+			"$id": "https://assets.nhgis.org/original-data/acs/acs_summary-file_handbook_2019.pdf",
 			"title": "ACS Summary File Handbook: What Data Users Need to Know",
 			"maintainedBy": "National Historic GIS (NHGIS)"
 		},
