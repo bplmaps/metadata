@@ -59,6 +59,11 @@
 			"$id": "https://www.nhgis.org/user-resources/data-availability",
 			"title": "Data Availability",
 			"maintainedBy": "National Historic GIS (NHGIS)"
+		},
+		{
+			"$id": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/",
+			"title": "American Community Survey (ACS) Design and Methodology",
+			"maintainedBy": "United States Census Bureau"
 		}],
 		"tutorials": [{
 			"$id": "https://www.youtube.com/watch?v=P1znKKm8vX4",
