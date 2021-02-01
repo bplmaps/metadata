@@ -55,6 +55,16 @@
 		}
 	},
 	"resourceConstellation": {
+		"documentation": [{
+			"$id": "https://www.nhgis.org/user-resources/data-availability#gis-files",
+			"title": "Data Availability - GIS Files",
+			"maintainedBy": "National Historic GIS (NHGIS)"
+		},
+		{
+			"$id": "https://www2.census.gov/geo/pdfs/reference/GARM/glosGARM.pdf",
+			"title": "Geographic Areas Reference Manual",
+			"maintainedBy": "United States Census Bureau"
+		}],
 		"tutorials": [{
 			"$id": "https://www.youtube.com/watch?v=P1znKKm8vX4",
 			"title": "NHGIS Data Finder Tutorial",
