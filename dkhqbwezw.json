@@ -57,7 +57,7 @@
 	"resourceConstellation": {
 		"documentation": [{
 			"$id": "https://www.nhgis.org/user-resources/data-availability#gis-files",
-			"title": "Data Availability - GIS Files",
+			"title": "Data Availability: GIS Files",
 			"maintainedBy": "National Historic GIS (NHGIS)"
 		},
 		{
