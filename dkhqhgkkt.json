@@ -86,7 +86,7 @@
 	"dataBiography": {
 		"representation":{
 			"healthCheckScore": 3,
-			"healthCheckQualifier": "\n \n - The Census Bureau's ACS Design & Methodology Report details the process by which survey questions were first developed and how stakeholders were initially included in that process.  \n \n - The Census Bureau does not make documentation available on the topic of ongoing plans for inclusion of the voices of those represented by and most impacted by the survey."		
+			"healthCheckQualifier": "The Census Bureau's ACS Design & Methodology Report details the process by which survey questions were first developed and how stakeholders were initially included in that process.  \n \n The Census Bureau does not make documentation available on the topic of ongoing plans for inclusion of the voices of those represented by and most impacted by the survey."		
 		},
 		"publicResponsibility":{
 			"healthCheckScore": 3,
