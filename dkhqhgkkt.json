@@ -86,7 +86,7 @@
 	"dataBiography": {
 		"representation":{
 			"healthCheckScore": 3,
-			"healthCheckQualifier": "There is strong documentation about the process by which survey questions were initially designed, how stakeholders were involved, and the process by which new questions are added. \n There could be healthier context made available for continuous efforts to ensure adequate representation in the survey design and collection process."		
+			"healthCheckQualifier": "The Census Bureau's ACS Design & Methodology Report details the process by which survey questions were first developed and how stakeholders were initially included in that process.  <br><br> The Census Bureau does not make documentation available on the topic of ongoing plans for inclusion of the voices of those represented by and most impacted by the survey."		
 		},
 		"publicResponsibility":{
 			"healthCheckScore": 3,
