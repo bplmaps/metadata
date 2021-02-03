@@ -90,7 +90,7 @@
 		},
 		"publicResponsibility":{
 			"healthCheckScore": 3,
-			"healthCheckQualifier": "### Pros \n \n ✓ The Census Bureau's ACS Design and Methodology Report is healthy on issues related to technical methodology for geographic aggregation and anonymization. \n \n ✓ The Design and Methodology Report discusses how the Census Bureau understands the mandatory nature of the Census. \n \n ✓ Official Census Bureau documentation discusses the reasons why the data is beneficial to society. \n \n ✓ Official Census Bureau documentation discusses the reasons why the data is beneficial to society. \n \n ### Cons \n \n ✕ There is not healthy documentation available on any known privacy issues. \n \n ✕ There is not healthy documentation available about methods taken to ensure all participants understand how their data will be used. \n \n "		
+			"healthCheckQualifier": "#### Pros \n \n \n ✓ The Census Bureau's ACS Design and Methodology Report is healthy on issues related to technical methodology for geographic aggregation and anonymization. \n \n ✓ The Design and Methodology Report discusses how the Census Bureau understands the mandatory nature of the Census. \n \n ✓ Official Census Bureau documentation discusses the reasons why the data is beneficial to society. \n \n #### Cons \n \n ✕ There is not healthy documentation available on any known privacy issues. \n \n ✕ There is not healthy documentation available about methods taken to ensure all participants understand how their data will be used. \n \n  "		
 		},
 		"historicContext":{
 			"healthCheckScore": 0,
