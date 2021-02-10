@@ -2,7 +2,7 @@
 {
 	"coreCitation": {
 		"$id": "ark:/76611/dkhmea44m",
-		"title": "Boston White Population Change",
+		"title": "U.S. Census White Population Change in Boston",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
 		"briefDescription": "Estimate of white population as a percent of total population, aggregated to the census tract level; geography covers the City of Boston; time period covers 2006-2010 and 2014-2018 as five year averages",

@@ -1,7 +1,7 @@
 {
 	"coreCitation": {
 		"$id": "ark:/76611/dkhq7glpx",
-		"title": "Boston Neighborhoods",
+		"title": "Analyze Boston City Neighborhoods",
 		"recordType": "Dataset",
 		"hostedBy": "External",
 		"briefDescription": "Boundary file showing the extents of Boston's neighborhoods; geography covers the City of Boston; time period reflects the present",

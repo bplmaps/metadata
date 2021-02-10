@@ -2,7 +2,7 @@
 {
 	"coreCitation": {
 		"$id": "ark:/76611/dkhm2yy1r",
-		"title": "Boston Housing Value Change",
+		"title": "U.S. Census Median Home Value Change in Boston",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
 		"briefDescription": "Median home value change aggregated to the census tract level; geography covers the City of Boston; time period covers 2006-2010 and 2014-2018 as five year averages",

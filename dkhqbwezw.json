@@ -1,7 +1,7 @@
 {
 	"coreCitation": {
 		"$id": "ark:/76611/dkhqbwezw",
-		"title": "United States Census Bureau TIGER/Line Census Tracts",
+		"title": "U.S. Census TIGER/Line Census Tract Boundaries",
 		"recordType": "Dataset",
 		"hostedBy": "External",
 		"briefDescription": "United States census tract boundary files; geography covers the United States; time period covers 1910-present",

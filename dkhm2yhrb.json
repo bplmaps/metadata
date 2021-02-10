@@ -1,7 +1,7 @@
 {
 	"coreCitation": {
 		"$id": "ark:/76611/dkhm2yhrb",
-		"title": "Boston Internet Access",
+		"title": "U.S. Census Household Internet Subscription Rates in Boston",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
 		"briefDescription": "Rate of internet subscription as a percent of total households aggregated to the census tract level; geography covers the City of Boston; time period covers 2014–2018 as a five year average",

@@ -1,7 +1,7 @@
 {
 	"coreCitation": {
 		"$id": "ark:/76611/dkhm2y507",
-		"title": "Boston Transit",
+		"title": "U.S. Census Popular Modes of Transportation in Boston",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
 		"briefDescription": "Estimated modes of transportation as a percent of total workers over the age of 16, aggregated to the census tract level; geography covers the City of Boston; time period covers 2014-2018 as a five year average",
