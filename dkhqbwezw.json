@@ -4,7 +4,7 @@
 		"title": "United States Census Bureau TIGER/Line Census Tracts",
 		"recordType": "Dataset",
 		"hostedBy": "External",
-		"briefDescription": "Census tract geographies",
+		"briefDescription": "United States census tract boundary files; geography covers the United States; time period covers 1910-present",
 		"briefGenealogy": "A common process is to join statistical demographic data from the American Community Survey or decennial census with census shape data like tracts, counties or states.",
 		"fullNotes": "Census data is obtained by using online websites such as the official Census Bureau tool, American Fact Finder, or websites from other reputable census data providers. The Leventhal Map & Education Center recommends using [NHGIS.org](http://nhgis.org/), which streamlines the process of accessing census data for GIS purposes, specifically. You can go to [NHGIS.org](http://nhgis.org/) to access the exact demographic characteristics and geographical units necessary for your research project. You can scroll down in this metadata record to find the 'tutorials' section, which will point to step-by-step instructions for working with census data using [NHGIS.org](http://nhgis.org/).",		"includesDataTypes": ["MultiPolygon"],
 		"accessCondition": "This data is in the public domain. There are no restrictions on use."
@@ -56,6 +56,11 @@
 	},
 	"resourceConstellation": {
 		"documentation": [{
+			"$id": "https://nhgis.org/sites/www.nhgis.org/files/tract-availability.pdf",
+			"title": "Census Tract Boundary File Availability Chart by U.S. County",
+			"maintainedBy": "National Historic GIS (NHGIS)"
+		},
+		{
 			"$id": "https://www.nhgis.org/user-resources/data-availability#gis-files",
 			"title": "Data Availability: GIS Files",
 			"maintainedBy": "National Historic GIS (NHGIS)"

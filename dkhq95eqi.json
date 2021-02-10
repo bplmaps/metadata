@@ -4,7 +4,7 @@
 		"title": "Wicked Free Wi-Fi",
 		"recordType": "Dataset",
 		"hostedBy": "External",
-		"briefDescription": "Wicked Free Wi-Fi is Boston's outdoor wireless network",
+		"briefDescription": "Point locations of Boston's free, outdoor wireless network; geography covers the City of Boston; time period covers 2015-2016",
 		"includesDataTypes": ["Point"],
 		"importantAttributes": ["Address", "Notes", "Neighborhood"],
 		"bboxPreview": {
@@ -78,6 +78,11 @@
 		}
 	},
 	"resourceConstellation":{
+		"documentation": [{
+			"$id": "https://data.boston.gov/dataset/wicked-free-wi-fi-daily-connections",
+			"title": "Wicked Free Wi-Fi Daily Connections Dataset",
+			"maintainedBy": "Analyze Boston"
+		}],
 		"publishedWorks": [{
 			"$id": "https://collections.leventhalmap.org/search/commonwealth:3x817734d",
 			"title": "Plenty of free wi-fi is keeping Boston connected!",

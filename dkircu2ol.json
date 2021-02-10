@@ -4,7 +4,7 @@
 		"title": "Boston's Historic Shoreline",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"briefDescription": "Depicts Boston's historic shoreline at various intervals or snapshots throughout time (1630, 1975, 1852, 1880, 1916, 1934, 1950, 1995, and present-day)",
+		"briefDescription": "Boundaries of historic shoreline; geography covers the City of Boston and parts of Cambridge, Somerville, Chelsea and Winthrop; time period covers 1630-present in a series of temporal snapshots",
 		"fullNotes": "This dataset is organized into multiple features, each feature depicting the state of the Boston shoreline, at various snapshots in time: 1630, 1795, 1852, 1880, 1916, 1934, 1950 and 1995. The dataset will need to be filtered (right-click layer → filter in QGIS) to display each historic year's shoreline. This data is made available as two separate layers, land and water, which are a direct inverse representation of one another.",
 		"briefGenealogy": "This data was derived from the original MapWorks files. Vickie Taylor, as part of the Atlas of Boston History project, used the born-digital maps created from the original MapWorks data to re-digitize the historic shoreline features. No information is available about how the original MapWorks data was created.",
 		"includesDataTypes": ["MultiPolygon"],

@@ -4,7 +4,7 @@
 		"title": "Mapworks Source Shoreline Data",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"briefDescription": "Original Boston shoreline data source files, created by MapWorks and later re-digitized by Vickie Taylor as part of the Atlas of Boston History Project",
+		"briefDescription": "Boundaries of historic shoreline; geography covers the City of Boston and parts of Cambridge, Somerville, Chelsea and Winthrop; time period covers 1630-1995 in a series of temporal snapshots",
 		"fullNotes": "This series of data files, which depict the Boston shoreline at various time intervals (1630, 1795, 1852, 1880, 1916, 1934, 1950 and 1995) were created in the late 1990s by MapWorks, in order to create a number of digital maps which depict the state of the Boston shoreline at various historical intervals. The original data which was used to create these maps are missing. In 2019, the Atlas of Boston History by Nancy Seasholes was published, and digital GIS data was provided to the LMEC, by the book's cartographer, Vickie Taylor, who used the original MapWorks digital maps to digitally re-trace the shoreline data for the book project. These source files provided by Vickie Taylor have been slightly cleaned up by the LMEC, and are made available as the suggested dataset when working with shoreline data. This data is the original source data used as an input for the LMEC's suggested version.",
 		"briefGenealogy": "Information about how this data was originally created is missing.",
 		"includesDataTypes": ["MultiPolygon"],

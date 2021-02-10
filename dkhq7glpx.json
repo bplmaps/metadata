@@ -4,7 +4,7 @@
 		"title": "Boston Neighborhoods",
 		"recordType": "Dataset",
 		"hostedBy": "External",
-		"briefDescription": "Boston neighborhood boundaries",
+		"briefDescription": "Boundary file showing the extents of Boston's neighborhoods; geography covers the City of Boston; time period reflects the present",
 		"fullNotes": "The Neighborhood boundaries data layer is a combination of zoning neighborhood boundaries, zip code boundaries and 2010 Census tract boundaries. These boundaries are used in the broad sense for visualization purposes for zoning and planning studies. However these boundaries are not official neighborhood boundaries for the City of Boston. The Boston Planning and Development Agency (BPDA) is not responsible for any districts or boundaries within the City of Boston except for the districts or boundaries we use for zoning and planning studies.",
 		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
@@ -82,6 +82,20 @@
 				"singularExpressionValue": "2019-11-13"
 			}
 		}
+	},
+	"resourceConstellation":{
+		"publishedWorks": [{
+			"$id": "https://bostonography.com/2012/crowdsourced-neighborhood-boundaries-part-one-consensus/",
+			"title": "Crowdsourced Neighborhood Boundaries",
+			"author": "Andy Woodruff",
+			"publisher": "Bostonography",
+			"datePublished": "2012-07-02"
+		}],
+		"documentation": [{
+			"$id": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0",
+			"title": "Boston Neighborhoods Official Dataset",
+			"maintainedBy": "Analyze Boston"
+		}]
 	},
 	"dataLifecycle": {
 		"description": {
