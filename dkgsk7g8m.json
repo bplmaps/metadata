@@ -5,8 +5,7 @@
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
 		"briefDescription": "Standardized boundary file showing city and town extents, updated to include a census join field; geography covers the state of Massachusetts; time period reflects the present",
-		"briefGenealogy": "This dataset was inferred from the official MassGIS-maintained town boundary data, and cleaned up in order to facilitate easier use with census products.",
-		"fullNotes": "This is a dataset representing modern-day Massachusetts towns. The original data was obtained from MassGIS, and the LMEC has cleaned up the dataset to include fields formatted correctly for linking with U.S. census data. ",
+		"fullNotes": "This dataset represents town boundaries in the state of Massachusetts. The geographic coverage is the state of Massachusetts. The time coverage reflects the present day. This dataset originates from data created and published by MassGIS. The LMEC has standardized MassGIS's town boundaries to ensure compatibility with census products. ",
 		"includesDataTypes": ["MultiPolygon"],
 		"importantAttributes": ["MassGIS Town Name", "MassGIS Town ID", "Census Town Name", "Census Town ID"],
 		"bboxPreview": {

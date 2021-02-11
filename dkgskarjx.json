@@ -5,7 +5,7 @@
 		"recordType": "Dataset",
 		"hostedBy": "External",
 		"briefDescription": "Boundary file showing city and town extents; geography covers the state of Massachusetts; time period reflects the present",
-		"fullNotes": "This data represents the officially-maintained town boundary data made available by MassGIS. It is the input source data used to create the LMEC's census-compatible Massachusetts Town Boundary dataset.",
+		"fullNotes": "This dataset represents town boundaries in the state of Massachusetts. The geographic coverage is the state of Massachusetts. The time coverage reflects the present day. MassGIS created and maintains this dataset. The LMEC has included it in our portal because it is the source of our [standardized town boundaries data](.//catalog/dkgsk7g8m).",
 		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
