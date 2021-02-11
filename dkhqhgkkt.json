@@ -123,7 +123,7 @@
 		},
 		"maintenance": {
 			"officialMaintainer": "NHGIS.org",
-			"maintenanceFrequency": "These datasets are added to NHGIS within four - six weeks of the official census release"
+			"maintenanceFrequency": "NHGIS adds census data to their database within four - six weeks of the official release"
 		}
 	}
 }
