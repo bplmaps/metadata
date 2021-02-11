@@ -99,7 +99,7 @@
 		},
 		"publicResponsibility":{
 			"healthCheckScore": 3,
-			"healthCheckQualifier": "The Census Bureau's ACS Design and Methodology Report is healthy on issues related to technical methodology for geographic aggregation and anonymization. It also discusses how the Census Bureau understands the mandatory nature of the Census, and the reasons why the data is beneficial to society. \n \n There is not healthy documentation available on any known privacy issues or methods taken to ensure all participants understand how their data will be used.   "		
+			"healthCheckQualifier": "The Census Bureau publishes healthy technical documentation on methodologies used to anonymize and aggregate data by geography. The documentation includes notes about how the Census Bureau understands the mandatory nature of the Census, and reasons why the data is beneficial to society. \n \n There is no available documentation on any known privacy issues or methods taken to ensure all participants understand how their data will be used. "		
 		},
 		"historicContext":{
 			"healthCheckScore": 0,
@@ -107,11 +107,11 @@
 		},
 		"methodology": {
 			"healthCheckScore": 4,
-			"healthCheckQualifier": "The Census Bureau's ACS Design and Methodology Report provides extremely healthy documentation about the technical methdologies used to produce the survey data. \n \n The documentation could state more clearly how the data should and should not be used, with clearer remarks about known limitations."
+			"healthCheckQualifier": "The Census Bureau's ACS Design and Methodology Report provides extremely healthy documentation about the technical methdologies used to produce the survey data. \n \n Census annual budgets are public and easily discoverable, but materials explaining how the funding process works geared towards citizens could be more easily available."
 		},
 		"potentialImpact":{
 			"healthCheckScore": 3,
-			"healthCheckQualifier": "There is healthy documentation about potential positive impact and future funding dependent on this data program. \n \n There is not very much easily discoverable documentation about potential negative impact, especially if there are existing factors which should be flagged to avoid harm."		
+			"healthCheckQualifier": "There is healthy documentation about potential positive impact and future funding dependent on this data program. \n \n There is not very much easily discoverable documentation about potential negative impact, especially if there are existing factors which should be flagged to avoid harm. The documentation could state more clearly how the data should and should not be used, with clearer remarks about known limitations."		
 		}
 	},
 	"dataLifecycle": {
