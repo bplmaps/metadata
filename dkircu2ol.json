@@ -1,12 +1,11 @@
 {
-	"coreCitation": {
+	"citation": {
 		"$id": "ark:/76611/dkircu2ol",
 		"title": "LMEC Historic Boston Shoreline",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"briefDescription": "Standardized boundaries of historic shoreline; geography covers the City of Boston and parts of Cambridge, Somerville, Chelsea and Winthrop; time period covers 1630-present in a series of temporal snapshots",
-		"fullNotes": "This dataset represents the extents of Boston's historic shoreline. It covers the City of Boston and includes some parts of Cambridge, Somerville, Chelsea and Winthrop. This data is structured as temporal snapshots capturing the shoreline extent at different years. The years included in the dataset are 1635, 1795, 1852, 1880, 1916, 1934, 1950, 1995 and the present day. Different versions of this data have existed in the past, digitally 'hand-drawn' by cartographers creating maps for print publications. The datasets used to create these maps until now haven't been archived in GIS-compatible formats. This LMEC-maintained dataset is a stable, standardized GIS boundary file of historic shoreline extents. The LMEC has standardized and preserved data submitted by cartographers working on the Atlas of Boston History book project.",
-		"briefGenealogy":"\n \n 1. Download the original MapWorks Shoreline data \n 2. Write a [Python Script](https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/processor.py) that combines all the separate years from the MapWorks data into single water and land geoJSONS ",
+		"previewDescription": "Standardized boundaries of historic shoreline; geography covers the City of Boston and parts of Cambridge, Somerville, Chelsea and Winthrop; time period covers 1630-present in a series of temporal snapshots",
+		"fullDescription": "This dataset represents the extents of Boston's historic shoreline. It covers the City of Boston and includes some parts of Cambridge, Somerville, Chelsea and Winthrop. This data is structured as temporal snapshots capturing the shoreline extent at different years. The years included in the dataset are 1635, 1795, 1852, 1880, 1916, 1934, 1950, 1995 and the present day. Different versions of this data have existed in the past, digitally 'hand-drawn' by cartographers creating maps for print publications. The datasets used to create these maps until now haven't been archived in GIS-compatible formats. This LMEC-maintained dataset is a stable, standardized GIS boundary file of historic shoreline extents. The LMEC has standardized and preserved data submitted by cartographers working on the Atlas of Boston History book project.",
 		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
@@ -15,7 +14,7 @@
 		},
 		"accessCondition": "This item is in the public domain. There are no restrictions on use."
 	},
-	"dataEndpoints": [{
+	"endpoints": [{
 			"$id": "ark:/76611/dkircu2ol/endpoint/1",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/land.geojson",
 			"format": "GeoJSON",
@@ -30,7 +29,7 @@
 			"source": "Leventhal Map & Education Center"
 		}
 	],
-	"subjectTagging": {
+	"filterTagging": {
 		"thematic": {
 			"LCSH": [{
 					"authority": "LCSH",
@@ -104,7 +103,7 @@
 			}
 		}
 	},
-	"resourceConstellation": {
+	"relatedResources": {
 		"publishedWorks": [{
 				"title": "The Atlas of Boston History",
 				"author": "Nancy Seasholes",
@@ -120,7 +119,7 @@
 			}
 		]
 	},
-	"dataLifecycle": {
+	"peopleLifecycle": {
 		"acquisition": {
 			"ingredients": [{
 				"$id": "ark:/76611/dkircrh2v",
@@ -152,6 +151,7 @@
 			"maintenanceFrequency": "This dataset is not frequently updated"
 		},
 		"processing": {
+			"steps":"\n \n 1. Download the original MapWorks Shoreline data \n 2. Write a [Python Script](https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/processor.py) that combines all the separate years from the MapWorks data into single water and land geoJSONS ",
 			"tools": [{
 				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/processor.py",
 				"format": "Python script",

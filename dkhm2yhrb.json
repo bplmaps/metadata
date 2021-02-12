@@ -1,12 +1,11 @@
 {
-	"coreCitation": {
+	"citation": {
 		"$id": "ark:/76611/dkhm2yhrb",
 		"title": "U.S. Census Household Internet Subscription Rates in Boston",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"briefDescription": "Rate of internet subscription as a percent of total households aggregated to the census tract level; geography covers the City of Boston; time period covers 2014–2018 as a five year average",
-		"fullNotes": "This dataset is about the number of households in Boston with internet subscriptions. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study internet access in Boston. The geography covers the City of Boston. The time coverage compares changes between 2006-2010 and 2014-2018, each as five-year averages. ",
-		"briefGenealogy": "\n \n 1. We downloaded statistics about internet subscription rates from a census data download tool \n 2. We also downloaded census tract GIS boundary files from the same tool \n 3. We edited the data tables to only include important information about the topic of study \n 4. We renamed columns with human-readable column headers \n 5. We documented the new names in a codebook \n 6. We combined the new data tables to the GIS boundary files using GIS software to create the final dataset",
+		"previewDescription": "Rate of internet subscription as a percent of total households aggregated to the census tract level; geography covers the City of Boston; time period covers 2014–2018 as a five year average",
+		"fullDescription": "This dataset is about the number of households in Boston with internet subscriptions. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study internet access in Boston. The geography covers the City of Boston. The time coverage compares changes between 2006-2010 and 2014-2018, each as five-year averages. ",
 		"includesDataTypes": ["MultiPolygon"],
 		"importantAttributes": ["Total Households", "No Internet Total Count", "No Internet as Percent of Total Households"],
 		"bboxPreview": {
@@ -16,9 +15,9 @@
 		},
 		"accessCondition": "This dataset is in the public domain. There are no restrictions on use."
 	},
-	"dataEndpoints": [{
+	"endpoints": [{
 			"$id": "ark:/76611/dkhm2yhrb/endpoint/1",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/dataEndpoints/InternetAccess.geojson",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/endpoints/InternetAccess.geojson",
 			"format": "GeoJSON",
 			"title": "Internet Access in Boston GeoJSON",
 			"source": "Leventhal Map & Education Center",
@@ -26,13 +25,13 @@
 		},
 		{
 			"$id": "ark:/76611/dkhm2yhrb/endpoint/2",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/dataEndpoints/ToJoin.csv",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/endpoints/ToJoin.csv",
 			"title": "Internet Access in Boston Statistical Tables",
 			"format": "CSV",
 			"source": "Leventhal Map & Education Center"
 		}
 	],
-	"subjectTagging": {
+	"filterTagging": {
 		"thematic": {
 			"LCSH": [{
 				"authority": "LCSH",
@@ -77,7 +76,7 @@
 			}
 		}
 	},
-	"dataBiography": {
+	"documentationHealth": {
 		"representation":{
 			"healthCheckScore": 3,
 			"healthCheckQualifier": "Official census documentation details how survey questions were first developed. It describes how ACS project designers first included stakeholders in that process. \n \n When it comes to future data collection and survey design, there is less information. The documentation does not address plans to include those the the data is most likely to affect."		
@@ -99,7 +98,7 @@
 			"healthCheckQualifier": "Documentation is clear about potential positive impact from the data. Public materials also outline future funding dependent on this data program. \n \n There is not discoverable information about potential negative impact. The documentation could be more clear how someone should and should not use the data. There are not accessible guides about known limitations for any given set of census data."		
 		}
 	},
-	"resourceConstellation": {
+	"relatedResources": {
 		"publishedWorks": [{
 			"$id": "https://collections.leventhalmap.org/search/commonwealth:3x817734d",
 			"title": "Plenty of free wi-fi is keeping Boston connected!",
@@ -121,7 +120,7 @@
 			"notes": "Cartographer Daniel Huffman provided a codebook for how they renamed fields when cleaning this dataset."
 		}]
 	},
-	"dataLifecycle": {
+	"peopleLifecycle": {
 		"acquisition": {
 			"ingredients": [{
 					"$id": "ark:/76611/dkhqbwezw",
@@ -159,6 +158,7 @@
 			"maintenanceFrequency": "This dataset is never updated"		
 		},
 		"processing": {
+			"steps": "\n \n 1. We downloaded statistics about internet subscription rates from a census data download tool \n 2. We also downloaded census tract GIS boundary files from the same tool \n 3. We edited the data tables to only include important information about the topic of study \n 4. We renamed columns with human-readable column headers \n 5. We documented the new names in a codebook \n 6. We combined the new data tables to the GIS boundary files using GIS software to create the final dataset",
 			"choices": [{
 				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/README/README.txt",
 				"format": "Plain-text README",

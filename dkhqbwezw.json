@@ -1,16 +1,15 @@
 {
-	"coreCitation": {
+	"citation": {
 		"$id": "ark:/76611/dkhqbwezw",
 		"title": "U.S. Census TIGER/Line Census Tract Boundaries",
 		"recordType": "Dataset",
 		"hostedBy": "External",
-		"briefDescription": "United States census tract boundary files; geography covers the United States; time period covers 1910-present",
-		"briefGenealogy": "A common process is to join statistical demographic data from the American Community Survey or decennial census with census shape data like tracts, counties or states.",
-		"fullNotes": "This dataset represents United States census tract GIS boundary files. Census tract boundary files are available for any location in the United States. The time coverage for census tract data is roughly between the year 1910 and present day. [This chart](https://nhgis.org/sites/www.nhgis.org/files/tract-availability.pdf) can help you find out if tracts are available by location for any given census year. Cartographers and digital mapmakers use census tract boundary files often. When making maps based on U.S. census data, it is necessary to match data to corresponding GIS boundary files. This makes it possible to display the data on a map. Census tracts are so popular because of how small they are; the smaller the unit, the more specific the study. You can read more about census tracts in the Census Bureau's [Reference Manual](https://www2.census.gov/geo/pdfs/reference/GARM/Ch10GARM.pdf).",		
+		"previewDescription": "United States census tract boundary files; geography covers the United States; time period covers 1910-present",
+		"fullDescription": "This dataset represents United States census tract GIS boundary files. Census tract boundary files are available for any location in the United States. The time coverage for census tract data is roughly between the year 1910 and present day. [This chart](https://nhgis.org/sites/www.nhgis.org/files/tract-availability.pdf) can help you find out if tracts are available by location for any given census year. Cartographers and digital mapmakers use census tract boundary files often. When making maps based on U.S. census data, it is necessary to match data to corresponding GIS boundary files. This makes it possible to display the data on a map. Census tracts are so popular because of how small they are; the smaller the unit, the more specific the study. You can read more about census tracts in the Census Bureau's [Reference Manual](https://www2.census.gov/geo/pdfs/reference/GARM/Ch10GARM.pdf).",		
 		"includesDataTypes": ["MultiPolygon"],
 		"accessCondition": "This data is in the public domain. There are no restrictions on use."
 	},
-	"subjectTagging": {
+	"filterTagging": {
 		"thematic": {
 			"LCSH": [{
 					"authority": "LCSH",
@@ -55,7 +54,7 @@
 			"temporalNotes": "Census data, while dating back to the 1790s, was collected in slightly different ways for every census year. This means that the way census geographies and demographic categories are available is subject to nuance, depending on which year you are looking for. NHGIS.org has this handy documentation that includes data availability tables for any given census year: https://nhgis.org/user-resources/data-availability"
 		}
 	},
-	"resourceConstellation": {
+	"relatedResources": {
 		"documentation": [{
 			"$id": "https://nhgis.org/sites/www.nhgis.org/files/tract-availability.pdf",
 			"title": "Census Tract Boundary File Availability Chart by U.S. County",
@@ -93,7 +92,7 @@
 			"suggestedEntryPoint": true
 		}]
 	},
-	"dataBiography": {
+	"documentationHealth": {
 		"representation":{
 			"healthCheckScore": 3,
 			"healthCheckQualifier": "Official census documentation details how survey questions were first developed. It describes how ACS project designers first included stakeholders in that process. \n \n When it comes to future data collection and survey design, there is less information. The documentation does not address plans to include those the the data is most likely to affect."		
@@ -115,7 +114,7 @@
 			"healthCheckQualifier": "Documentation is clear about potential positive impact from the data. Public materials also outline future funding dependent on this data program. \n \n There is not discoverable information about potential negative impact. The documentation could be more clear how someone should and should not use the data. There are not accessible guides about known limitations for any given set of census data."		
 		}
 	},
-	"dataLifecycle": {
+	"peopleLifecycle": {
 		"description": {
 			"language": {
 				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",

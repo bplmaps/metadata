@@ -1,12 +1,12 @@
 {
-	"coreCitation": {
+	"citation": {
 		"$id": "",
 		"title": "",
 		"recordType": "",
 		"hostedBy": "",
-		"briefDescription": "",
+		"previewDescription": "",
 		"briefGenealogy": "",
-		"fullNotes":"",
+		"fullDescription":"",
 		"includesDataTypes": [""],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
@@ -16,14 +16,14 @@
 		"accessCondition": "",
 		"collectionItems": []
 	},
-	"dataEndpoints": [{
+	"endpoints": [{
 		"$id": "",
 		"accessURL": "",
 		"format": "",
 		"source": "",
 		"accessedViaURL": ""
 	}],
-	"subjectTagging": {
+	"filterTagging": {
 		"thematic": {
 			"LCSH": [{
 				"authority": "LCSH",
@@ -71,7 +71,7 @@
 			}
 		}
 	},
-	"resourceConstellation": {
+	"relatedResources": {
 		"suggestedEntryPoints": [{
 			"$id": "",
 			"title": "",
@@ -103,7 +103,7 @@
 			"notes": ""
 		}]
 	},
-	"dataBiography": {
+	"documentationHealth": {
 		"representation":{
 			"healthCheckScore": 5,
 			"healthCheckQualifier": ""
@@ -121,7 +121,7 @@
 			"healthCheckQualifier": ""
 		}
 	},
-	"dataLifecycle": {
+	"peopleLifecycle": {
 		"acquisition": {
 			"ingredients": [{
 				"$id": "",
@@ -168,8 +168,7 @@
 				"format": "",
 				"title": "",
 				"author": ""
-			}],
-			"unknown": true
+			}]
 		}
 	}
 }

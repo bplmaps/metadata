@@ -1,11 +1,11 @@
 {
-	"coreCitation": {
+	"citation": {
 		"$id": "ark:/76611/dkgskarjx",
 		"title": "MassGIS Massachusetts Town Boundaries",
 		"recordType": "Dataset",
 		"hostedBy": "External",
-		"briefDescription": "Boundary file showing city and town extents; geography covers the state of Massachusetts; time period reflects the present",
-		"fullNotes": "This dataset represents town boundaries in the state of Massachusetts. The geographic coverage is the state of Massachusetts. The time coverage reflects the present day. MassGIS created and maintains this dataset. The LMEC has included it in our portal because it is the source of our [standardized town boundaries data](.//catalog/dkgsk7g8m).",
+		"previewDescription": "Boundary file showing city and town extents; geography covers the state of Massachusetts; time period reflects the present",
+		"fullDescription": "This dataset represents town boundaries in the state of Massachusetts. The geographic coverage is the state of Massachusetts. The time coverage reflects the present day. MassGIS created and maintains this dataset. The LMEC has included it in our portal because it is the source of our [standardized town boundaries data](.//catalog/dkgsk7g8m).",
 		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
@@ -14,7 +14,7 @@
 		},
 		"accessCondition": "This item is in the public domain. There are no restrictions on use."
 	},
-	"dataEndpoints": [{
+	"endpoints": [{
 		"$id": "ark:/76611/dkgskarjx/endpoint/1",
 		"accessURL": "http://download.massgis.digital.mass.gov/shapefiles/state/townssurvey_shp.zip",
 		"format": "Zipped Shapefile",
@@ -23,7 +23,7 @@
 		"accessedViaURL": "https://docs.digital.mass.gov/dataset/massgis-data-layers",
 		"suggestedEntryPoint": true
 	}],
-	"subjectTagging": {
+	"filterTagging": {
 		"thematic": {
 			"LCSH": [{
 					"authority": "LCSH",
@@ -86,7 +86,7 @@
 			}
 		}
 	},
-	"resourceConstellation": {
+	"relatedResources": {
 		"codebooks": [{
 			"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
 			"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
@@ -95,7 +95,7 @@
 			"important": true
 		}]
 	},
-	"dataLifecycle": {
+	"peopleLifecycle": {
 		"description": {
 			"language": {
 				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",

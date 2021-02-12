@@ -1,12 +1,11 @@
 {
-	"coreCitation": {
+	"citation": {
 		"$id": "ark:/76611/dkircrh2v",
 		"title": "MapWorks Historic Boston Shoreline",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"briefDescription": "Boundaries of historic shoreline; geography covers the City of Boston and parts of Cambridge, Somerville, Chelsea and Winthrop; time period covers 1630-1995 in a series of temporal snapshots",
-		"fullNotes": "This dataset represents the extents of Boston’s historic shoreline. It covers the City of Boston and includes some parts of Cambridge, Somerville, Chelsea and Winthrop. This data is structured as temporal snapshots capturing the shoreline extent at different years. The years included in the dataset are 1635, 1795, 1852, 1880, 1916, 1934, 1950, 1995. Because this data was previously unavailable and heavily requested, when it was re-digitized for the Atlas of Boston History Project, the LMEC reached out to the book project cartographers, in order to preserve the re-vectorized data.",
-		"briefGenealogy": "Information about how this data was originally created is missing.",
+		"previewDescription": "Boundaries of historic shoreline; geography covers the City of Boston and parts of Cambridge, Somerville, Chelsea and Winthrop; time period covers 1630-1995 in a series of temporal snapshots",
+		"fullDescription": "This dataset represents the extents of Boston’s historic shoreline. It covers the City of Boston and includes some parts of Cambridge, Somerville, Chelsea and Winthrop. This data is structured as temporal snapshots capturing the shoreline extent at different years. The years included in the dataset are 1635, 1795, 1852, 1880, 1916, 1934, 1950, 1995. Because this data was previously unavailable and heavily requested, when it was re-digitized for the Atlas of Boston History Project, the LMEC reached out to the book project cartographers, in order to preserve the re-vectorized data.",
 		"includesDataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
@@ -15,14 +14,14 @@
 		},
 		"accessCondition": "This item is in the public domain. There are no restrictions on use."
 	},
-	"dataEndpoints": [{
+	"endpoints": [{
 		"$id": "ark:/76611/dkircrh2v/endpoint/1",
 		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircrh2v/MapworksSourceFiles.zip",
 		"title": "Mapworks Shoreline Data Zipped Shapefile",
 		"format": "Zipped Shapefile",
 		"source": "Leventhal Map & Education Center"
 	}],
-	"subjectTagging": {
+	"filterTagging": {
 		"thematic": {
 			"LCSH": [{
 					"authority": "LCSH",
@@ -96,7 +95,7 @@
 			}
 		}
 	},
-	"resourceConstellation": {
+	"relatedResources": {
 		"publishedWorks": [{
 				"title": "The Atlas of Boston History",
 				"author": "Nancy Seasholes",
@@ -112,7 +111,7 @@
 			}
 		]
 	},
-	"dataLifecycle": {
+	"peopleLifecycle": {
 		"description": {
 			"language": {
 				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
