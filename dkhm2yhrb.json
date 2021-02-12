@@ -47,14 +47,14 @@
 			"temporalNotes": "This dataset is derived as rolling estimates from the 2014-2018 5-year American Community Survey",
 			"temporalRepresentation": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"temporalType": "temporalRange",
+				"valueType": "temporalRange",
 				"startRangeValue": "2014",
 				"endRangeValue": "2018"
 			},
 			"temporalPublication": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"temporalType": "singularExpression",
-				"singularExpressionValue": "2020-11-24"
+				"valueType": "singularExpression",
+				"singleDate": "2020-11-24"
 			}
 		}
 	},

@@ -57,15 +57,15 @@
 			"temporalNotes": "",
 			"temporalRepresentation": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"temporalType": "",
-				"singularExpressionValue": "",
+				"valueType": "",
+				"singleDate": "",
 				"startRangeValue": "",
 				"endRangeValue": ""
 			},
 			"temporalPublication": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"temporalType": "singularExpression",
-				"singularExpressionValue": "",
+				"valueType": "singularExpression",
+				"singleDate": "",
 				"startRangeValue": "",
 				"endRangeValue": ""
 			}

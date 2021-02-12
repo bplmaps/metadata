@@ -54,13 +54,13 @@
 			"temporalNotes": "",
 			"temporalRepresentation": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"temporalType": "singularExpression",
-				"singularExpressionValue": "2019"
+				"valueType": "singularExpression",
+				"singleDate": "2019"
 			},
 			"temporalPublication": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"temporalType": "singularExpression",
-				"singularExpressionValue": "2019-11-13"
+				"valueType": "singularExpression",
+				"singleDate": "2019-11-13"
 			}
 		}
 	},

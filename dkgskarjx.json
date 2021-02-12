@@ -54,13 +54,13 @@
 			"temporalNotes": "This data was derived from surveys published in atlases going back to the 1890s. The original surveys were conducted in the 1890s. The Atlas series was published in the early 1900s and has since been updated by the Survey Section of the Massachusetts Highway Department (now The Massachusetts Department of Transportation (MassDOT) - Highway Division) with changes as they are approved by the legislature.",
 			"temporalRepresentation": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"temporalType": "singularExpression",
-				"singularExpressionValue": "2020"
+				"valueType": "singularExpression",
+				"singleDate": "2020"
 			},
 			"temporalPublication": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"temporalType": "singularExpression",
-				"singularExpressionValue": "2020-06-16"
+				"valueType": "singularExpression",
+				"singleDate": "2020-06-16"
 			}
 		}
 	},

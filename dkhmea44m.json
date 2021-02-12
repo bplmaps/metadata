@@ -67,14 +67,14 @@
 			"temporalNotes": "This project compares census data from the 2006-2010 and 2014-2018 American Community Survey estimates.",
 			"temporalRepresentation": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"temporalType": "temporalRange",
+				"valueType": "temporalRange",
 				"startRangeValue": "2006",
 				"endRangeValue": "2018"
 			},
 			"temporalPublication": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"temporalType": "singularExpression",
-				"singularExpressionValue": "2020-11-24"
+				"valueType": "singularExpression",
+				"singleDate": "2020-11-24"
 			}
 		}
 	},

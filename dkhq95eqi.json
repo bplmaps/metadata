@@ -51,8 +51,8 @@
 		"temporal": {
 			"temporalPublication": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"temporalType": "singularExpression",
-				"singularExpressionValue": "2017-03-02"
+				"valueType": "singularExpression",
+				"singleDate": "2017-03-02"
 			}
 		}
 	},
