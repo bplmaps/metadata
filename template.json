@@ -59,15 +59,15 @@
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
 				"valueType": "",
 				"singleDate": "",
-				"startRangeValue": "",
-				"endRangeValue": ""
+				"rangeStart": "",
+				"rangeEnd": ""
 			},
 			"temporalPublication": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
 				"valueType": "singularExpression",
 				"singleDate": "",
-				"startRangeValue": "",
-				"endRangeValue": ""
+				"rangeStart": "",
+				"rangeEnd": ""
 			}
 		}
 	},

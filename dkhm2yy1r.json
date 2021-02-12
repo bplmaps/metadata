@@ -68,8 +68,8 @@
 			"temporalRepresentation": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
 				"valueType": "temporalRange",
-				"startRangeValue": "2006",
-				"endRangeValue": "2018"
+				"rangeStart": "2006",
+				"rangeEnd": "2018"
 			},
 			"temporalPublication": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",

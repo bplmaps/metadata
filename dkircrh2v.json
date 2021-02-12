@@ -63,8 +63,8 @@
 			"temporalRepresentation": {
 				"valueType": "temporalRange",
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"startRangeValue": "1630",
-				"endRangeValue": "1995"
+				"rangeStart": "1630",
+				"rangeEnd": "1995"
 			},
 			"temporalPublication": {
 				"valueType": "singularExpression",
