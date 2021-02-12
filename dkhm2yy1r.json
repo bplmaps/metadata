@@ -4,11 +4,10 @@
 		"$id": "ark:/76611/dkhm2yy1r",
 		"title": "U.S. Census Median Home Value Change in Boston",
 		"recordType": "Dataset",
-		"hostedBy": "Internal",
 		"shortDescription": "Median home value change aggregated to the census tract level; geography covers the City of Boston; time period covers 2006-2010 and 2014-2018 as five year averages",
 		"fullDescription": "This data represents median home value change in Boston. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study the change of housing value in Boston. The geography covers the City of Boston. The time coverage compares changes between 2006-2010 and 2014-2018, each as five-year averages. ",
-		"dataTypes": ["MultiPolygon"],
 		"keyAttributes": ["Median Home Value 2006 - 2010", "Median Home Value 2014 -  2018", "Median Home Value Change 2006 - 2018"],
+		"dataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-71.191154, 42.227925],
@@ -19,24 +18,24 @@
 	"endpoints": [{
 			"$id": "ark:/76611/dkhm2yy1r/endpoint/1",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/endpoints/MedianValues.geojson",
-			"format": "GeoJSON",
 			"title": "Median Housing Value Change GeoJSON",
 			"source": "Leventhal Map & Education Center",
-			"suggestedEntryPoint": true
+			"format": "GeoJSON",
+			"suggested": true
 		},
 		{
 			"$id": "ark:/76611/dkhm2yy1r/endpoint/2",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/endpoints/ToJoin2010.csv",
 			"title": "Median Housing Value 2010 Statistical Tables",
-			"format": "CSV",
-			"source": "Leventhal Map & Education Center"
+			"source": "Leventhal Map & Education Center",
+			"format": "CSV"
 		},
 		{
 			"$id": "ark:/76611/dkhm2yy1r/endpoint/3",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/endpoints/ToJoin2018.csv",
-			"format": "CSV",
 			"title": "Median Housing Value 2018 Statistical Tables",
-			"source": "Leventhal Map & Education Center"
+			"source": "Leventhal Map & Education Center",
+			"format": "CSV"
 		}
 	],
 	"filterTagging": {

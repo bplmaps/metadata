@@ -3,7 +3,6 @@
 		"$id": "ark:/76611/dkhq7glpx",
 		"title": "Analyze Boston City Neighborhoods",
 		"recordType": "Dataset",
-		"hostedBy": "External",
 		"shortDescription": "Boundary file showing the extents of Boston's neighborhoods; geography covers the City of Boston; time period reflects the present",
 		"fullDescription": "This data represents Boston's neighborhood boundaries. The geographic coverage is the City of Boston. The time coverage represents the present day. Boston Planning and Development Agency (BPDA) created the dataset for planning purposes. Boston Open Data first published the data, and handles its maintenance. The LMEC has archived the data for long-term preservation and access.",
 		"dataTypes": ["MultiPolygon"],
@@ -17,26 +16,24 @@
 	"endpoints": [{
 			"$id": "ark:/76611/dkhq7glpx/endpoint/1",
 			"accessURL": "http://mapservices.bostonredevelopmentauthority.org/arcproxy/arcgis/rest/services/Maps/Bos_Neighborhoods_2018/mapserver/0",
-			"format": "ArcGIS Web Service",
 			"title": "Boston Neighborhoods ESRI Web Service",
 			"source": "Boston Open Data",
-			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0"
+			"format": "ArcGIS Web Service"
 		},
 		{
 			"$id": "ark:/76611/dkhq7glpx/endpoint/2",
 			"accessURL": "https://opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0.zip",
-			"format": "Zipped Shapefile",
 			"title": "Boston Neighborhoods Zipped Shapefile",	
 			"source": "Boston Open Data",
-			"accessedViaURL": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0"
+			"format": "Zipped Shapefile"
 		},
 		{
 			"$id": "ark:/76611/dkhq7glpx/endpoint/3",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhq7glpx/Boston_Neighborhoods.geojson",
-			"format": "GeoJSON",
 			"title": "Boston Neighborhoods GeoJSON",	
 			"source": "Leventhal Map & Education Center",
-			"suggestedEntryPoint": true
+			"format": "GeoJSON",
+			"suggested": true
 		}
 	],
 	"filterTagging": {

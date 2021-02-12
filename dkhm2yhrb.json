@@ -3,11 +3,10 @@
 		"$id": "ark:/76611/dkhm2yhrb",
 		"title": "U.S. Census Household Internet Subscription Rates in Boston",
 		"recordType": "Dataset",
-		"hostedBy": "Internal",
 		"shortDescription": "Rate of internet subscription as a percent of total households aggregated to the census tract level; geography covers the City of Boston; time period covers 2014–2018 as a five year average",
 		"fullDescription": "This dataset is about the number of households in Boston with internet subscriptions. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study internet access in Boston. The geography covers the City of Boston. The time coverage compares changes between 2006-2010 and 2014-2018, each as five-year averages. ",
-		"dataTypes": ["MultiPolygon"],
 		"keyAttributes": ["Total Households", "No Internet Total Count", "No Internet as Percent of Total Households"],
+		"dataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-71.191154, 42.227925],
@@ -17,18 +16,17 @@
 	},
 	"endpoints": [{
 			"$id": "ark:/76611/dkhm2yhrb/endpoint/1",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/endpoints/InternetAccess.geojson",
-			"format": "GeoJSON",
-			"title": "Internet Access in Boston GeoJSON",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/endpoints/InternetAccess.geojson",			"title": "Internet Access in Boston GeoJSON",
 			"source": "Leventhal Map & Education Center",
-			"suggestedEntryPoint": true
+			"format": "GeoJSON",
+			"suggested": true
 		},
 		{
 			"$id": "ark:/76611/dkhm2yhrb/endpoint/2",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/endpoints/ToJoin.csv",
 			"title": "Internet Access in Boston Statistical Tables",
-			"format": "CSV",
-			"source": "Leventhal Map & Education Center"
+			"source": "Leventhal Map & Education Center",
+			"format": "CSV"
 		}
 	],
 	"filterTagging": {

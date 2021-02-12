@@ -3,10 +3,9 @@
 		"$id": "ark:/76611/dkhm2954o",
 		"title": "U.S. Census Proportion of Rent to Income in Boston",
 		"recordType": "Dataset",
-		"hostedBy": "Internal",
-		"keyAttributes": ["Occupied Units", "30-35% of Income", "35 % of Income or More"],
 		"shortDescription": "Estimated proportion of rent to income as a percent of total occupied units, aggregated to the census tract level; geography covers the City of Boston; time period covers 2014-2018 as a five year average",
 		"fullDescription": "This dataset represents the proportion of income spent on rent in Boston. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study housing inequality in Boston. The geography covers the City of Boston. The time coverage compares changes between 2006-2010 and 2014-2018, each as five-year averages. ",		
+		"keyAttributes": ["Occupied Units", "30-35% of Income", "35 % of Income or More"],
 		"dataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
@@ -18,17 +17,17 @@
 	"endpoints": [{
 			"$id": "ark:/76611/dkhm2954o/endpoint/1",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/endpoints/Rents.geojson",
-			"format": "GeoJSON",
 			"title": "Boston Rent GeoJSON",
 			"source": "Leventhal Map & Education Center",
-			"suggestedEntryPoint": true
+			"format": "GeoJSON",
+			"suggested": true
 		},
 		{
 			"$id": "ark:/76611/dkhm2954o/endpoint/2",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/endpoints/ToJoin.csv",
 			"title": "Boston Rent Statistical Tables",
-			"format": "CSV",
-			"source": "Leventhal Map & Education Center"
+			"source": "Leventhal Map & Education Center",
+			"format": "CSV"
 		}
 	],
 	"filterTagging": {

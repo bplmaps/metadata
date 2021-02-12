@@ -72,7 +72,7 @@
 		}
 	},
 	"relatedResources": {
-		"suggestedEntryPoints": [{
+		"suggesteds": [{
 			"$id": "",
 			"title": "",
 			"notes": ""

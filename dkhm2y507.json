@@ -3,11 +3,10 @@
 		"$id": "ark:/76611/dkhm2y507",
 		"title": "U.S. Census Popular Modes of Transportation in Boston",
 		"recordType": "Dataset",
-		"hostedBy": "Internal",
 		"shortDescription": "Estimated modes of transportation as a percent of total workers over the age of 16, aggregated to the census tract level; geography covers the City of Boston; time period covers 2014-2018 as a five year average",
 		"fullDescription": "This dataset represents modes of transportation as a percent of total workers over the age of 16. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study popular modes of transportation in Boston. The geography covers the City of Boston. The time coverage compares changes between 2006-2010 and 2014-2018, each as five-year averages. ",
-		"dataTypes": ["MultiPolygon"],
 		"keyAttributes":["Workers", "Drive", "Carpool", "Transit", "Walk", "Bike"],
+		"dataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-71.191154, 42.227925],
@@ -18,17 +17,17 @@
 	"endpoints": [{
 			"$id": "ark:/76611/dkhm2y507/endpoint/1",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/endpoints/TransitMode.geojson",
-			"format": "GeoJSON",
 			"title": "Boston Modes of Transportation GeoJSON",
 			"source": "Leventhal Map & Education Center",
-			"suggestedEntryPoint": true
+			"format": "GeoJSON",
+			"suggested": true
 		},
 		{
 			"$id": "ark:/76611/dkhm2y507/endpoint/2",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/endpoints/ToJoin.csv",
 			"title": "Boston Modes of Transportation Statistical Tables",
-			"format": "CSV",
-			"source": "Leventhal Map & Education Center"
+			"source": "Leventhal Map & Education Center",			
+			"format": "CSV"
 		}
 	],
 	"filterTagging": {

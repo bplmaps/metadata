@@ -3,11 +3,10 @@
 		"$id": "ark:/76611/dkgsk7g8m",
 		"title": "LMEC Massachusetts Town Boundaries",
 		"recordType": "Dataset",
-		"hostedBy": "Internal",
 		"shortDescription": "Standardized boundary file showing city and town extents, updated to include a census join field; geography covers the state of Massachusetts; time period reflects the present",
 		"fullDescription": "This dataset represents town boundaries in the state of Massachusetts. The geographic coverage is the state of Massachusetts. The time coverage reflects the present day. This dataset originates from data created and published by MassGIS. The LMEC has standardized MassGIS's town boundaries to ensure compatibility with census products. ",
-		"dataTypes": ["MultiPolygon"],
 		"keyAttributes": ["MassGIS Town Name", "MassGIS Town ID", "Census Town Name", "Census Town ID"],
+		"dataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-73.508210, 41.239062],
@@ -18,10 +17,9 @@
 	"endpoints":[{
 		"$id": "ark:/76611/dkgsk7g8m/endpoint/1",
 		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsk7g8m/mass-municipalities.geojson",
-		"format": "GeoJSON",
+		"title": "Massachusetts Town Boundaries GeoJSON",		
 		"source": "Leventhal Map & Education Center",
-		"title": "Massachusetts Town Boundaries GeoJSON",
-		"suggestedEntryPoint": true
+		"format": "GeoJSON"
 	}],
 	"filterTagging": {
 		"thematic": {
@@ -93,7 +91,7 @@
 				"title": "Creating a clean boundary file for Massachusetts municipalities",
 				"maintainedBy": "LMEC",
 				"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset.",
-				"suggestedEntryPoint": true
+				"suggested": true
 			}
 		]
 	},
