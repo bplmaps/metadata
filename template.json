@@ -59,7 +59,6 @@
 		"acquisition": {
 			"ingredients": [{
 				"$id": "",
-				"type": "",
 				"notes": ""
 			}]
 		},
@@ -81,8 +80,7 @@
 		},
 		"maintenance": {
 			"officialMaintainer": "",
-			"maintenanceFrequency": "",
-			"typicalUpdates": ""
+			"maintenanceFrequency": ""
 		},
 		"processing": {
 			"steps": "",
@@ -102,28 +100,27 @@
 	},
 	"documentationHealth": {
 		"representation":{
-			"healthCheckScore": 5,
-			"healthCheckQualifier": ""
+			"healthScore": 5,
+			"healthEvaluation": ""
 		},
 		"publicTrust":{
-			"healthCheckScore": 5,
-			"healthCheckQualifier": ""
+			"healthScore": 5,
+			"healthEvaluation": ""
 		},
 		"systemicInjustice":{
-			"healthCheckScore": 5,
-			"healthCheckQualifier": ""
+			"healthScore": 5,
+			"healthEvaluation": ""
+		},
+		"origins":{
+			"healthScore": 5,
+			"healthEvaluation": ""
 		},
 		"futureUse":{
-			"healthCheckScore": 5,
-			"healthCheckQualifier": ""
+			"healthScore": 5,
+			"healthEvaluation": ""
 		}
 	},
 	"relatedResources": {
-		"suggesteds": [{
-			"$id": "",
-			"title": "",
-			"notes": ""
-		}],
 		"documentation": [{
 			"$id": "",
 			"title": "",
