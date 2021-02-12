@@ -92,10 +92,6 @@
 			]
 		},
 		"description": {
-			"language": {
-				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
-				"value": "eng"
-			},
 			"contextProvider": {
 				"name": "Belle Lipton",
 				"relationshipToData": "Archivist"
