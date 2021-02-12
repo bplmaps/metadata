@@ -34,12 +34,7 @@
 					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"subjectTag": "Demographic surveys--United States"
 				}
-			],
-			"ISO19115": [{
-				"authority": "ISO19115TopicCategory",
-				"authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
-				"subjectTag": "Society"
-			}]
+			]
 		},
 		"temporal": {
 			"temporalNotes": "Census data, while dating back to the 1790s, was collected in slightly different ways for every census year. This means that the way census geographies and demographic categories are available is subject to nuance, depending on which year you are looking for. NHGIS.org has this handy documentation that includes data availability tables for any given census year: https://nhgis.org/user-resources/data-availability"
