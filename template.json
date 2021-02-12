@@ -4,10 +4,10 @@
 		"title": "",
 		"recordType": "",
 		"hostedBy": "",
-		"previewDescription": "",
+		"shortDescription": "",
 		"briefGenealogy": "",
 		"fullDescription":"",
-		"includesDataTypes": [""],
+		"dataTypes": [""],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-73.508210, 41.239062],

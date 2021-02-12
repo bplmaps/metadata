@@ -5,10 +5,10 @@
 		"title": "U.S. Census White Population Change in Boston",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"previewDescription": "Estimate of white population as a percent of total population, aggregated to the census tract level; geography covers the City of Boston; time period covers 2006-2010 and 2014-2018 as five year averages",
+		"shortDescription": "Estimate of white population as a percent of total population, aggregated to the census tract level; geography covers the City of Boston; time period covers 2006-2010 and 2014-2018 as five year averages",
 		"fullDescription": "This data is an estimate of Boston's white population as a percent of the total population. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study the trend of gentrification in Boston. The geography covers the City of Boston. The time coverage compares changes between 2006-2010 and 2014-2018, each as five-year averages.  ",
 		"keyAttributes": ["White Population 2010", "White Population 2018", "White Population Change 2010 - 2018"],
-		"includesDataTypes": ["MultiPolygon"],
+		"dataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
 			"lowerCorner": [-71.191154, 42.227925],

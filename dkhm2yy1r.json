@@ -5,9 +5,9 @@
 		"title": "U.S. Census Median Home Value Change in Boston",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"previewDescription": "Median home value change aggregated to the census tract level; geography covers the City of Boston; time period covers 2006-2010 and 2014-2018 as five year averages",
+		"shortDescription": "Median home value change aggregated to the census tract level; geography covers the City of Boston; time period covers 2006-2010 and 2014-2018 as five year averages",
 		"fullDescription": "This data represents median home value change in Boston. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study the change of housing value in Boston. The geography covers the City of Boston. The time coverage compares changes between 2006-2010 and 2014-2018, each as five-year averages. ",
-		"includesDataTypes": ["MultiPolygon"],
+		"dataTypes": ["MultiPolygon"],
 		"keyAttributes": ["Median Home Value 2006 - 2010", "Median Home Value 2014 -  2018", "Median Home Value Change 2006 - 2018"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
