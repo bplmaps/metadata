@@ -110,10 +110,10 @@
 		"processing": {
 			"steps":"\n \n 1. Download the original MapWorks Shoreline data \n 2. Write a [Python Script](https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/processor.py) that combines all the separate years from the MapWorks data into single water and land geoJSONS ",
 			"tools": [{
-				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/processor.py",
-				"format": "Python script",
 				"title": "Data Processing Script",
-				"author": "Garrett Dash Nelson"
+				"author": "Garrett Dash Nelson",
+				"format": "Python script",
+				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/processor.py"
 			}]
 		}
 	},

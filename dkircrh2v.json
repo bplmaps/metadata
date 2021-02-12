@@ -92,9 +92,6 @@
 		"maintenance": {
 			"officialMaintainer": "Leventhal Map & Education Center",
 			"maintenanceFrequency": "This dataset is not frequently updated"
-		},
-		"processing": {
-			"unknown": true
 		}
 	},
 	"relatedResources": {

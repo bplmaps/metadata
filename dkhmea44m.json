@@ -113,10 +113,10 @@
 		"processing": {
 			"steps": "\n \n 1. We downloaded statistics about white population from a census data download tool \n 2. We also downloaded census tract GIS boundary files from the same tool \n 3. We edited the data tables to only include important information about the topic of study \n 4. We renamed columns with human-readable column headers \n 5. We documented the new names in a codebook \n 6. We combined the new data tables to the GIS boundary files using GIS software to create the final dataset",
 			"choices": [{
-				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhmea44m/README/README.txt",
-				"format": "Plain-text README",
 				"title": "Data Cleaning and Cartography Choices",
-				"author": "Daniel Huffman"
+				"author": "Daniel Huffman",
+				"format": "Plain-text README",
+				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhmea44m/README/README.txt"
 			}]
 		}
 	},

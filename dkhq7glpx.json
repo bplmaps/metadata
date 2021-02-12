@@ -79,9 +79,7 @@
 		},
 		"maintenance": {
 			"officialMaintainer": "Boston Open Data",
-			"maintenanceFrequency": "This dataset is missing information about how frequently it is updated",
-			"typicalUpdates": "Unknown",
-			"contextMissing": true
+			"maintenanceFrequency": "This dataset is missing information about how frequently it is updated"
 		}
 	},
 	"relatedResources":{
