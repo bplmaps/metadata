@@ -64,15 +64,6 @@
 			}
 		}
 	},
-	"relatedResources": {
-		"codebooks": [{
-			"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
-			"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
-			"maintainedBy": "MassGIS",
-			"notes": "Variable name breakdowns are available via the official MassGIS documentation for this dataset.",
-			"important": true
-		}]
-	},
 	"peopleLifecycle": {
 		"description": {
 			"language": {
@@ -93,5 +84,14 @@
 			"officialMaintainer": "MassGIS",
 			"maintenanceFrequency": "This dataset is updated frequently, roughly once a year, at no regular interval. Maintenance notes with all versions can be found in the codebook."
 		}
+	},
+	"relatedResources": {
+		"codebooks": [{
+			"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
+			"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
+			"maintainedBy": "MassGIS",
+			"notes": "Variable name breakdowns are available via the official MassGIS documentation for this dataset.",
+			"important": true
+		}]
 	}
 }

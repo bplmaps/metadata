@@ -65,17 +65,6 @@
 			}
 		}
 	},
-	"relatedResources": {
-		"tutorials": [
-			{
-				"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
-				"title": "Creating a clean boundary file for Massachusetts municipalities",
-				"maintainedBy": "LMEC",
-				"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset.",
-				"suggested": true
-			}
-		]
-	},
 	"peopleLifecycle": {
 		"acquisition": {
 			"ingredients": [{
@@ -114,5 +103,16 @@
 				"author": "Garrett Dash Nelson"
 			}]
 		}
+	},
+	"relatedResources": {
+		"tutorials": [
+			{
+				"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
+				"title": "Creating a clean boundary file for Massachusetts municipalities",
+				"maintainedBy": "LMEC",
+				"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset.",
+				"suggested": true
+			}
+		]
 	}
 }

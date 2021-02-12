@@ -14,7 +14,8 @@
 		},
 		"accessCondition": "This dataset is in the public domain. There are no restrictions on use."
 	},
-	"endpoints": [{
+	"endpoints": [
+		{
 			"$id": "ark:/76611/dkhm2954o/endpoint/1",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/endpoints/Rents.geojson",
 			"title": "Boston Rent GeoJSON",
@@ -28,7 +29,7 @@
 			"title": "Boston Rent Statistical Tables",
 			"source": "Leventhal Map & Education Center",
 			"format": "CSV"
-		}
+	}
 	],
 	"filterTagging": {
 		"thematic": {
@@ -63,6 +64,51 @@
 				"valueType": "singularExpression",
 				"singleDate": "2020-11-24"
 			}
+		}
+	},
+	"peopleLifecycle": {
+		"acquisition": {
+			"ingredients": [{
+					"$id": "ark:/76611/dkhqbwezw",
+					"notes": "This census tract geography data was joined to census statistical demographic data"
+				},
+				{
+					"$id": "ark:/76611/dkhqhgkkt",
+					"notes": "This statistical census demographic data was joined to census tract geography data"
+				}
+			]
+		},
+		"description": {
+			"language": {
+				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
+				"value": "eng"
+			},
+			"contextProvider": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
+			},
+			"contextOnBehalfOf": {
+				"name": "Daniel Huffman",
+				"relationshipToData": "Cartographer"
+			},
+			"contextPublicationDate": "2020-11-24",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
+			}
+		},
+		"maintenance": {
+			"officialMaintainer": "Leventhal Map & Education Center",
+			"maintenanceFrequency": "This dataset is never updated"		
+		},
+		"processing": {
+			"steps": "\n \n 1. We downloaded statistics about rent and income from a census data download tool \n 2. We also downloaded census tract GIS boundary files from the same tool \n 3. We edited the data tables to only include important information about the topic of study \n 4. We renamed columns with human-readable column headers \n 5. We documented the new names in a codebook \n 6. We combined the new data tables to the GIS boundary files using GIS software to create the final dataset",
+			"choices": [{
+				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/README/README.txt",
+				"format": "Plain-text README",
+				"title": "Data Cleaning and Cartography Choices",
+				"author": "Daniel Huffman"
+			}]
 		}
 	},
 	"documentationHealth": {
@@ -101,52 +147,5 @@
 			"maintainedBy": "Leventhal Map & Education Center",
 			"notes": "Cartographer Daniel Huffman provided a codebook for how they renamed fields when cleaning this dataset."
 		}]
-	},
-	"peopleLifecycle": {
-		"acquisition": {
-			"ingredients": [{
-					"$id": "ark:/76611/dkhqbwezw",
-					"type": "compositeIngredient",
-					"notes": "This census tract geography data was joined to census statistical demographic data"
-				},
-				{
-					"$id": "ark:/76611/dkhqhgkkt",
-					"type": "compositeIngredient",
-					"notes": "This statistical census demographic data was joined to census tract geography data"
-				}
-			]
-		},
-		"description": {
-			"language": {
-				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
-				"value": "eng"
-			},
-			"contextProvider": {
-				"name": "Belle Lipton",
-				"relationshipToData": "Archivist"
-			},
-			"contextOnBehalfOf": {
-				"name": "Daniel Huffman",
-				"relationshipToData": "Cartographer"
-			},
-			"contextPublicationDate": "2020-11-24",
-			"metadataSchema": {
-				"schemaName": "LMEC Data Description Schema",
-				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
-			}
-		},
-		"maintenance": {
-			"officialMaintainer": "Leventhal Map & Education Center",
-			"maintenanceFrequency": "This dataset is never updated"		
-		},
-		"processing": {
-			"steps": "\n \n 1. We downloaded statistics about rent and income from a census data download tool \n 2. We also downloaded census tract GIS boundary files from the same tool \n 3. We edited the data tables to only include important information about the topic of study \n 4. We renamed columns with human-readable column headers \n 5. We documented the new names in a codebook \n 6. We combined the new data tables to the GIS boundary files using GIS software to create the final dataset",
-			"choices": [{
-				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/README/README.txt",
-				"format": "Plain-text README",
-				"title": "Data Cleaning and Cartography Choices",
-				"author": "Daniel Huffman"
-			}]
-		}
 	}
 }

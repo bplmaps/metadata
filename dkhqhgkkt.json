@@ -40,6 +40,49 @@
 			"temporalNotes": "Census data, while dating back to the 1790s, was collected in slightly different ways for every census year. This means that the way census geographies and demographic categories are available is subject to nuance, depending on which year you are looking for. NHGIS.org has this handy documentation that includes data availability tables for any given census year: https://nhgis.org/user-resources/data-availability"
 		}
 	},
+	"peopleLifecycle": {
+		"description": {
+			"language": {
+				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
+				"value": "eng"
+			},
+			"contextProvider": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
+			},
+			"contextPublicationDate": "2020-11-20",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
+			}
+		},
+		"maintenance": {
+			"officialMaintainer": "NHGIS.org",
+			"maintenanceFrequency": "NHGIS adds census data to their database within four - six weeks of the official release"
+		}
+	},
+	"documentationHealth": {
+		"representation":{
+			"healthCheckScore": 3,
+			"healthCheckQualifier": "Official census documentation details how survey questions were first developed. It describes how ACS project designers first included stakeholders in that process. \n \n When it comes to future data collection and survey design, there is less information. The documentation does not address plans to include those the the data is most likely to affect."		
+		},
+		"publicResponsibility":{
+			"healthCheckScore": 3,
+			"healthCheckQualifier": "Census documentation is clear about methods used for anonymizing and participant privacy. It discusses the challenges of grouping or [aggregating](http://wiki.gis.com/wiki/index.php/Aggregation) survey responses into homogenous areas. It acknowledges Census Bureau reasoning for why the survey is mandatory. It explains why the data is beneficial to society. \n \n The documentation does not address how the Census Bureau understands participant consent. It is not clear if all participants understand how their data will be used. "		
+		},
+		"historicContext":{
+			"healthCheckScore": 0,
+			"healthCheckQualifier": "The documentation does not reflect on the ways the data program is at risk for repeating past harms. It does not describe the ways in which U.S. census data collection has considered its relationship and contribution to systemic injustice."		
+		},
+		"methodology": {
+			"healthCheckScore": 4,
+			"healthCheckQualifier": "Official census documentation describes all technical methods used to produce the survey data. Census annual budgets are public and discoverable. \n \n There are not easy-to-find public materials explaining the budgeting process for everyday citizens."
+		},
+		"potentialImpact":{
+			"healthCheckScore": 3,
+			"healthCheckQualifier": "Documentation is clear about potential positive impact from the data. Public materials also outline future funding dependent on this data program. \n \n There is not discoverable information about potential negative impact. The documentation could be more clear how someone should and should not use the data. There are not accessible guides about known limitations for any given set of census data."		
+		}
+	},
 	"relatedResources": {
 		"documentation": [
 		{
@@ -68,48 +111,5 @@
 			"notes": "Learn how to join census data with demographic data in QGIS",
 			"suggested": true
 		}]
-	},
-	"documentationHealth": {
-		"representation":{
-			"healthCheckScore": 3,
-			"healthCheckQualifier": "Official census documentation details how survey questions were first developed. It describes how ACS project designers first included stakeholders in that process. \n \n When it comes to future data collection and survey design, there is less information. The documentation does not address plans to include those the the data is most likely to affect."		
-		},
-		"publicResponsibility":{
-			"healthCheckScore": 3,
-			"healthCheckQualifier": "Census documentation is clear about methods used for anonymizing and participant privacy. It discusses the challenges of grouping or [aggregating](http://wiki.gis.com/wiki/index.php/Aggregation) survey responses into homogenous areas. It acknowledges Census Bureau reasoning for why the survey is mandatory. It explains why the data is beneficial to society. \n \n The documentation does not address how the Census Bureau understands participant consent. It is not clear if all participants understand how their data will be used. "		
-		},
-		"historicContext":{
-			"healthCheckScore": 0,
-			"healthCheckQualifier": "The documentation does not reflect on the ways the data program is at risk for repeating past harms. It does not describe the ways in which U.S. census data collection has considered its relationship and contribution to systemic injustice."		
-		},
-		"methodology": {
-			"healthCheckScore": 4,
-			"healthCheckQualifier": "Official census documentation describes all technical methods used to produce the survey data. Census annual budgets are public and discoverable. \n \n There are not easy-to-find public materials explaining the budgeting process for everyday citizens."
-		},
-		"potentialImpact":{
-			"healthCheckScore": 3,
-			"healthCheckQualifier": "Documentation is clear about potential positive impact from the data. Public materials also outline future funding dependent on this data program. \n \n There is not discoverable information about potential negative impact. The documentation could be more clear how someone should and should not use the data. There are not accessible guides about known limitations for any given set of census data."		
-		}
-	},
-	"peopleLifecycle": {
-		"description": {
-			"language": {
-				"authority": "https://www.loc.gov/standards/iso639-2/php/code_list.php",
-				"value": "eng"
-			},
-			"contextProvider": {
-				"name": "Belle Lipton",
-				"relationshipToData": "Archivist"
-			},
-			"contextPublicationDate": "2020-11-20",
-			"metadataSchema": {
-				"schemaName": "LMEC Data Description Schema",
-				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
-			}
-		},
-		"maintenance": {
-			"officialMaintainer": "NHGIS.org",
-			"maintenanceFrequency": "NHGIS adds census data to their database within four - six weeks of the official release"
-		}
 	}
 }
