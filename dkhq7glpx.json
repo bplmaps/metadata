@@ -83,17 +83,17 @@
 		}
 	},
 	"relatedResources":{
+		"documentation": [{
+			"$id": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0",
+			"title": "Boston Neighborhoods Official Dataset",
+			"maintainedBy": "Analyze Boston"
+		}],
 		"publishedWorks": [{
 			"$id": "https://bostonography.com/2012/crowdsourced-neighborhood-boundaries-part-one-consensus/",
 			"title": "Crowdsourced Neighborhood Boundaries",
 			"author": "Andy Woodruff",
 			"publisher": "Bostonography",
 			"datePublished": "2012-07-02"
-		}],
-		"documentation": [{
-			"$id": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0",
-			"title": "Boston Neighborhoods Official Dataset",
-			"maintainedBy": "Analyze Boston"
 		}]
 	}
 }

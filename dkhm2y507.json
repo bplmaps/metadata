@@ -124,18 +124,18 @@
 		}
 	},
 	"relatedResources": {
+		"codebooks": [{
+			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/codebooks/fields.txt",
+			"title": "Renamed Fields Dictionary",
+			"maintainedBy": "Leventhal Map & Education Center",
+			"notes": "Cartographer Daniel Huffman provided a codebook for how they renamed fields when cleaning this dataset."
+		}],
 		"publishedWorks": [{
 			"$id": "https://collections.leventhalmap.org/search/commonwealth:3x817729j",
 			"title": "Most popular mode of commuting : 2014-2018 American Community Survey",
 			"author": "Huffman, Daniel P.",
 			"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
 			"datePublished": "2020"
-		}],
-		"codebooks": [{
-			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/codebooks/fields.txt",
-			"title": "Renamed Fields Dictionary",
-			"maintainedBy": "Leventhal Map & Education Center",
-			"notes": "Cartographer Daniel Huffman provided a codebook for how they renamed fields when cleaning this dataset."
 		}]
 	}
 }
