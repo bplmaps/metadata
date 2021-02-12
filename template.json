@@ -108,15 +108,15 @@
 			"healthCheckScore": 5,
 			"healthCheckQualifier": ""
 		},
-		"publicResponsibility":{
+		"publicTrust":{
 			"healthCheckScore": 5,
 			"healthCheckQualifier": ""
 		},
-		"historicContext":{
+		"systemicInjustice":{
 			"healthCheckScore": 5,
 			"healthCheckQualifier": ""
 		},
-		"potentialImpact":{
+		"futureUse":{
 			"healthCheckScore": 5,
 			"healthCheckQualifier": ""
 		}
