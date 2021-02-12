@@ -4,7 +4,7 @@
 		"title": "U.S. Census Proportion of Rent to Income in Boston",
 		"recordType": "Dataset",
 		"hostedBy": "Internal",
-		"importantAttributes": ["Occupied Units", "30-35% of Income", "35 % of Income or More"],
+		"keyAttributes": ["Occupied Units", "30-35% of Income", "35 % of Income or More"],
 		"previewDescription": "Estimated proportion of rent to income as a percent of total occupied units, aggregated to the census tract level; geography covers the City of Boston; time period covers 2014-2018 as a five year average",
 		"fullDescription": "This dataset represents the proportion of income spent on rent in Boston. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study housing inequality in Boston. The geography covers the City of Boston. The time coverage compares changes between 2006-2010 and 2014-2018, each as five-year averages. ",		
 		"includesDataTypes": ["MultiPolygon"],
