@@ -10,27 +10,27 @@
 	"filterTagging": {
 		"thematic": {
 			"LCSH": [{
-					"authority": "LCSH",
+					"authorityName": "LCSH",
 					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"subjectTag": "Population"
 				},
 				{
-					"authority": "LCSH",
+					"authorityName": "LCSH",
 					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"subjectTag": "Census"
 				},
 				{
-					"authority": "LCSH",
+					"authorityName": "LCSH",
 					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"subjectTag": "Population statistics"
 				},
 				{
-					"authority": "LCSH",
+					"authorityName": "LCSH",
 					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"subjectTag": "Demographic surveys"
 				},
 				{
-					"authority": "LCSH",
+					"authorityName": "LCSH",
 					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"subjectTag": "Demographic surveys--United States"
 				}
