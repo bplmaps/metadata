@@ -86,7 +86,7 @@
 			"contextPublicationDate": "2020-12-16",
 			"metadataSchema": {
 				"schemaName": "LMEC Data Description Schema",
-				"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
+				"$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
 			}
 		},
 		"maintenance": {
