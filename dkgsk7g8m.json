@@ -96,7 +96,7 @@
 				"title": "Step-by-Step Process",
 				"author": "Garrett Dash Nelson",
 				"format": "Jupyter Notebook",
-				"relatedResourceURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb"
+				"accessURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb"
 			}]
 		}
 	},

@@ -85,13 +85,13 @@
 		"processing": {
 			"steps": "",
 			"choices": [{
-				"relatedResourceURL": "",
+				"accessURL": "",
 				"format": "",
 				"title": "",
 				"author": ""
 			}],
 			"tools": [{
-				"relatedResourceURL": "",
+				"accessURL": "",
 				"format": "",
 				"title": "",
 				"author": ""

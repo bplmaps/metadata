@@ -113,7 +113,7 @@
 				"title": "Data Processing Script",
 				"author": "Garrett Dash Nelson",
 				"format": "Python script",
-				"relatedResourceURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/processor.py"
+				"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/processor.py"
 			}]
 		}
 	},
