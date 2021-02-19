@@ -48,7 +48,7 @@
 			},
 			"temporalPublication": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"valueType": "singularExpression",
+				"valueType": "singleDate",
 				"singleDate": "",
 				"rangeStart": "",
 				"rangeEnd": ""

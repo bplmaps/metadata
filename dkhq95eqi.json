@@ -52,7 +52,7 @@
 		"temporal": {
 			"temporalPublication": {
 				"encoding": "https://www.w3.org/TR/NOTE-datetime",
-				"valueType": "singularExpression",
+				"valueType": "singleDate",
 				"singleDate": "2017-03-02"
 			}
 		}
