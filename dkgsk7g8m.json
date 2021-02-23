@@ -1,7 +1,7 @@
 {
 	"citation": {
 		"$id": "ark:/76611/dkgsk7g8m",
-		"title": "Massachusetts Town Boundaries - LMEC",
+		"title": "Massachusetts Town Boundaries",
 		"recordType": "Dataset",
 		"shortDescription": "Standardized boundary file showing city and town extents, updated to include a census join field; geography covers the state of Massachusetts; time period reflects the present",
 		"fullDescription": "This dataset represents town boundaries in the state of Massachusetts. The geographic coverage is the state of Massachusetts. The time coverage reflects the present day. This dataset originates from data created and published by MassGIS. The LMEC has standardized MassGIS's town boundaries to ensure compatibility with census products. ",
@@ -67,6 +67,7 @@
 	},
 	"peopleLifecycle": {
 		"acquisition": {
+			"creator": "Leventhal Map & Education Center",
 			"ingredients": [{
 				"$id": "ark:/76611/dkgskarjx",
 				"notes": "The Leventhal Map & Education Center changed this ingredient dataset to create the new simplified towns dataset"

@@ -57,6 +57,7 @@
 	},
 	"peopleLifecycle": {
 		"acquisition": {
+			"creator": "Leventhal Map & Education Center",
 			"ingredients": [{
 				"$id": "",
 				"notes": ""

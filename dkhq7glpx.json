@@ -1,7 +1,7 @@
 {
 	"citation": {
 		"$id": "ark:/76611/dkhq7glpx",
-		"title": "City Neighborhoods - Analyze Boston",
+		"title": "Boston Neighborhood Boundaries",
 		"recordType": "Dataset",
 		"shortDescription": "Boundary file showing the extents of Boston's neighborhoods; geography covers the City of Boston; time period reflects the present",
 		"fullDescription": "This data represents Boston's neighborhood boundaries. The geographic coverage is the City of Boston. The time coverage represents the present day. Boston Planning and Development Agency (BPDA) created the dataset for planning purposes. Boston Open Data first published the data, and handles its maintenance. The LMEC has archived the data for long-term preservation and access.",
@@ -66,6 +66,9 @@
 		}
 	},
 	"peopleLifecycle": {
+		"acquisition":{
+			"creator": "Analyze Boston"
+		},
 		"description": {
 			"contextProvider": {
 				"name": "Belle Lipton",

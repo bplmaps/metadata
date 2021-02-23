@@ -1,7 +1,7 @@
 {
 	"citation": {
 		"$id": "ark:/76611/dkhq95eqi",
-		"title": "Wicked Free Wi-Fi - Analyze Boston",
+		"title": "Wicked Free Wi-Fi",
 		"recordType": "Dataset",
 		"shortDescription": "Point locations of Boston's free, outdoor wireless network; geography covers the City of Boston; time period covers 2015-2016",
 		"fullDescription": "This dataset represents Boston's free, outdoor wireless network. The geography coverage is the City of Boston. The time coverage is 2015-2016. The City of Boston's Department of Innovation and Technology published the data. It was first made available via the Analyze Boston data portal. The LMEC has archived the data for long-term preservation and access.",
@@ -58,6 +58,9 @@
 		}
 	},
 	"peopleLifecycle": {
+		"acquisition":{
+			"creator": "Analyze Boston"
+		},
 		"description": {
 			"contextProvider": {
 				"name": "Belle Lipton",
@@ -70,7 +73,7 @@
 			}
 		},
 		"maintenance": {
-			"officialMaintainer": "Boston Open Data",
+			"officialMaintainer": "Analyze Boston",
 			"maintenanceFrequency": "This dataset is missing information about how frequently it is updated"
 		}
 	},
