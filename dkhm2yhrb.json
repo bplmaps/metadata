@@ -1,7 +1,7 @@
 {
 	"citation": {
 		"$id": "ark:/76611/dkhm2yhrb",
-		"title": "U.S. Census Household Internet Subscription Rates in Boston",
+		"title": "Household Internet Subscription Rates in Boston - U.S. Census",
 		"recordType": "Dataset",
 		"shortDescription": "Rate of internet subscription as a percent of total households aggregated to the census tract level; geography covers the City of Boston; time period covers 2014–2018 as a five year average",
 		"fullDescription": "This dataset is about the number of households in Boston with internet subscriptions. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study internet access in Boston. The geography covers the City of Boston. The time coverage compares changes between 2006-2010 and 2014-2018, each as five-year averages. ",

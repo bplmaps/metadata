@@ -1,7 +1,7 @@
 {
 	"citation": {
 		"$id": "ark:/76611/dkhqbwezw",
-		"title": "U.S. Census TIGER/Line Census Tract Boundaries",
+		"title": "TIGER/Line Census Tract Boundaries - U.S. Census",
 		"recordType": "Dataset",
 		"shortDescription": "United States census tract boundary files; geography covers the United States; time period covers 1910-present",
 		"fullDescription": "This dataset represents United States census tract GIS boundary files. Census tract boundary files are available for any location in the United States. The time coverage for census tract data is roughly between the year 1910 and present day. [This chart](https://nhgis.org/sites/www.nhgis.org/files/tract-availability.pdf) can help you find out if tracts are available by location for any given census year. Cartographers and digital mapmakers use census tract boundary files often. When making maps based on U.S. census data, it is necessary to match data to corresponding GIS boundary files. This makes it possible to display the data on a map. Census tracts are so popular because of how small they are; the smaller the unit, the more specific the study. You can read more about census tracts in the Census Bureau's [Reference Manual](https://www2.census.gov/geo/pdfs/reference/GARM/Ch10GARM.pdf).",		

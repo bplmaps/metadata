@@ -1,7 +1,7 @@
 {
 	"citation": {
 		"$id": "ark:/76611/dkgskarjx",
-		"title": "MassGIS Massachusetts Town Boundaries",
+		"title": "Massachusetts Town Boundaries - MassGIS",
 		"recordType": "Dataset",
 		"shortDescription": "Boundary file showing city and town extents; geography covers the state of Massachusetts; time period reflects the present",
 		"fullDescription": "This dataset represents town boundaries in the state of Massachusetts. The geographic coverage is the state of Massachusetts. The time coverage reflects the present day. MassGIS created and maintains this dataset. The LMEC has included it in our portal because it is the source of our [standardized town boundaries data](.//catalog/dkgsk7g8m).",

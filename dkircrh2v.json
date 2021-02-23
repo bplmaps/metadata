@@ -1,7 +1,7 @@
 {
 	"citation": {
 		"$id": "ark:/76611/dkircrh2v",
-		"title": "MapWorks Historic Boston Shoreline",
+		"title": "Historic Boston Shoreline - MapWorks",
 		"recordType": "Dataset",
 		"shortDescription": "Boundaries of historic shoreline; geography covers the City of Boston and parts of Cambridge, Somerville, Chelsea and Winthrop; time period covers 1630-1995 in a series of temporal snapshots",
 		"fullDescription": "This dataset represents the extents of Boston’s historic shoreline. It covers the City of Boston and includes some parts of Cambridge, Somerville, Chelsea and Winthrop. This data is structured as temporal snapshots capturing the shoreline extent at different years. The years included in the dataset are 1635, 1795, 1852, 1880, 1916, 1934, 1950, 1995. Because this data was previously unavailable and heavily requested, when it was re-digitized for the Atlas of Boston History Project, the LMEC reached out to the book project cartographers, in order to preserve the re-vectorized data.",

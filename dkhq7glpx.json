@@ -1,7 +1,7 @@
 {
 	"citation": {
 		"$id": "ark:/76611/dkhq7glpx",
-		"title": "Analyze Boston City Neighborhoods",
+		"title": "City Neighborhoods - Analyze Boston",
 		"recordType": "Dataset",
 		"shortDescription": "Boundary file showing the extents of Boston's neighborhoods; geography covers the City of Boston; time period reflects the present",
 		"fullDescription": "This data represents Boston's neighborhood boundaries. The geographic coverage is the City of Boston. The time coverage represents the present day. Boston Planning and Development Agency (BPDA) created the dataset for planning purposes. Boston Open Data first published the data, and handles its maintenance. The LMEC has archived the data for long-term preservation and access.",
@@ -88,12 +88,20 @@
 			"title": "Boston Neighborhoods Official Dataset",
 			"maintainedBy": "Analyze Boston"
 		}],
-		"publishedWorks": [{
-			"$id": "https://bostonography.com/2012/crowdsourced-neighborhood-boundaries-part-one-consensus/",
-			"title": "Crowdsourced Neighborhood Boundaries",
-			"author": "Andy Woodruff",
-			"publisher": "Bostonography",
-			"datePublished": "2012-07-02"
+		"publishedWorks": [
+			{
+				"$id": "https://www.wbur.org/bostonomix/2019/07/08/south-end-roxbury-gentrification-concerns-some-residents",
+				"title": "'It Is Erasing Our History': New Development Blurs Boundaries",
+				"author": "Miranda Suarez",
+				"publisher": "Bostonography",
+				"datePublished": "2019-07-08"
+			},
+			{
+				"$id": "https://bostonography.com/2012/crowdsourced-neighborhood-boundaries-part-one-consensus/",
+				"title": "Crowdsourced Neighborhood Boundaries",
+				"author": "Andy Woodruff",
+				"publisher": "Bostonography",
+				"datePublished": "2012-07-02"
 		}]
 	}
 }

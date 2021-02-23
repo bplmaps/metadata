@@ -1,0 +1,150 @@
+{
+	"citation": {
+		"$id": "ark:/76611/dkk6snnbl",
+		"title": "Historic Massachusetts Town Corners - LMEC",
+		"recordType": "",
+		"collectionItems": [],
+		"shortDescription": "",
+		"fullDescription":"",
+		"keyAttributes": [""],
+		"dataTypes": [""],
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
+			"lowerCorner": [-73.508210, 41.239062],
+			"upperCorner": [-69.928093, 42.886778]
+		},
+		"accessCondition": ""
+	},
+	"endpoints": [{
+		"$id": "",
+		"accessURL": "",
+		"title": "",
+		"source": "",
+		"format": "",
+		"suggested": true
+	}],
+	"filterTagging": {
+		"thematic": {
+			"LCSH": [{
+				"authorityName": "LCSH",
+				"authorityID": "http://id.loc.gov/authorities/subjects.html",
+				"subjectTag": ""
+			}]
+		},
+		"geographic":  [{
+			"authorityName": "geonames",
+			"authorityID": "http://www.geonames.org/ontology#",
+			"valueID": "http://sws.geonames.org/6254926",
+			"placeTag": "Massachusetts"
+		}],
+		"temporal": {
+			"temporalNotes": "",
+			"temporalRepresentation": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "",
+				"singleDate": "",
+				"rangeStart": "",
+				"rangeEnd": ""
+			},
+			"temporalPublication": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "",
+				"rangeStart": "",
+				"rangeEnd": ""
+			}
+		}
+	},
+	"peopleLifecycle": {
+		"acquisition": {
+			"ingredients": [{
+				"$id": "",
+				"notes": ""
+			}]
+		},
+		"description": {
+			"contextProvider": {
+				"name": "",
+				"relationshipToData": ""
+			},
+			"contextOnBehalfOf": {
+				"name": "",
+				"relationshipToData": ""
+			},
+			"contextPublicationDate": "",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+			}
+
+		},
+		"maintenance": {
+			"officialMaintainer": "",
+			"maintenanceFrequency": ""
+		},
+		"processing": {
+			"steps": "",
+			"choices": [{
+				"accessURL": "",
+				"format": "",
+				"title": "",
+				"author": ""
+			}],
+			"tools": [{
+				"accessURL": "",
+				"format": "",
+				"title": "",
+				"author": ""
+			}]
+		}
+	},
+	"documentationHealth": {
+		"representation":{
+			"healthScore": 5,
+			"healthEvaluation": ""
+		},
+		"publicTrust":{
+			"healthScore": 5,
+			"healthEvaluation": ""
+		},
+		"systemicInjustice":{
+			"healthScore": 5,
+			"healthEvaluation": ""
+		},
+		"origins":{
+			"healthScore": 5,
+			"healthEvaluation": ""
+		},
+		"futureUse":{
+			"healthScore": 5,
+			"healthEvaluation": ""
+		}
+	},
+	"relatedResources": {
+		"documentation": [{
+			"$id": "",
+			"title": "",
+			"maintainedBy": "",
+			"notes": ""
+		}],
+		"codebooks": [{
+			"$id": "",
+			"title": "",
+			"maintainedBy": "",
+			"notes": ""
+		}],
+		"publishedWorks": [{
+			"$id": "",
+			"title": "",
+			"author": "",
+			"publisher": "",
+			"datePublished": ""
+		}],
+		"tutorials": [{
+			"$id": "",
+			"title": "",
+			"maintainedBy": "",
+			"notes": ""
+		}]
+	}
+}
