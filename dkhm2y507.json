@@ -17,7 +17,7 @@
 	"endpoints": [
 		{
 			"$id": "ark:/76611/dkhm2y507/endpoint/1",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/endpoints/TransitMode.geojson",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/dataEndpoints/TransitMode.geojson",
 			"title": "Boston Modes of Transportation GeoJSON",
 			"source": "Leventhal Map & Education Center",
 			"format": "GeoJSON",
@@ -25,7 +25,7 @@
 		},
 		{
 			"$id": "ark:/76611/dkhm2y507/endpoint/2",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/endpoints/ToJoin.csv",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2y507/dataEndpoints/ToJoin.csv",
 			"title": "Boston Modes of Transportation Statistical Tables",
 			"source": "Leventhal Map & Education Center",
 			"format": "CSV"
