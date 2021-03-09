@@ -1,5 +1,5 @@
 {
-	"citation": {
+	"core": {
 		"$id": "ark:/76611/dkgsk7g8m",
 		"title": "Massachusetts Town Boundaries",
 		"recordType": "Dataset",
@@ -14,14 +14,14 @@
 		},
 		"accessCondition": "This item is in the public domain. There are no restrictions on use."
 	},
-	"endpoints":[{
+	"access":[{
 		"$id": "ark:/76611/dkgsk7g8m/endpoint/1",
 		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsk7g8m/mass-municipalities.geojson",
 		"title": "Massachusetts Town Boundaries GeoJSON",		
 		"source": "Leventhal Map & Education Center",
 		"format": "GeoJSON"
 	}],
-	"filterTagging": {
+	"tags": {
 		"thematic": {
 			"LCSH": [{
 					"authorityName": "LCSH",
@@ -65,7 +65,7 @@
 			}
 		}
 	},
-	"peopleLifecycle": {
+	"lifecycle": {
 		"acquisition": {
 			"creator": "Leventhal Map & Education Center",
 			"ingredients": [{
@@ -101,7 +101,20 @@
 			}]
 		}
 	},
-	"relatedResources": {
+	"considerations":{
+		"machineReadability": {
+			"value": 0,
+			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		},
+		"humanReadability":{
+			"value": 1
+		},
+		"socialEmbeddedness":{
+			"value": 2,
+			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		}
+	},
+	"resources": {
 		"tutorials": [
 			{
 				"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",

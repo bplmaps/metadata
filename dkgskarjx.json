@@ -1,5 +1,5 @@
 {
-	"citation": {
+	"core": {
 		"$id": "ark:/76611/dkgskarjx",
 		"title": "Massachusetts Town Boundaries",
 		"recordType": "Dataset",
@@ -13,14 +13,14 @@
 		},
 		"accessCondition": "This item is in the public domain. There are no restrictions on use."
 	},
-	"endpoints": [{
+	"access": [{
 		"$id": "ark:/76611/dkgskarjx/endpoint/1",
 		"accessURL": "http://download.massgis.digital.mass.gov/shapefiles/state/townssurvey_shp.zip",
 		"title": "Massachusetts Town Boundaries Zipped Shapefile",
 		"source": "MassGIS",
 		"format": "Zipped Shapefile"
 	}],
-	"filterTagging": {
+	"tags": {
 		"thematic": {
 			"LCSH": [{
 					"authorityName": "LCSH",
@@ -64,7 +64,7 @@
 			}
 		}
 	},
-	"peopleLifecycle": {
+	"lifecycle": {
 		"acquisition":{
 			"creator": "MassGIS"
 		},
@@ -84,7 +84,20 @@
 			"maintenanceFrequency": "This dataset is updated frequently, roughly once a year, at no regular interval. Maintenance notes with all versions can be found in the codebook."
 		}
 	},
-	"relatedResources": {
+	"considerations":{
+		"machineReadability": {
+			"value": 0,
+			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		},
+		"humanReadability":{
+			"value": 1
+		},
+		"socialEmbeddedness":{
+			"value": 2,
+			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		}
+	},
+	"resources": {
 		"codebooks": [{
 			"$id": "https://docs.digital.mass.gov/dataset/massgis-data-community-boundaries-towns-survey-points",
 			"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",

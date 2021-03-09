@@ -1,5 +1,5 @@
 {
-	"citation": {
+	"core": {
 		"$id": "ark:/76611/dkhq7glpx",
 		"title": "Boston Neighborhood Boundaries",
 		"recordType": "Dataset",
@@ -13,7 +13,7 @@
 		},
 		"accessCondition": "This item is in the public domain. There are no restrictions on use."
 	},
-	"endpoints": [
+	"access": [
 		{
 			"$id": "ark:/76611/dkhq7glpx/endpoint/1",
 			"accessURL": "http://mapservices.bostonredevelopmentauthority.org/arcproxy/arcgis/rest/services/Maps/Bos_Neighborhoods_2018/mapserver/0",
@@ -37,7 +37,7 @@
 			"suggested": true
 		}
 	],
-	"filterTagging": {
+	"tags": {
 		"thematic": {
 			"LCSH": [{
 				"authorityName": "LCSH",
@@ -65,7 +65,7 @@
 			}
 		}
 	},
-	"peopleLifecycle": {
+	"lifecycle": {
 		"acquisition":{
 			"creator": "Analyze Boston"
 		},
@@ -85,7 +85,20 @@
 			"maintenanceFrequency": "This dataset is missing information about how frequently it is updated"
 		}
 	},
-	"relatedResources":{
+	"considerations":{
+		"machineReadability": {
+			"value": 0,
+			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		},
+		"humanReadability":{
+			"value": 1
+		},
+		"socialEmbeddedness":{
+			"value": 2,
+			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		}
+	},
+	"resources":{
 		"documentation": [{
 			"$id": "https://bostonopendata-boston.opendata.arcgis.com/datasets/3525b0ee6e6b427f9aab5d0a1d0a1a28_0",
 			"title": "Boston Neighborhoods Official Dataset",

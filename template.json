@@ -1,5 +1,5 @@
 {
-	"citation": {
+	"core": {
 		"$id": "",
 		"title": "",
 		"recordType": "",
@@ -15,15 +15,7 @@
 		},
 		"accessCondition": ""
 	},
-	"endpoints": [{
-		"$id": "",
-		"accessURL": "",
-		"title": "",
-		"source": "",
-		"format": "",
-		"suggested": true
-	}],
-	"filterTagging": {
+	"tags": {
 		"thematic": {
 			"LCSH": [{
 				"authorityName": "LCSH",
@@ -55,7 +47,15 @@
 			}
 		}
 	},
-	"peopleLifecycle": {
+	"access": [{
+		"$id": "",
+		"accessURL": "",
+		"title": "",
+		"source": "",
+		"format": "",
+		"suggested": true
+	}],
+	"lifecycle": {
 		"creator": "",
 		"acquisition": {
 			"ingredients": [{
@@ -99,29 +99,21 @@
 			}]
 		}
 	},
-	"documentationHealth": {
-		"representation":{
-			"healthScore": 5,
-			"healthEvaluation": ""
+	"considerations":{
+		"machineReadability":{
+			"value": 0,
+			"notes": ""
 		},
-		"publicTrust":{
-			"healthScore": 5,
-			"healthEvaluation": ""
+		"humanReadability":{
+			"value": 0,
+			"notes": ""
 		},
-		"systemicInjustice":{
-			"healthScore": 5,
-			"healthEvaluation": ""
-		},
-		"origins":{
-			"healthScore": 5,
-			"healthEvaluation": ""
-		},
-		"futureUse":{
-			"healthScore": 5,
-			"healthEvaluation": ""
+		"socialEmbeddedness":{
+			"value": 0,
+			"notes": ""
 		}
 	},
-	"relatedResources": {
+	"resources": {
 		"documentation": [{
 			"$id": "",
 			"title": "",

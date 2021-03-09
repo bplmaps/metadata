@@ -1,5 +1,5 @@
 {
-	"citation": {
+	"core": {
 		"$id": "ark:/76611/dkhqhgkkt",
 		"title": "American Community Survey Statistical Tables",
 		"recordType": "Dataset",
@@ -7,7 +7,7 @@
 		"fullDescription": " \n \n  - The American Community Survey (ACS) is a demographic data collection effort that is continuously being carried out by the U.S. Census Bureau \n  - Results of the survey are released every year by the U.S. Census Bureau \n  - Results are made available at different time scales: 1-year, 3-year, and 5-year estimates \n  - Instead of sharing personal information about each individual who responds, the U.S. Census Bureau **aggregates** survey responses to broader geographic units, in order to protect individual's privacy \n  - You can download these statistical tables which are aggregated to different geographic scales, including: states, counties, zip codes, tracts and block groups  \n  - The ACS survey results are maintained in massive databases hosted by the U.S. Census Bureau and other authorized data providers \n  - To download the data, you will need to first decide which time period, geographic unit, and statistical theme you wish to work with \n  - Once you know these filters, you can use an extract tool to download the data you want, such as [data.census.gov](https://data.census.gov/cedsci/), or the more user and GIS-friendly [National Historic GIS (NHGIS)](https://www.nhgis.org/)",
 		"accessCondition": "This data is in the public domain. There are no restrictions on access."
 	},
-	"filterTagging": {
+	"tags": {
 		"thematic": {
 			"LCSH": [{
 					"authorityName": "LCSH",
@@ -40,7 +40,7 @@
 			"temporalNotes": "Census data, while dating back to the 1790s, was collected in slightly different ways for every census year. This means that the way census geographies and demographic categories are available is subject to nuance, depending on which year you are looking for. NHGIS.org has this handy documentation that includes data availability tables for any given census year: https://nhgis.org/user-resources/data-availability"
 		}
 	},
-	"peopleLifecycle": {
+	"lifecycle": {
 		"acquisition":{
 			"creator":"United States Census Bureau"
 		},
@@ -58,29 +58,20 @@
 		"maintenance": {
 			"officialMaintainer": "United States Census Bureau"		}
 	},
-	"documentationHealth": {
-		"representation":{
-			"healthScore": 3,
-			"healthEvaluation": "Official census documentation details how survey questions were first developed. It describes how ACS project designers first included stakeholders in that process. \n \n When it comes to future data collection and survey design, there is less information. The documentation does not address plans to include those the the data is most likely to affect."		
+	"considerations":{
+		"machineReadability": {
+			"value": 0,
+			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 		},
-		"publicTrust":{
-			"healthScore": 3,
-			"healthEvaluation": "Census documentation is clear about methods used for anonymizing and participant privacy. It discusses the challenges of grouping or [aggregating](http://wiki.gis.com/wiki/index.php/Aggregation) survey responses into homogenous areas. It acknowledges Census Bureau reasoning for why the survey is mandatory. It explains why the data is beneficial to society. \n \n The documentation does not address how the Census Bureau understands participant consent. It is not clear if all participants understand how their data will be used. "		
+		"humanReadability":{
+			"value": 1
 		},
-		"systemicInjustice":{
-			"healthScore": 0,
-			"healthEvaluation": "The documentation does not reflect on the ways the data program is at risk for repeating past harms. It does not describe the ways in which U.S. census data collection has considered its relationship and contribution to systemic injustice."		
-		},
-		"origins": {
-			"healthScore": 4,
-			"healthEvaluation": "Official census documentation describes all technical methods used to produce the survey data. Census annual budgets are public and discoverable. \n \n There are not easy-to-find public materials explaining the budgeting process for everyday citizens."
-		},
-		"futureUse":{
-			"healthScore": 3,
-			"healthEvaluation": "Documentation is clear about potential positive impact from the data. Public materials also outline future funding dependent on this data program. \n \n There is not discoverable information about potential negative impact. The documentation could be more clear how someone should and should not use the data. There are not accessible guides about known limitations for any given set of census data."		
+		"socialEmbeddedness":{
+			"value": 2,
+			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
 		}
 	},
-	"relatedResources": {
+	"resources": {
 		"documentation": [
 		{
 			"$id": "https://assets.nhgis.org/original-data/acs/acs_summary-file_handbook_2019.pdf",

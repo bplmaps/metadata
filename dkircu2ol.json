@@ -1,5 +1,5 @@
 {
-	"citation": {
+	"core": {
 		"$id": "ark:/76611/dkircu2ol",
 		"title": "Historic Boston Shoreline",
 		"recordType": "Dataset",
@@ -13,7 +13,7 @@
 		},
 		"accessCondition": "This item is in the public domain. There are no restrictions on use."
 	},
-	"endpoints": [
+	"access": [
 		{
 			"$id": "ark:/76611/dkircu2ol/endpoint/1",
 			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/land.geojson",
@@ -29,7 +29,7 @@
 			"format": "GeoJSON"
 		}
 	],
-	"filterTagging": {
+	"tags": {
 		"thematic": {
 			"LCSH": [{
 				"authorityName": "LCSH",
@@ -81,7 +81,7 @@
 			}
 		}
 	},
-	"peopleLifecycle": {
+	"lifecycle": {
 		"acquisition": {
 			"creator": "Leventhal Map & Education Center",
 			"ingredients": [{
@@ -118,7 +118,20 @@
 			}]
 		}
 	},
-	"relatedResources": {
+	"considerations":{
+		"machineReadability": {
+			"value": 0,
+			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		},
+		"humanReadability":{
+			"value": 1
+		},
+		"socialEmbeddedness":{
+			"value": 2,
+			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+		}
+	},
+	"resources": {
 		"publishedWorks": [{
 				"title": "The Atlas of Boston History",
 				"author": "Nancy Seasholes",
