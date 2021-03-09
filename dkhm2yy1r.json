@@ -18,7 +18,7 @@
 	"access": [
 		{
 			"$id": "ark:/76611/dkhm2yy1r/endpoint/1",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/endpoints/MedianValues.geojson",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/dataEndpoints/MedianValues.geojson",
 			"title": "Median Housing Value Change GeoJSON",
 			"source": "Leventhal Map & Education Center",
 			"format": "GeoJSON",
@@ -26,14 +26,14 @@
 		},
 		{
 			"$id": "ark:/76611/dkhm2yy1r/endpoint/2",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/endpoints/ToJoin2010.csv",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/dataEndpoints/ToJoin2010.csv",
 			"title": "Median Housing Value 2010 Statistical Tables",
 			"source": "Leventhal Map & Education Center",
 			"format": "CSV"
 		},
 		{
 			"$id": "ark:/76611/dkhm2yy1r/endpoint/3",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/endpoints/ToJoin2018.csv",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/dataEndpoints/ToJoin2018.csv",
 			"title": "Median Housing Value 2018 Statistical Tables",
 			"source": "Leventhal Map & Education Center",
 			"format": "CSV"

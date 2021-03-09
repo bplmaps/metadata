@@ -17,14 +17,14 @@
 	"access": [
 		{
 			"$id": "ark:/76611/dkhm2yhrb/endpoint/1",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/endpoints/InternetAccess.geojson",			"title": "Internet Access in Boston GeoJSON",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/dataEndpoints/InternetAccess.geojson",			"title": "Internet Access in Boston GeoJSON",
 			"source": "Leventhal Map & Education Center",
 			"format": "GeoJSON",
 			"suggested": true
 		},
 		{
 			"$id": "ark:/76611/dkhm2yhrb/endpoint/2",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/endpoints/ToJoin.csv",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yhrb/dataEndpoints/ToJoin.csv",
 			"title": "Internet Access in Boston Statistical Tables",
 			"source": "Leventhal Map & Education Center",
 			"format": "CSV"

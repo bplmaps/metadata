@@ -17,7 +17,7 @@
 	"access": [
 		{
 			"$id": "ark:/76611/dkhm2954o/endpoint/1",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/endpoints/Rents.geojson",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/dataEndpoints/Rents.geojson",
 			"title": "Boston Rent GeoJSON",
 			"source": "Leventhal Map & Education Center",
 			"format": "GeoJSON",
@@ -25,7 +25,7 @@
 		},
 		{
 			"$id": "ark:/76611/dkhm2954o/endpoint/2",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/endpoints/ToJoin.csv",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/dataEndpoints/ToJoin.csv",
 			"title": "Boston Rent Statistical Tables",
 			"source": "Leventhal Map & Education Center",
 			"format": "CSV"
