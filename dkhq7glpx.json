@@ -110,14 +110,16 @@
 				"title": "'It Is Erasing Our History': New Development Blurs Boundaries",
 				"author": "Miranda Suarez",
 				"publisher": "WBUR",
-				"datePublished": "2019-07-08"
+				"datePublished": "2019-07-08",
+				"format": "Article"
 			},
 			{
 				"$id": "https://bostonography.com/2012/crowdsourced-neighborhood-boundaries-part-one-consensus/",
 				"title": "Crowdsourced Neighborhood Boundaries",
 				"author": "Andy Woodruff",
 				"publisher": "Bostonography",
-				"datePublished": "2012-07-02"
+				"datePublished": "2012-07-02",
+				"format": "Article"
 		}]
 	}
 }

@@ -126,14 +126,16 @@
 			"title": "Plenty of free wi-fi is keeping Boston connected!",
 			"author": "Huffman, Daniel P.",
 			"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
-			"datePublished": "2020"
+			"datePublished": "2020",
+			"format": "Map"
 		},
 		{
 			"$id": "https://collections.leventhalmap.org/search/commonwealth:3x817744n",
 			"title": "Disconnected : Boston's free wi-fi leaves many in the dark",
 			"author": "Huffman, Daniel P.",
 			"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
-			"datePublished": "2020"
+			"datePublished": "2020",
+			"format": "Map"
 		}]
 	}
 }
