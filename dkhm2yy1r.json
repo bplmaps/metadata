@@ -81,7 +81,7 @@
 	},
 	"lifecycle": {
 		"acquisition": {
-			"creator": "Leventhal Map & Education Center",
+			"creator": "United States Census Bureau",
 			"ingredients": [{
 					"$id": "ark:/76611/dkhqbwezw",
 					"notes": "This census tract geography data was joined to census statistical demographic data"
