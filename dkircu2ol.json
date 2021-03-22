@@ -3,6 +3,7 @@
 		"$id": "ark:/76611/dkircu2ol",
 		"title": "Historic Boston Shoreline",
 		"recordType": "Dataset",
+		"excludeIndex": false,
 		"shortDescription": "Standardized boundaries of historic shoreline; geography covers the City of Boston and parts of Cambridge, Somerville, Chelsea and Winthrop; time period covers 1630-present in a series of temporal snapshots",
 		"fullDescription": "This dataset represents the extents of Boston's historic shoreline. It covers the City of Boston and includes some parts of Cambridge, Somerville, Chelsea and Winthrop. This data is structured as temporal snapshots capturing the shoreline extent at different years. The years included in the dataset are 1635, 1795, 1852, 1880, 1916, 1934, 1950, 1995 and the present day. Different versions of this data have existed in the past, digitally 'hand-drawn' by cartographers creating maps for print publications. The datasets used to create these maps until now haven't been archived in GIS-compatible formats. This LMEC-maintained dataset is a stable, standardized GIS boundary file of historic shoreline extents. The LMEC has standardized and preserved data submitted by cartographers working on the Atlas of Boston History book project.",
 		"dataTypes": ["MultiPolygon"],
