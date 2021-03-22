@@ -3,6 +3,7 @@
 		"$id": "",
 		"title": "",
 		"recordType": "",
+		"excludeIndex": true,
 		"collectionItems": [],
 		"shortDescription": "",
 		"fullDescription":"",
