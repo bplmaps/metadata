@@ -104,15 +104,15 @@
 	},
 	"considerations":{
 		"machineReadability": {
-			"value": 0,
-			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+			"value": 3,
+			"notes": "Cleaned up by the LMEC to support joins with census data"
 		},
 		"humanReadability":{
-			"value": 1
+			"value": 2
 		},
 		"socialEmbeddedness":{
-			"value": 2,
-			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+			"value": 0,
+			"notes": "No available information from publisher"
 		}
 	},
 	"resources": {
