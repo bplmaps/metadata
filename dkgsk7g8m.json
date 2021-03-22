@@ -104,11 +104,11 @@
 	},
 	"considerations":{
 		"machineReadability": {
-			"value": 3,
+			"value": 2,
 			"notes": "Cleaned up by the LMEC to support joins with census data"
 		},
 		"humanReadability":{
-			"value": 2
+			"value": 1
 		},
 		"socialEmbeddedness":{
 			"value": 0,
