@@ -100,15 +100,13 @@
 	},
 	"considerations":{
 		"machineReadability": {
-			"value": 0,
-			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-		},
-		"humanReadability":{
 			"value": 1
 		},
+		"humanReadability":{
+			"value": 0
+		},
 		"socialEmbeddedness":{
-			"value": 2,
-			"notes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+			"value": 0
 		}
 	},
 	"resources": {
