@@ -64,8 +64,8 @@
 		}
 	],
 	"lifecycle": {
-		"creator": "Leventhal Map & Education Center",
 		"acquisition": {
+			"creator": "Leventhal Map & Education Center",
 			"ingredients": [{
 				"$id": "ark:/76611/dkmngo8tu",
 				"notes": "MassDOT source data, which LMEC cleaned up for easier access and to point to corner image files"
