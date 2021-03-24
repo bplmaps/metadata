@@ -1,0 +1,134 @@
+{
+	"core": {
+		"$id": "ark:/76611/dkk6snnbl",
+		"title": "Massachusetts Town Corners",
+		"recordType": "Dataset",
+		"excludeIndex": false,
+		"shortDescription": "Locations of Massachusetts town boundary survey points linking to historical atlas inset maps; geography covers the state of Massachusetts; time period reflects the present",
+		"fullDescription":"This dataset represents the locations of Massachusetts town boundary survey points. Each feature includes an image of a map from historical town boundary atlases. The geography covers the state of Massachusetts. The data reflects the current day, but links out to atlases created in the early 20th century. The Massachusetts Department of Transportation (MassDOT) created this dataset with attribute data pointing to atlases scanned by the State Library of Massachusetts (SLM). The LMEC has prepared this dataset for easier public use and created a webmap for discovery. ",
+		"keyAttributes": ["MassDOT Designation", "Corner Image", "Historic Atlas"],
+		"dataTypes": ["Point"],
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
+			"lowerCorner": [-73.508211, 41.313557],
+			"upperCorner": [-69.928044, 42.886786]
+		},
+		"accessCondition": "This item is in the public domain. There are no restrictions on use."
+	},
+	"tags": {
+		"thematic": {
+			"LCSH": [
+				{
+					"authorityName": "LCSH",
+					"authorityID": "https://id.loc.gov/authorities/subjects/sh2009119813.html",
+					"subjectTag": "Cities and towns--Massachusetts--Maps"
+				},
+				{
+					"authorityName": "LCSH",
+					"authorityID": "https://id.loc.gov/authorities/subjects/sh2019102719.html",
+					"subjectTag": "Triangulation stations"
+				},
+				{
+					"authorityName": "LCSH",
+					"authorityID": "https://id.loc.gov/authorities/subjects/sh85130857.html",
+					"subjectTag": "Cities and towns--Surveying"
+				}
+			]
+		},
+		"geographic":  [{
+			"authorityName": "geonames",
+			"authorityID": "http://www.geonames.org/ontology#",
+			"valueID": "http://sws.geonames.org/6254926",
+			"placeTag": "Massachusetts"
+		}],
+		"temporal": {
+			"temporalRepresentation": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "2019"
+			},
+			"temporalPublication": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "2021"
+			}
+		}
+	},
+	"access": [
+		{
+			"$id": "ark:/76611/dkk6snnbl/endpoint/1",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkk6snnbl/TownCorners.geojson",
+			"title": "Town Corners GeoJSON",
+			"source": "Leventhal Map & Education Center",
+			"format": "GeoJSON"
+		}
+	],
+	"lifecycle": {
+		"creator": "Leventhal Map & Education Center",
+		"acquisition": {
+			"ingredients": [{
+				"$id": "ark:/76611/dkmngo8tu",
+				"notes": "MassDOT source data, which LMEC cleaned up for easier access and to point to corner image files"
+			}]
+		},
+		"description": {
+			"contextProvider": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
+			},
+			"contextOnBehalfOf": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Cleaner/Processor"
+			},
+			"contextPublicationDate": "2021-03-24",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+			}
+		},
+		"maintenance": {
+			"officialMaintainer": "Leventhal Map & Education Center",
+			"maintenanceFrequency": "This dataset is never updated"
+		},
+		"processing": {
+			"steps": "\n \n 1. Acquire source imagery from MassDOT \n 2. Host copies of the imagery \n 3. Clean up the original point file data, editing out some of the MassDOT-specific technical fields \n 4. Perform minor cleanup of image file names for consistency \n 5. Remove records which do not have associated historical imagery",
+			"choices": [{
+				"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkk6snnbl/README.txt",
+				"format": "Plain-text README",
+				"title": "LMEC's Town Corners Workflow",
+				"author": "Belle Lipton"
+			}]
+		}
+	},
+	"considerations":{
+		"machineReadability":{
+			"value": 2
+		},
+		"humanReadability":{
+			"value": 2
+		},
+		"socialEmbeddedness":{
+			"value": 0
+		}
+	},
+	"resources": {
+		"publishedWorks": [
+			{
+				"$id": "https://geoservices.leventhalmap.org/town-corners/",
+				"title": "Town Corners Webmap",
+				"author": "Belle Lipton",
+				"publisher": "Leventhal Map & Education Center",
+				"datePublished": "2021-03-19",
+				"format": "Discovery Webmap"
+			},
+			{
+				"$id": "https://www.leventhalmap.org/articles/massdot-town-corners/",
+				"title": "Get to Know Your Data: A Conversation with MassDOT",
+				"author": "Belle Lipton",
+				"publisher": "Leventhal Map & Education Center",
+				"datePublished": "2021-03-19",
+				"format": "Article"
+			}
+		]
+	}
+}

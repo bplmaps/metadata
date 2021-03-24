@@ -102,16 +102,13 @@
 	},
 	"considerations":{
 		"machineReadability":{
-			"value": 0,
-			"notes": ""
+			"value": 0
 		},
 		"humanReadability":{
-			"value": 0,
-			"notes": ""
+			"value": 0
 		},
 		"socialEmbeddedness":{
-			"value": 0,
-			"notes": ""
+			"value": 0
 		}
 	},
 	"resources": {

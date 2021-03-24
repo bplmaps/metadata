@@ -1,0 +1,114 @@
+{
+	"core": {
+		"$id": "ark:/76611/dkmngo8tu",
+		"title": "Massachusetts Town Corners",
+		"recordType": "Dataset",
+		"excludeIndex": true,
+		"shortDescription": "Locations of Massachusetts town boundary survey points; geography covers the state of Massachusetts; time period reflects the present",
+		"fullDescription":"This dataset represents the locations of Massachusetts town boundary survey points. The geography covers the state of Massachusetts. The data reflects the current day. The Massachusetts Department of Transportation (MassDOT) created and maintains this dataset. The LMEC has included this dataset as source for the [improved LMEC town corners dataset](http://n2t.net/ark:/76611/dkk6snnbl).",
+		"keyAttributes": ["Corner Name", "Historic Atlas"],
+		"dataTypes": ["Point"],
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
+			"lowerCorner": [-73.508211, 41.313557],
+			"upperCorner": [-69.928044, 42.886786]
+		},
+		"accessCondition": "This item is in the public domain. There are no restrictions on use."
+	},
+	"tags": {
+		"thematic": {
+			"LCSH": [
+				{
+					"authorityName": "LCSH",
+					"authorityID": "https://id.loc.gov/authorities/subjects/sh2009119813.html",
+					"subjectTag": "Cities and towns--Massachusetts--Maps"
+				},
+				{
+					"authorityName": "LCSH",
+					"authorityID": "https://id.loc.gov/authorities/subjects/sh2019102719.html",
+					"subjectTag": "Triangulation stations"
+				},
+				{
+					"authorityName": "LCSH",
+					"authorityID": "https://id.loc.gov/authorities/subjects/sh85130857.html",
+					"subjectTag": "Cities and towns--Surveying"
+				}
+			]
+		},
+		"geographic":  [{
+			"authorityName": "geonames",
+			"authorityID": "http://www.geonames.org/ontology#",
+			"valueID": "http://sws.geonames.org/6254926",
+			"placeTag": "Massachusetts"
+		}],
+		"temporal": {
+			"temporalRepresentation": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "2019"
+			},
+			"temporalPublication": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "2019"
+			}
+		}
+	},
+	"access": [{
+		"$id": "ark:/76611/dkmngo8tu/endpoint/1",
+		"accessURL": "https://opendata.arcgis.com/datasets/e1a9ce19ec8d4b8ab3074918fbf1b34d_0.zip?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D",
+		"title": "Town Corners Zipped Shapefile",
+		"source": "MassDOT",
+		"format": "Zipped Shapefile"
+	}],
+	"lifecycle": {
+		"creator": "MassDOT",
+		"description": {
+			"contextProvider": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
+			},
+			"contextOnBehalfOf": {
+				"name": "MassDOT",
+				"relationshipToData": "Creator"
+			},
+			"contextPublicationDate": "2021-03-24",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+			}
+
+		},
+		"maintenance": {
+			"officialMaintainer": "MassDOT",
+			"maintenanceFrequency": "As needed"
+		}
+	},
+	"considerations":{
+		"machineReadability":{
+			"value": 1
+		},
+		"humanReadability":{
+			"value": 1
+		},
+		"socialEmbeddedness":{
+			"value": 0
+		}
+	},
+	"resources": {
+		"documentation": [{
+			"$id": "https://www.arcgis.com/sharing/rest/content/items/e1a9ce19ec8d4b8ab3074918fbf1b34d/info/metadata/metadata.xml?format=default&output=html",
+			"title": "Town Corners",
+			"maintainedBy": "MassDOT",
+			"notes": "This metadata record contains helpful field descriptions"
+		}],
+		"publishedWorks": [{
+			"$id": "https://www.leventhalmap.org/articles/massdot-town-corners/",
+			"title": "Get to Know Your Data: A Conversation with MassDOT",
+			"author": "Belle Lipton",
+			"publisher": "Leventhal Map & Education Center",
+			"datePublished": "2021-03-19",
+			"format": "Article"
+		}]
+	}
+}
