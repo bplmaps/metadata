@@ -5,8 +5,8 @@
 		"title": "Percent of People Who are Foreign-Born Living in Boston",
 		"recordType": "Dataset",
 		"excludeIndex": false,
-		"shortDescription": "Percent foreign born aggregated to the census tract level; geography covers the City of Boston; time period covers 2014-2018 as a five year average",
-		"fullDescription": "This data represents the foreign born population living in Boston. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study demographics in Boston. The geography covers the City of Boston. The time coverage reflects 2014-2018 as a five-year average. ",
+		"shortDescription": "Percent foreign-born aggregated to the census tract level; geography covers the City of Boston; time period covers 2014-2018 as a five year average",
+		"fullDescription": "This data represents the foreign-born population living in Boston. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study demographics in Boston. The geography covers the City of Boston. The time coverage reflects 2014-2018 as a five-year average. ",
 		"keyAttributes": ["Percent Foreign Born"],
 		"dataTypes": ["MultiPolygon"],
 		"bboxPreview": {
