@@ -57,7 +57,10 @@
 					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"subjectTag": "Gentrification"
 				}
-			]
+			],
+			"freeSubjectTags":[{
+				"subjectTag": "Teaching collections"
+			}]
 		},
 		"geographic":  [{
 			"authorityName": "geonames",

@@ -33,17 +33,22 @@
 	],
 	"tags": {
 		"thematic": {
-			"LCSH": [{
-				"authorityName": "LCSH",
-				"authorityID": "http://id.loc.gov/authorities/subjects.html",
-				"subjectTag": "Internet access"
-			},
-			{
-				"authorityName": "LCSH",
-				"authorityID": "http://id.loc.gov/authorities/subjects.html",
-				"subjectTag": "Internet"
-			}
-		]},
+			"LCSH": [
+				{
+					"authorityName": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"subjectTag": "Internet access"
+				},
+				{
+					"authorityName": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"subjectTag": "Internet"
+				}
+			],
+			"freeSubjectTags":[{
+				"subjectTag": "Teaching collections"
+			}]
+		},
 		"geographic": [{
 			"authorityName": "geonames",
 			"authorityID": "http://www.geonames.org/ontology#",

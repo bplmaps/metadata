@@ -44,7 +44,10 @@
 					"authorityID": "http://id.loc.gov/authorities/subjects.html",
 					"subjectTag": "Housing"
 				}
-			]
+			],
+			"freeSubjectTags":[{
+				"subjectTag": "Teaching collections"
+			}]
 		},
 		"geographic": [{
 			"authorityName": "geonames",
