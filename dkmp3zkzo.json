@@ -99,7 +99,7 @@
 			"maintenanceFrequency": "This dataset is never updated"		
 		},
 		"processing": {
-			"steps": "\n \n 1. We downloaded statistics about median home value from a census data download tool \n 2. We also downloaded census tract GIS boundary files from the same tool \n 3. We edited the data tables to only include important information about the topic of study \n 4. We renamed columns with human-readable column headers \n 5. We documented the new names in a codebook \n 6. We combined the new data tables to the GIS boundary files using GIS software to create the final dataset"
+			"steps": "\n \n 1. We downloaded statistics about foreign-born population from a census data download tool \n 2. We also downloaded census tract GIS boundary files from the same tool \n 3. We edited the data tables to only include important information about the topic of study \n 4. We renamed columns with human-readable column headers \n 5. We documented the new names in a codebook \n 6. We combined the new data tables to the GIS boundary files using GIS software to create the final dataset"
 		}
 	},
 	"considerations":{
