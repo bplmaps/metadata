@@ -1,0 +1,142 @@
+
+{
+	"core": {
+		"$id": "ark:/76611/dkmp3zkzo",
+		"title": "Percent of People Who are Foreign-Born Living in Boston",
+		"recordType": "Dataset",
+		"excludeIndex": false,
+		"shortDescription": "Percent foreign born aggregated to the census tract level; geography covers the City of Boston; time period covers 2014-2018 as a five year average",
+		"fullDescription": "This data represents the foreign born population living in Boston. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study demographics in Boston. The geography covers the City of Boston. The time coverage reflects 2014-2018 as a five-year average. ",
+		"keyAttributes": ["Percent Foreign Born"],
+		"dataTypes": ["MultiPolygon"],
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
+			"lowerCorner": [-71.191154, 42.227925],
+			"upperCorner": [-70.958796, 42.450117]
+		},
+		"accessCondition": "This dataset is in the public domain. There are no restrictions on use."
+	},
+	"access": [
+		{
+			"$id": "ark:/76611/dkmp3zkzo/endpoint/1",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmp3zkzo/dataEndpoints/ForeignBorn.geojson",
+			"title": "Percent Foreign Born GeoJSON",
+			"source": "Leventhal Map & Education Center",
+			"format": "GeoJSON",
+			"suggested": true
+		},
+		{
+			"$id": "ark:/76611/dkmp3zkzo/endpoint/2",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmp3zkzo/dataEndpoints/ForeignBorn.csv",
+			"title": "Percent Foreign Born Statistical Tables",
+			"source": "Leventhal Map & Education Center",
+			"format": "CSV"
+		}
+	],
+	"tags": {
+		"thematic": {
+			"LCSH": [{
+					"authorityName": "LCSH",
+					"authorityID": "https://id.loc.gov/authorities/subjects/sh85064517.html",
+					"subjectTag": "Foreign-born population"
+				}
+			],
+			"freeSubjectTags":[{
+				"subjectTag": "Teaching collections"
+			}]
+		},
+		"geographic": [{
+			"authorityName": "geonames",
+			"authorityID": "http://www.geonames.org/ontology#",
+			"valueID": "http://www.geonames.org/4930956/boston.html",
+			"placeTag": "Boston"
+		}],
+		"temporal": {
+			"temporalNotes": "This project reflects 2014-2018 American Community Survey estimates.",
+			"temporalRepresentation": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "range",
+				"rangeStart": "2014",
+				"rangeEnd": "2018"
+			},
+			"temporalPublication": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "2021-03-25"
+			}
+		}
+	},
+	"lifecycle": {
+		"acquisition": {
+			"creator": "United States Census Bureau",
+			"ingredients": [{
+					"$id": "ark:/76611/dkhqbwezw",
+					"notes": "This census tract geography data was joined to census statistical demographic data"
+				},
+				{
+					"$id": "ark:/76611/dkhqhgkkt",
+					"notes": "This statistical census demographic data was joined to census tract geography data"
+				}
+			]
+		},
+		"description": {
+			"contextProvider": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
+			},
+			"contextOnBehalfOf": {
+				"name": "Daniel Huffman",
+				"relationshipToData": "Cartographer"
+			},
+			"contextPublicationDate": "2020-11-24",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+			}
+		},
+		"maintenance": {
+			"officialMaintainer": "Leventhal Map & Education Center",
+			"maintenanceFrequency": "This dataset is never updated"		
+		},
+		"processing": {
+			"steps": "\n \n 1. We downloaded statistics about median home value from a census data download tool \n 2. We also downloaded census tract GIS boundary files from the same tool \n 3. We edited the data tables to only include important information about the topic of study \n 4. We renamed columns with human-readable column headers \n 5. We documented the new names in a codebook \n 6. We combined the new data tables to the GIS boundary files using GIS software to create the final dataset"
+		}
+	},
+	"considerations":{
+		"machineReadability": {
+			"value": 2
+		},
+		"humanReadability":{
+			"value": 2
+		},
+		"socialEmbeddedness":{
+			"value": 0
+		}
+	},
+	"resources": {
+		"codebooks": [{
+			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmp3zkzo/codebooks/AdditionalFields.txt",
+			"title": "Renamed Fields Dictionary",
+			"maintainedBy": "Leventhal Map & Education Center",
+			"notes": "Cartographer Daniel Huffman provided a codebook for how they renamed fields when cleaning this dataset."
+		}],
+		"publishedWorks": [
+			{
+				"$id": "https://collections.leventhalmap.org/search/commonwealth:7h14cz41v",
+				"title": "Percent foreign-born",
+				"author": "Huffman, Daniel P.",
+				"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
+				"datePublished": "2021",
+				"format": "Map"
+			},
+			{
+				"$id": "https://collections.leventhalmap.org/search/commonwealth:7h14cz43d",
+				"title": "Total foreign-born",
+				"author": "Huffman, Daniel P.",
+				"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
+				"datePublished": "2021",
+				"format": "Map"
+			}
+		]
+	}
+}
