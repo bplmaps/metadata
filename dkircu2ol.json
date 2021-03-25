@@ -32,17 +32,22 @@
 	],
 	"tags": {
 		"thematic": {
-			"LCSH": [{
-				"authorityName": "LCSH",
-				"authorityID": "http://id.loc.gov/authorities/subjects.html",
-				"subjectTag": "Coasts"
-			},
-			{
-				"authorityName": "LCSH",
-				"authorityID": "http://id.loc.gov/authorities/subjects.html",
-				"subjectTag": "Coastal mapping"
-			}
-		]},
+			"LCSH": [
+				{
+					"authorityName": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"subjectTag": "Coasts"
+				},
+				{
+					"authorityName": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"subjectTag": "Coastal mapping"
+				}
+			],
+			"freeSubjectTags":[{
+				"subjectTag": "Historic GIS"
+			}]
+		},
 		"geographic":  [{
 			"authorityName": "geonames",
 			"authorityID": "http://www.geonames.org/ontology#",

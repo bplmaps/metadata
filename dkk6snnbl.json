@@ -33,7 +33,10 @@
 					"authorityID": "https://id.loc.gov/authorities/subjects/sh85130857.html",
 					"subjectTag": "Cities and towns--Surveying"
 				}
-			]
+			],
+			"freeSubjectTags":[{
+				"subjectTag": "Historic GIS"
+			}]
 		},
 		"geographic":  [{
 			"authorityName": "geonames",

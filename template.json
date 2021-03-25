@@ -22,6 +22,9 @@
 				"authorityName": "LCSH",
 				"authorityID": "http://id.loc.gov/authorities/subjects.html",
 				"subjectTag": ""
+			}],
+			"freeSubjectTags":[{
+				"subjectTag": ""
 			}]
 		},
 		"geographic":  [{
