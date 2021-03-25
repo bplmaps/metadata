@@ -44,8 +44,8 @@
 		"thematic": {
 			"LCSH": [{
 					"authorityName": "LCSH",
-					"authorityID": "http://id.loc.gov/authorities/subjects.html",
-					"subjectTag": "Whites"
+					"authorityID": "https://id.loc.gov/authorities/subjects/sh85110232.html",
+					"subjectTag": "Race"
 				},
 				{
 					"authorityName": "LCSH",
