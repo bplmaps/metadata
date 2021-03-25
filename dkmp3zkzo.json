@@ -2,7 +2,7 @@
 {
 	"core": {
 		"$id": "ark:/76611/dkmp3zkzo",
-		"title": "Percent of People Who are Foreign-Born Living in Boston",
+		"title": "Foreign-born Population in Boston",
 		"recordType": "Dataset",
 		"excludeIndex": false,
 		"shortDescription": "Percent foreign-born aggregated to the census tract level; geography covers the City of Boston; time period covers 2014-2018 as a five year average",
