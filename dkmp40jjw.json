@@ -1,13 +1,13 @@
 
 {
 	"core": {
-		"$id": "ark:/76611/dkmp3zkzo",
-		"title": "Foreign-Born Population in Boston",
+		"$id": "ark:/76611/dkmp40jjw",
+		"title": "Mean Travel Time to Work in Boston",
 		"recordType": "Dataset",
 		"excludeIndex": false,
-		"shortDescription": "Percent foreign-born aggregated to the census tract level; geography covers the City of Boston; time period covers 2014-2018 as a five year average",
-		"fullDescription": "This data represents the foreign-born population living in Boston. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study demographics in Boston. The geography covers the City of Boston. The time coverage reflects 2014-2018 as a five-year average. ",
-		"keyAttributes": ["Percent Foreign Born"],
+		"shortDescription": "Mean travel time to work in minutes aggregated to the census tract level; geography covers the City of Boston; time period covers 2014-2018 as a five year average",
+		"fullDescription": "This data represents the mean travel time (in minutes) to work in Boston. The universe is workers age 16 or older. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study demographics in Boston. The geography covers the City of Boston. The time coverage reflects 2014-2018 as a five-year average. ",
+		"keyAttributes": ["Mean Travel Time to Work in Minutes"],
 		"dataTypes": ["MultiPolygon"],
 		"bboxPreview": {
 			"previewSRS": "EPSG:4326",
@@ -18,17 +18,17 @@
 	},
 	"access": [
 		{
-			"$id": "ark:/76611/dkmp3zkzo/endpoint/1",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmp3zkzo/dataEndpoints/ForeignBorn.geojson",
-			"title": "Percent Foreign Born GeoJSON",
+			"$id": "ark:/76611/dkmp40jjw/endpoint/1",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmp40jjw/dataEndpoints/MeanTravelTime.geojson",
+			"title": "Mean Travel Time GeoJSON",
 			"source": "Leventhal Map & Education Center",
 			"format": "GeoJSON",
 			"suggested": true
 		},
 		{
-			"$id": "ark:/76611/dkmp3zkzo/endpoint/2",
-			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmp3zkzo/dataEndpoints/ForeignBorn.csv",
-			"title": "Percent Foreign Born Statistical Tables",
+			"$id": "ark:/76611/dkmp40jjw/endpoint/2",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmp40jjw/dataEndpoints/MeanTravelTime.csv",
+			"title": "Mean Travel Time Statistical Tables",
 			"source": "Leventhal Map & Education Center",
 			"format": "CSV"
 		}
@@ -36,11 +36,10 @@
 	"tags": {
 		"thematic": {
 			"LCSH": [{
-					"authorityName": "LCSH",
-					"authorityID": "https://id.loc.gov/authorities/subjects/sh85064517.html",
-					"subjectTag": "Foreign-born population"
-				}
-			],
+				"authorityName": "LCSH",
+				"authorityID": "http://id.loc.gov/authorities/subjects.html",
+				"subjectTag": "Transportation"
+			}],
 			"freeSubjectTags":[{
 				"subjectTag": "Teaching collections"
 			}]
@@ -99,7 +98,7 @@
 			"maintenanceFrequency": "This dataset is never updated"		
 		},
 		"processing": {
-			"steps": "\n \n 1. We downloaded statistics about foreign-born population from a census data download tool \n 2. We also downloaded census tract GIS boundary files from the same tool \n 3. We edited the data tables to only include important information about the topic of study \n 4. We renamed columns with human-readable column headers \n 5. We documented the new names in a codebook \n 6. We combined the new data tables to the GIS boundary files using GIS software to create the final dataset"
+			"steps": "\n \n 1. We downloaded statistics about mean travel time to work from a census data download tool \n 2. We also downloaded census tract GIS boundary files from the same tool \n 3. We edited the data tables to only include important information about the topic of study \n 4. We renamed columns with human-readable column headers \n 5. We documented the new names in a codebook \n 6. We combined the new data tables to the GIS boundary files using GIS software to create the final dataset"
 		}
 	},
 	"considerations":{
@@ -115,23 +114,15 @@
 	},
 	"resources": {
 		"codebooks": [{
-			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmp3zkzo/codebooks/AdditionalFields.txt",
+			"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmp40jjw/codebooks/AdditionalFields.txt",
 			"title": "Renamed Fields Dictionary",
 			"maintainedBy": "Leventhal Map & Education Center",
 			"notes": "Cartographer Daniel Huffman provided a codebook for how they renamed fields when cleaning this dataset."
 		}],
 		"publishedWorks": [
 			{
-				"$id": "https://collections.leventhalmap.org/search/commonwealth:7h14cz41v",
-				"title": "Percent foreign-born",
-				"author": "Huffman, Daniel P.",
-				"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
-				"datePublished": "2021",
-				"format": "Map"
-			},
-			{
-				"$id": "https://collections.leventhalmap.org/search/commonwealth:7h14cz43d",
-				"title": "Total foreign-born",
+				"$id": "https://collections.leventhalmap.org/search/commonwealth:7h14cz45z",
+				"title": "Mean travel time to work",
 				"author": "Huffman, Daniel P.",
 				"publisher": "Boston Public Library. Norman B. Leventhal Map and Education Center",
 				"datePublished": "2020",
