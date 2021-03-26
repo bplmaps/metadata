@@ -1,0 +1,110 @@
+
+{
+	"core": {
+		"$id": "ark:/76611/dkmqcoshg",
+		"title": "USGS Geographic Names Information System (GNIS)",
+		"recordType": "Dataset",
+		"excludeIndex": false,
+		"shortDescription": "The official names for places, features, and areas; geography covers the United States; time period reflects the present",
+		"fullDescription": "This data reflects the official names for places, features, and areas in the United States. The United States Geological Survey (USGS) created and maintains this dataset. The USGS offers a query interface to access this data, but it has limitations. This query service does not have a usable API endpoint, and limits queries to 2000 records. The USGS also provides the data in bulk, but the format is inefficient to use with GIS software. The LMEC has converted this inaccessible format to one that is more friendly for GIS, SQLite. This allows for efficient spatial indexing. The dataset's time coverage represents the present-day. ",
+		"keyAttributes": ["Feature Name", "Feature ID", "State", "Elevation" ],
+		"dataTypes": ["Point"],
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
+			"lowerCorner": [-179.46805, -14.54749],
+			"upperCorner": [179.983333, 76.689600]
+		},
+		"accessCondition": "This dataset is in the public domain. There are no restrictions on use."
+	},
+	"access": [
+		{
+			"$id": "ark:/76611/dkmqcoshg/endpoint/1",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmqcoshg/gnis.sqlite",
+			"title": "GNIS SQLite Database",
+			"source": "Leventhal Map & Education Center",
+			"format": "SQLite Database"
+		}
+	],
+	"tags": {
+		"thematic": {
+			"LCSH": [{
+				"authorityName": "LCSH",
+				"authorityID": "http://id.loc.gov/authorities/subjects.html",
+				"subjectTag": "Names, Geographical"
+			}],
+			"freeSubjectTags":[{
+				"subjectTag": "Toponyms"
+			}]
+		},
+		"geographic": [{
+			"authorityName": "geonames",
+			"authorityID": "http://www.geonames.org/ontology#",
+			"valueID": "http://www.geonames.org/6252001/united-states.html",
+			"placeTag": "United States"
+		}],
+		"temporal": {
+			"temporalNotes":"This data was extracted and converted in November 2020",
+			"temporalRepresentation": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"rangeEnd": "2020-11"
+			},
+			"temporalPublication": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "2021-03-26"
+			}
+		}
+	},
+	"lifecycle": {
+		"acquisition": {
+			"creator": "United States Geological Survey (USGS)"
+		},
+		"description": {
+			"contextProvider": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
+			},
+			"contextOnBehalfOf": {
+				"name": "Garrett Dash Nelson",
+				"relationshipToData": "Converter/Cleaner"
+			},
+			"contextPublicationDate": "2020-11-24",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+			}
+		},
+		"maintenance": {
+			"officialMaintainer": "Leventhal Map & Education Center",
+			"maintenanceFrequency": "As needed"		
+		},
+		"processing": {
+			"steps": "\n \n 1. We acquired the GNIS text file in bulk from the [USGS](https://geonames.usgs.gov/docs/stategaz/NationalFile.zip) \n 2. We converted the text file using `ogr2ogr` \n 3. We retained field names `feature_name`, `state_numeric`, `elev_in_m`, and `feature_id`, and discarded the rest",
+			"choices": [{
+				"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmqcoshg/README.md",
+				"format": "Plain-text README",
+				"title": "Data Conversion Background and Notes",
+				"author": "Garrett Dash Nelson"
+			}]
+		}
+	},
+	"considerations":{
+		"machineReadability": {
+			"value": 1
+		},
+		"humanReadability":{
+			"value": 1
+		},
+		"socialEmbeddedness":{
+			"value": 0
+		}
+	},
+	"resources": {
+		"documentation": [{
+			"$id": "",
+			"title": "What is the Geographic Names Information System (GNIS)?",
+			"maintainedBy": "United States Geological Survey (USGS)"
+		}]
+	}
+}
