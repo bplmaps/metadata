@@ -87,7 +87,7 @@
 			"maintenanceFrequency": "As needed"		
 		},
 		"processing": {
-			"steps": "\n \n 1. We acquired the data using the search `Massachusetts` from [Little Free Library](https://littlefreelibrary.org/ourmap/) \n 2. We converted the JSON to a CSV \n 3. We brought the CSV into QGIS, displaying points based on `latitude` and longitude` \n 4. We removed contributors contact information from the public dataset \n 5. We exported as a GeoJSON, compatible for use with GIS mapping"
+			"steps": "\n \n 1. We acquired the data using the search `Massachusetts` from [Little Free Library](https://littlefreelibrary.org/ourmap/) \n 2. We converted the JSON to a CSV \n 3. We brought the CSV into QGIS, displaying points based on `latitude` and `longitude` \n 4. We removed contributors contact information from the public dataset \n 5. We exported as a GeoJSON, compatible for use with GIS mapping"
 		}
 	},
 	"considerations":{
