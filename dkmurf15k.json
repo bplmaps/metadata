@@ -1,0 +1,112 @@
+
+{
+	"core": {
+		"$id": "ark:/76611/dkmurf15k",
+		"title": "Massachusetts Little Free Libraries",
+		"recordType": "Dataset",
+		"excludeIndex": false,
+		"shortDescription": "Little Free Library locations; geography covers the state of Massachusetts; time period reflects the present",
+		"fullDescription": "This data depicts the locations of Little Free Libraries in Massachusetts. Little Free Libraries offers a form for people to submit library information. There is also a [map](https://littlefreelibrary.org/ourmap/) on their website to display these locations. The LMEC has extracted and cleaned this dataset to make it easier to work with. This dataset reflects the present.",
+		"keyAttributes": ["Library Charter", "Library Story" ],
+		"dataTypes": ["Point"],
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
+			"lowerCorner": [-73.282018, 41.244687],
+			"upperCorner": [-69.948543, 42.895988]
+		},
+		"accessCondition": "Little Free Library's Terms and Conditions are described at: https://littlefreelibrary.org/wp-content/uploads/2012/10/Little-Free-Library-Terms-and-Conditions-of-Use-Agreement.pdf"
+	},
+	"access": [
+		{
+			"$id": "ark:/76611/dkmurf15k/endpoint/1",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmurf15k/LittleFreeLibraries_MA.geojson",
+			"title": "Little Free Libraries GeoJSON",
+			"source": "Leventhal Map & Education Center",
+			"format": "GeoJSON"
+		}
+	],
+	"tags": {
+		"thematic": {
+			"LCSH": [
+				{
+					"authorityName": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"subjectTag": "Libraries"
+				},
+				{
+					"authorityName": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"subjectTag": "Book donations"
+				}
+			],
+			"freeSubjectTags":[{
+				"subjectTag": "Little Free Libraries"
+			}]
+		},
+		"geographic": [{
+			"authorityName": "geonames",
+			"authorityID": "http://www.geonames.org/ontology#",
+			"valueID": "http://sws.geonames.org/6254926",
+			"placeTag": "Massachusetts"
+		}],
+		"temporal": {
+			"temporalNotes":"This data was extracted on March 29, 2021.",
+			"temporalRepresentation": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"rangeEnd": "2021-03-29"
+			},
+			"temporalPublication": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "2021-03-29"
+			}
+		}
+	},
+	"lifecycle": {
+		"acquisition": {
+			"creator": "Little Free Libraries"
+		},
+		"description": {
+			"contextProvider": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
+			},
+			"contextOnBehalfOf": {
+				"name": "Little Free Library",
+				"relationshipToData": "Collector"
+			},
+			"contextPublicationDate": "2020-11-24",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+			}
+		},
+		"maintenance": {
+			"officialMaintainer": "Leventhal Map & Education Center",
+			"maintenanceFrequency": "As needed"		
+		},
+		"processing": {
+			"steps": "\n \n 1. We acquired the data using the search `Massachusetts` from [Little Free Library](https://littlefreelibrary.org/ourmap/) \n 2. We converted the JSON to a CSV \n 3. We brought the CSV into QGIS, displaying points based on `latitude` and longitude` \n 4. We removed contributors contact information from the public dataset \n 5. We exported as a GeoJSON, compatible for use with GIS mapping"
+		}
+	},
+	"considerations":{
+		"machineReadability": {
+			"value": 0
+		},
+		"humanReadability":{
+			"value": 1
+		},
+		"socialEmbeddedness":{
+			"value": 0
+		}
+	},
+	"resources": {
+		"publishedWorks": [{
+			"$id": "https://littlefreelibrary.org/ourmap/",
+			"title": "Little Free Library World Map",
+			"publisher": "Little Free Library",
+			"format": "Webiste"
+		}]
+	}
+}
