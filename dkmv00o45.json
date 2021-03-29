@@ -1,0 +1,112 @@
+
+{
+	"core": {
+		"$id": "ark:/76611/dkmv00o45",
+		"title": "Crowdsourced New England Skate Spots",
+		"recordType": "Dataset",
+		"excludeIndex": false,
+		"shortDescription": "Crowdsourced locations of indoor, outdoor, DIY and popup skateparks; geography covers New England; time period is current ",
+		"fullDescription": "This dataset depicts locations of indoor, outdoor, DIY and popup skate spots, primarily in Massachusetts, but also including Rhode Island, New Hampshire, Vermont, Maine, Connecticut and New York. People have crowdsourced this data by adding spots to this [Google My Maps Web Map](https://www.google.com/maps/d/u/0/edit?mid=1Gsm-p4WKrHt-x0vGVsmVtXjipqQ&ll=42.378177712831175%2C-71.1003288449816&z=18). The LMEC has extracted and cleaned up this dataset to preserve for use with mapping software. The time period reflects the present. ",
+		"keyAttributes": ["Name", "Description"],
+		"dataTypes": ["Point"],
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
+			"lowerCorner": [-73.282018, 41.244687],
+			"upperCorner": [-69.948543, 42.895988]
+		},
+		"accessCondition": "Little Free Library's Terms and Conditions are described at: https://littlefreelibrary.org/wp-content/uploads/2012/10/Little-Free-Library-Terms-and-Conditions-of-Use-Agreement.pdf"
+	},
+	"access": [
+		{
+			"$id": "ark:/76611/dkmv00o45/endpoint/1",
+			"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkmv00o45/SkateSpots.geojson",
+			"title": "Crowdsourced Skate Spots GeoJSON",
+			"source": "Leventhal Map & Education Center",
+			"format": "GeoJSON"
+		}
+	],
+	"tags": {
+		"thematic": {
+			"LCSH": [
+				{
+					"authorityName": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"subjectTag": "Skateboarding"
+				},
+				{
+					"authorityName": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"subjectTag": "Recreation"
+				},				
+				{
+					"authorityName": "LCSH",
+					"authorityID": "http://id.loc.gov/authorities/subjects.html",
+					"subjectTag": "Parks"
+				}
+			],
+			"freeSubjectTags":[{
+				"subjectTag": "Skateparks"
+			}]
+		},
+		"geographic": [{
+			"authorityName": "geonames",
+			"authorityID": "http://www.geonames.org/ontology#",
+			"valueID": "http://www.geonames.org/11919979/new-england.html",
+			"placeTag": "New England"
+		}],
+		"temporal": {
+			"temporalNotes":"This data was extracted on March 29, 2021.",
+			"temporalRepresentation": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"rangeEnd": "2021-03-29"
+			},
+			"temporalPublication": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "2021-03-29"
+			}
+		}
+	},
+	"lifecycle": {
+		"acquisition": {
+			"creator": "Skate Spots New England Crowdsourced Google Map"
+		},
+		"description": {
+			"contextProvider": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
+			},
+			"contextPublicationDate": "2020-11-24",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+			}
+		},
+		"maintenance": {
+			"officialMaintainer": "Leventhal Map & Education Center",
+			"maintenanceFrequency": "As needed"		
+		},
+		"processing": {
+			"steps": "\n \n 1. We exported all the layers as KMLs from the [crowdsourced map](https://www.google.com/maps/d/u/0/edit?mid=1Gsm-p4WKrHt-x0vGVsmVtXjipqQ&ll=42.378177712831175%2C-71.1003288449816&z=18)  \n 2. Google exports each type of park as a separate layer. We combined all the points into one layer, and added a category for how contributors classified: `Parks_MA`, `Parks_NY_CT_RI`, `Parks_VT_NH_ME`, `Indoor_Parks`, `Rollerblading`, `DIY_Popups` \n 3. We preserved `Name` and `Description` fields and removed default Google My Maps fields"
+		}
+	},
+	"considerations":{
+		"machineReadability": {
+			"value": 2
+		},
+		"humanReadability":{
+			"value": 2
+		},
+		"socialEmbeddedness":{
+			"value": 0
+		}
+	},
+	"resources": {
+		"publishedWorks": [{
+			"$id": "https://www.google.com/maps/d/u/0/edit?mid=1Gsm-p4WKrHt-x0vGVsmVtXjipqQ&ll=42.36996137558412%2C-72.28232268756544&z=8",
+			"title": "Crowdsourced Google Web Map",
+			"format": "Webiste"
+		}]
+	}
+}
