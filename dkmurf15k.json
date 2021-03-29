@@ -6,7 +6,7 @@
 		"recordType": "Dataset",
 		"excludeIndex": false,
 		"shortDescription": "Little Free Library locations; geography covers the state of Massachusetts; time period reflects the present",
-		"fullDescription": "This data depicts the locations of Little Free Libraries in Massachusetts. Little Free Libraries offers a form for people to submit library information. There is also a [map](https://littlefreelibrary.org/ourmap/) on their website to display these locations. The LMEC has extracted and cleaned this dataset to make it easier to work with. This dataset reflects the present.",
+		"fullDescription": "This data depicts the locations of Little Free Libraries in Massachusetts. Little Free Library offers a form for people to submit library information. There is also a [map](https://littlefreelibrary.org/ourmap/) on their website to display these locations. The LMEC has extracted data for the state of Massachusetts, and cleaned this dataset to make it easier to work with. This dataset reflects the present.",
 		"keyAttributes": ["Library Charter", "Library Story" ],
 		"dataTypes": ["Point"],
 		"bboxPreview": {
