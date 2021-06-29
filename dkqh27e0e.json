@@ -1,0 +1,119 @@
+{
+	"core": {
+		"$id": "ark:/76611/dkqh27e0e",
+		"title": "Boston Public Schools (BPS) Race and Ethnicity",
+		"recordType": "Dataset",
+		"excludeIndex": false,
+		"shortDescription": "Race and ethnicity breakdowns as percents of the total school population for each Boston Public School; geography covers the City of Boston; time period covers 2019-2020.",
+		"fullDescription":"This dataset represents the race and ethnicity breakdowns of each Boston Public School. Massachusetts Department of Education published the statistical data in a tabular, non-geospatial format. The LMEC joined the statistical race and ethnicity data to spatial point data for schools. Massachusetts Department of Education published the original dataset on December 17, 2020. The geography covers the city of Boston. ",
+		"keyAttributes": ["Average Class Size", "Number of Students", "Percent African American", "Percent Asian", "Percent Hispanic", "Percent White", "Percent Native American", "Percent Hawaiian, Pacific Islander", "Percent Multirace, Non-Hispanic"],
+		"dataTypes": ["Point"],
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
+			"lowerCorner": [-71.176332, 42.243214],
+			"upperCorner": [-71.004167, 42.391621]
+		},
+		"accessCondition": "This dataset is in the public domain. There are no restrictions on use."
+	},
+	"tags": {
+		"thematic": {
+			"LCSH": [{
+				"authorityName": "LCSH",
+				"authorityID":  "http://id.loc.gov/authorities/subjects.html",
+				"subjectTag": "Race"
+			},
+			{
+				"authorityName": "LCSH",
+				"authorityID": "http://id.loc.gov/authorities/subjects.html",
+				"subjectTag": "Ethnicity"
+			},
+			{
+				"authorityName": "LCSH",
+				"authorityID": "http://id.loc.gov/authorities/subjects.html",
+				"subjectTag": "Education"
+			}]
+		},
+		"geographic":  [{
+			"authorityName": "geonames",
+			"authorityID": "http://www.geonames.org/ontology#",
+			"valueID": "http://www.geonames.org/4930956/boston.html",
+			"placeTag": "Boston"
+		}],
+		"temporal": {
+			"temporalRepresentation": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "2020-12-17"
+			},
+			"temporalPublication": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "2021-06-29"
+			}
+		}
+	},
+	"access": [{
+		"$id": "ark:/76611/dkqh27e0e/endpoint/1",
+		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkqh27e0e/BPS_RaceEthnicity.geojson",
+		"title": "BPS Race and Ethnicity GeoJSON",
+		"source": "Leventhal Map & Education Center",
+		"format": "GeoJSON"
+	}],
+	"lifecycle": {
+		"acquisition": {
+			"creator": "Massachusetts Department of Education",
+			"ingredients": [{
+				"$id": "https://www.mass.gov/info-details/massgis-data-massachusetts-schools-pre-k-through-high-school",
+				"notes": "This geospatial data showing the locations of Boston Public Schools was joined to data about each school's race and ethnicity demographics"
+			},
+			{
+				"$id": "https://profiles.doe.mass.edu/statereport/classsizebyraceethnicity.aspx",
+				"notes": "This statistical dataset about class size by race and ethnicity was joined to the spatial data about school locations"
+			}]
+		},
+		"description": {
+			"contextProvider": {
+				"name": "Belle Lipton",
+				"relationshipToData": "Archivist"
+			},
+			"contextOnBehalfOf": {
+				"name": "Michelle LeBlanc",
+				"relationshipToData": "Educator"
+			},
+			"contextPublicationDate": "2021-06-29",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+			}
+
+		},
+		"maintenance": {
+			"officialMaintainer": "Leventhal Map & Education Center",
+			"maintenanceFrequency": "This dataset is never updated"
+		},
+		"processing": { 
+			"steps": "\n \n 1. We downloaded statistics about race and ethnicity in public schools from the Massachusetts Department of Education \n 2. We downloaded locations of pre-K through high schools from MassGIS \n 3. We joined these two datasets together \n 4. We filtered the dataset to only include datapoints for Boston Public Schools"
+		}
+	},
+	"considerations":{
+		"machineReadability":{
+			"value": 2
+		},
+		"humanReadability":{
+			"value": 2
+		},
+		"socialEmbeddedness":{
+			"value": 1
+		}
+	},
+	"resources": {
+		"publishedWorks": [{
+			"$id": "https://www.leventhalmap.org/articles/highlights-from-maptivist-student-projects/",
+			"title": "Highlights from Maptivist student projects",
+			"author": "Lynn Brown",
+			"publisher": "Leventhal Map & Education Center",
+			"datePublished": "2021-06-17",
+			"format": "Article"
+		}]
+	}
+}
