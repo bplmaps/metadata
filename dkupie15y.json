@@ -30,13 +30,13 @@
       "LCSH": [
         {
           "authorityName": "LCSH",
-          "authorityID": "http://id.loc.gov/authorities/subjects.html",
-          "subjectTag": ""
+          "authorityID": "http://id.loc.gov/authorities/subjects/sh85006175",
+          "subjectTag": "Apportionment (Election law)"
         }
       ],
       "freeSubjectTags": [
         {
-          "subjectTag": ""
+          "subjectTag": "Massachusetts legislative electoral districts"
         }
       ]
     },
@@ -52,17 +52,13 @@
       "temporalNotes": "",
       "temporalRepresentation": {
         "encoding": "https://www.w3.org/TR/NOTE-datetime",
-        "valueType": "",
-        "singleDate": "",
-        "rangeStart": "",
-        "rangeEnd": ""
+        "valueType": "singleDate",
+        "singleDate": "2021-10-12"
       },
       "temporalPublication": {
         "encoding": "https://www.w3.org/TR/NOTE-datetime",
         "valueType": "singleDate",
-        "singleDate": "",
-        "rangeStart": "",
-        "rangeEnd": ""
+        "singleDate": "2021-10-12"
       }
     }
   },
@@ -78,7 +74,7 @@
         {
       "$id": "ark:/76611/dkupie15y/endpoint/2",
       "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkupie15y/dkupie15y-shapefiles.zip",
-      "title": "Senate Redistrcting Proposed Boundaries GeoJSON",
+      "title": "Senate Redistrcting Proposed Boundaries Shapefile",
       "source": "Leventhal Map & Education Center",
       "format": "Zipped Shapefile"
     }
