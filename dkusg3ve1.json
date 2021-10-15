@@ -1,0 +1,138 @@
+{
+  "core": {
+    "$id": "ark:/76611/dkusg3ve1",
+    "title": "Proposed districts of the Massachusetts State House, 2020 redistricting",
+    "recordType": "Dataset",
+    "shortDescription": "Boundary files for the proposed districts of the Massachusetts State House as proposed by the Special Joint Committee on Redistricting for the 2020 redistricting process, and released to the public for comment on 2021-10-12",
+    "fullDescription": "These geometry files were created by the Massachusetts General Court's Special Joint Committee on Redistricting as the initial public plan for redistricting the state legislature after the 2020 decennial census. They accompany rendered map books meant for public comment on the legislature's proposed districting scheme. These files were released to the public on 2021-10-12.",
+    "keyAttributes": [
+      "District",
+      "Population",
+      "Deviation"
+    ],
+    "dataTypes": [
+      "Polygon"
+    ],
+    "bboxPreview": {
+      "previewSRS": "EPSG:4326",
+      "lowerCorner": [
+        -73.50821,
+        41.187053
+      ],
+      "upperCorner": [
+        -69.858861,
+        42.886778
+      ]
+    },
+    "excludeIndex": false,
+    "accessCondition": "This item is in the public domain. It was produced by a legislative committee of the Massachusetts General Court. There are no restrictions on use."
+  },
+  "tags": {
+    "thematic": {
+      "LCSH": [
+        {
+          "authorityName": "LCSH",
+          "authorityID": "http://id.loc.gov/authorities/subjects/sh85006175",
+          "subjectTag": "Apportionment (Election law)"
+        }
+      ],
+      "freeSubjectTags": [
+        {
+          "subjectTag": "Massachusetts legislative electoral districts"
+        }
+      ]
+    },
+    "geographic": [
+      {
+        "authorityName": "geonames",
+        "authorityID": "http://www.geonames.org/ontology#",
+        "valueID": "http://sws.geonames.org/6254926",
+        "placeTag": "Massachusetts"
+      }
+    ],
+    "temporal": {
+      "temporalNotes": "",
+      "temporalRepresentation": {
+        "encoding": "https://www.w3.org/TR/NOTE-datetime",
+        "valueType": "singleDate",
+        "singleDate": "2021-10-12"
+      },
+      "temporalPublication": {
+        "encoding": "https://www.w3.org/TR/NOTE-datetime",
+        "valueType": "singleDate",
+        "singleDate": "2021-10-12"
+      }
+    }
+  },
+  "access": [
+    {
+      "$id": "ark:/76611/dkusg3ve1/endpoint/1",
+      "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkusg3ve1/dkusg3ve1.json",
+      "title": "House Redistrcting Proposed Boundaries GeoJSON",
+      "source": "Leventhal Map & Education Center",
+      "format": "GeoJSON",
+      "suggested": true
+    },
+    {
+      "$id": "ark:/76611/dkusg3ve1/endpoint/2",
+      "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkusg3ve1/dkusg3ve1-shapefiles.zip",
+      "title": "Senate Redistrcting Proposed Boundaries Shapefile",
+      "source": "Leventhal Map & Education Center",
+      "format": "Zipped Shapefile"
+    }
+  ],
+  "lifecycle": {
+    "acquisition": {
+      "creator": "Special Joint Committee on Redistricting"
+    },
+    "description": {
+      "contextProvider": {
+        "name": "Garrett Dash Nelson",
+        "relationshipToData": "Curator"
+      },
+      "contextPublicationDate": "2021-10-13",
+      "metadataSchema": {
+        "schemaName": "LMEC Data Description Schema",
+        "$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+      }
+    },
+    "maintenance": {
+      "officialMaintainer": "Special Joint Committee on Redistricting",
+      "maintenanceFrequency": "Not known"
+    },
+    "processing": {
+      "steps": "This dataset was downloaded from <https://malegislature.gov/assets/redistricting/ShapefilesHouse-2021.zip> on 2021-10-15. The set of files for the Shapefile data were compressed into a separate ZIP archive, and the GeoJSON file was directly uploaded to the data repository."
+    }
+  },
+  "considerations": {
+    "machineReadability": {
+      "value": 1
+    },
+    "humanReadability": {
+      "value": 1
+    },
+    "socialEmbeddedness": {
+      "value": 1
+    }
+  },
+  "resources": {
+    "documentation": [
+      {
+        "$id": "https://malegislature.gov/Redistricting/ProposedDistricts/House",
+        "title": "Proposed Districts",
+        "maintainedBy": "Special Joint Committee on Redistricting",
+        "notes": "This is the Massachusetts General Court's website for the 2020 redistricting process."
+      }
+    ],
+    "publishedWorks": [
+      {
+        "$id": "https://malegislature.gov/assets/redistricting/Mapbook%202021%20Proposed%20House%20Districts.pdf",
+        "title": "House Map Book PDF",
+        "author": "Special Joint Committee on Redistricting",
+        "publisher": "Special Joint Committee on Redistricting",
+        "datePublished": "2021",
+        "format": "PDF"
+      }
+    ]
+  }
+}
