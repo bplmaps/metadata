@@ -5,7 +5,7 @@
     "recordType": "Dataset",
     "excludeIndex": true,
     "shortDescription": "Locations of extant Rosenwald schools in the US South; geography covers Maryland, Virginia, North Carolina, South Carolina, Georgia, Florida, Alabama, Mississippi, Louisiana, Texas, Oklahoma, Arkansas, Tennessee, Kentucky, and Missouri; time period reflects the present",
-    "fullDescription": "This dataset represents the known, extant locations of Rosenwald schools across the US South. The geography covers Maryland, Virginia, North Carolina, South Carolina, Georgia, Florida, Alabama, Mississippi, Louisiana, Texas, Oklahoma, Arkansas, Tennessee, Kentucky, and Missouri. This dataset is an aggregation that includes contributions from three main sources -- 1) state historic preservation offices (SHPOs), 2) National Register of Historic Places (NRHP) records, and 3) individual research contributions -- and is maintained by the LMEC.",
+    "fullDescription": "This dataset represents the known, extant locations of Rosenwald schools across the US South. The geography covers Maryland, Virginia, North Carolina, South Carolina, Georgia, Florida, Alabama, Mississippi, Louisiana, Texas, Oklahoma, Arkansas, Tennessee, Kentucky, and Missouri. This dataset is an aggregation whose ingredients derive from three main sources -- 1) state historic preservation offices (SHPOs), 2) National Register of Historic Places (NRHP) records, and 3) individual research contributions -- and is maintained by the LMEC.",
     "keyAttributes": ["Rosenwald schools"],
     "dataTypes": ["Point"],
     "bboxPreview": {
@@ -17,7 +17,8 @@
   },
   "tags": {
     "thematic": {
-      "LCSH": [{
+      "LCSH": [
+				{
           "authorityName": "LCSH",
           "authorityID": "https://id.loc.gov/authorities/subjects/sh2009114029.html",
           "subjectTag": "African Americans--Education--Southern States"
@@ -31,83 +32,83 @@
           "authorityName": "LCSH",
           "authorityID": "https://id.loc.gov/authorities/subjects/sh2018002321.html",
           "subjectTag": "Rosenwald schools"
-        },
-    ]
-  },
-  "geographic": [{
-    "authorityName": "geonames",
-    "authorityID": "http://www.geonames.org/ontology#",
-    "valueID": "https://www.geonames.org/11887752/south",
-    "placeTag": "South"
-  }],
-  "temporal": {
-    "temporalNotes": "This dataset accounts for the locations of Rosenwald schools built during this period between 1912 and 1932, but are still standing today.",
-    "temporalRepresentation": {
-      "encoding": "https://www.w3.org/TR/NOTE-datetime",
-      "valueType": "range",
-      "rangeStart": "1912",
-      "rangeEnd": "1932"
+        }
+      ]
     },
-    "temporalPublication": {
-      "encoding": "https://www.w3.org/TR/NOTE-datetime",
-      "valueType": "singleDate",
-      "singleDate": "2021-11-18"
-    }
-  }
-},
-"access": [{
-  "$id": "ark:/76611/dkw59zx3j/endpoint/1",
-  "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkw59zx3j/dkw59zx3j.geojson",
-  "title": "The Rosenwald Schools",
-  "source": "Leventhal Map & Education Center",
-  "format": "GeoJSON",
-  "suggested": true
-}],
-"lifecycle": {
-  "acquisition": {
-    "creator": "Leventhal Map & Education Center",
-  },
-  "description": {
-    "contextProvider": {
-      "name": "Ian Spangler",
-      "relationshipToData": "Curator"
-    },
-    "contextPublicationDate": "2021-11-18",
-    "metadataSchema": {
-      "schemaName": "LMEC Data Description Schema",
-      "$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
-    }
-
-  },
-  "maintenance": {
-    "officialMaintainer": "Leventhal Map & Education Center",
-    "maintenanceFrequency": "Updated annually"
-  },
-  "processing": {
-    "steps": "This dataset was created by aggregating disparate records of the Rosenwald schools into a single dataset. Source files included .pdf, .doc, .csv, and .shp. Files were formatted to be machine-readable, merged in a GIS, and populated according to the National Parks Service's Spatial Data Transfer Standards. Finally, a Python script was used to scrape the Fisk University Rosenwald school fund cards, and the fund cards' descriptive data was joined to the spatial dataset. The most recent update to this dataset was in March 2019. In 2021, the GeoJSON was uploaded to the data repository.",
-    "choices": [{
-      "accessURL": "http://rosenwald.fisk.edu/",
-      "format": "Database",
-      "title": "Fisk University Rosenwald Fund Card File Database",
-      "author": "Fisk University"
+    "geographic": [{
+      "authorityName": "geonames",
+      "authorityID": "http://www.geonames.org/ontology#",
+      "valueID": "https://www.geonames.org/11887752/south",
+      "placeTag": "South"
     }],
-    "tools": [{
-      "accessURL": "https://www.nps.gov/hdp/standards/crgisdefinition.htm",
-      "format": "Blog",
-      "title": "Definition of a Spatial Data Transfer Standard",
-      "author": "NPS"
-    }]
-  }
-},
-"considerations": {
-  "machineReadability": {
-    "value": 1
+    "temporal": {
+      "temporalNotes": "This dataset accounts for the locations of Rosenwald schools built during this period between 1912 and 1932, but are still standing today.",
+      "temporalRepresentation": {
+        "encoding": "https://www.w3.org/TR/NOTE-datetime",
+        "valueType": "range",
+        "rangeStart": "1912",
+        "rangeEnd": "1932"
+      },
+      "temporalPublication": {
+        "encoding": "https://www.w3.org/TR/NOTE-datetime",
+        "valueType": "singleDate",
+        "singleDate": "2021-11-18"
+      }
+    }
   },
-  "humanReadability": {
-    "value": 2
+  "access": [{
+    "$id": "ark:/76611/dkw59zx3j/endpoint/1",
+    "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkw59zx3j/dkw59zx3j.geojson",
+    "title": "The Rosenwald Schools",
+    "source": "Leventhal Map & Education Center",
+    "format": "GeoJSON",
+    "suggested": true
+  }],
+  "lifecycle": {
+    "acquisition": {
+      "creator": "Leventhal Map & Education Center"
+    },
+    "description": {
+      "contextProvider": {
+        "name": "Ian Spangler",
+        "relationshipToData": "Curator"
+      },
+      "contextPublicationDate": "2021-11-18",
+      "metadataSchema": {
+        "schemaName": "LMEC Data Description Schema",
+        "$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+      }
+
+    },
+    "maintenance": {
+      "officialMaintainer": "Leventhal Map & Education Center",
+      "maintenanceFrequency": "Updated annually"
+    },
+    "processing": {
+      "steps": "This dataset was created by aggregating disparate records of the Rosenwald schools into a single dataset. Source files included .pdf, .doc, .csv, and .shp. Files were formatted to be machine-readable, merged in a GIS, and populated according to the National Parks Service's Spatial Data Transfer Standards. Finally, a Python script was used to scrape the Fisk University Rosenwald school fund cards, and the fund cards' descriptive data was joined to the spatial dataset. The most recent update to this dataset was in March 2019. In 2021, the GeoJSON was uploaded to the data repository.",
+      "choices": [{
+        "accessURL": "http://rosenwald.fisk.edu/",
+        "format": "Database",
+        "title": "Fisk University Rosenwald Fund Card File Database",
+        "author": "Fisk University"
+      }],
+      "tools": [{
+        "accessURL": "https://www.nps.gov/hdp/standards/crgisdefinition.htm",
+        "format": "Blog",
+        "title": "Definition of a Spatial Data Transfer Standard",
+        "author": "NPS"
+      }]
+    }
   },
-  "socialEmbeddedness": {
-    "value": 2
+  "considerations": {
+    "machineReadability": {
+      "value": 1
+    },
+    "humanReadability": {
+      "value": 2
+    },
+    "socialEmbeddedness": {
+      "value": 2
+    }
   }
-},
 }
