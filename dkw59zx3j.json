@@ -3,7 +3,7 @@
     "$id": "ark:/76611/dkw59zx3j",
     "title": "The Rosenwald Schools",
     "recordType": "Dataset",
-    "excludeIndex": true,
+    "excludeIndex": false,
     "shortDescription": "Locations of extant Rosenwald schools in the US South; geography covers Maryland, Virginia, North Carolina, South Carolina, Georgia, Florida, Alabama, Mississippi, Louisiana, Texas, Oklahoma, Arkansas, Tennessee, Kentucky, and Missouri; time period reflects the present",
     "fullDescription": "This dataset represents the known, extant locations of Rosenwald schools across the US South. The geography covers Maryland, Virginia, North Carolina, South Carolina, Georgia, Florida, Alabama, Mississippi, Louisiana, Texas, Oklahoma, Arkansas, Tennessee, Kentucky, and Missouri. This dataset is an aggregation whose ingredients derive from three main sources -- 1) state historic preservation offices (SHPOs), 2) National Register of Historic Places (NRHP) records, and 3) individual research contributions. It is maintained by the LMEC.",
     "keyAttributes": ["Rosenwald schools"],
