@@ -55,19 +55,14 @@
   },
   "access": [{
     "$id": "ark:/76611/dkyajewyh/endpoint/1",
-    "accessURL": "",
-    "title": "",
-    "source": "",
-    "format": "",
-    "suggested": true
+    "accessURL": "https://dsl.richmond.edu/panorama/redlining/#loc=4/40.886/-105.499&text=downloads",
+    "title": "HOLC Maps GeoJSON File",
+    "source": "Mapping Inequality",
+    "format": "GeoJSON"
   }],
   "lifecycle": {
     "acquisition": {
-      "creator": "Scott Markley",
-      "ingredients": [{
-        "$id": "",
-        "notes": ""
-      }]
+      "creator": "Scott Markley"
     },
     "description": {
       "contextProvider": {
