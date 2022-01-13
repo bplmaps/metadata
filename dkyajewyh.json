@@ -26,7 +26,7 @@
           "authorityName": "LCSH",
           "authorityID": "https://id.loc.gov/authorities/subjects/sh85038391.html",
           "subjectTag": "Discrimination in housing"
-        },
+        }
       ],
       "freeSubjectTags": [{
         "subjectTag": "Redlining"
@@ -49,7 +49,7 @@
       "temporalPublication": {
         "encoding": "https://www.w3.org/TR/NOTE-datetime",
         "valueType": "singleDate",
-        "singleDate": "2022-01-12",
+        "singleDate": "2022-01-12"
       }
     }
   },
@@ -96,7 +96,7 @@
         "format": "GeoJSON",
         "title": "Mapping Inequality: Downloads & Data",
         "author": "Robert K. Nelson, LaDale Winling, Richard Marciano, Nathan Connolly, et al."
-      }],
+      }]
     }
   },
   "considerations": {
@@ -133,5 +133,6 @@
         "datePublished": "2022",
         "format": "Dataset"
       }
-    ],
+    ]
   }
+}
