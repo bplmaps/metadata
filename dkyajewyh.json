@@ -86,7 +86,7 @@
         "name": "Scott Markley",
         "relationshipToData": "Creator"
       },
-      "contextPublicationDate": "2022-01-12",
+      "contextPublicationDate": "2022-01-13",
       "metadataSchema": {
         "schemaName": "LMEC Data Description Schema",
         "$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
