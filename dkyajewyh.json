@@ -101,10 +101,10 @@
   },
   "considerations": {
     "machineReadability": {
-      "value": 2
+      "value": 1
     },
     "humanReadability": {
-      "value": 2
+      "value": 1
     },
     "socialEmbeddedness": {
       "value": 1
