@@ -15,6 +15,22 @@
     },
     "accessCondition": "CC-By Attribution 4.0 International."
   },
+  "access": [
+    {
+      "$id": "ark:/76611/dkyajewyh/endpoint/1",
+      "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkyajewyh/HOLC_DATA.GeoJSON",
+      "title": "Tabulated HOLC Area Description Sheets GeoJSON File",
+      "source": "Mapping Inequality",
+      "format": "GeoJSON"
+    },
+    {
+      "$id": "ark:/76611/dkyajewyh/endpoint/2",
+      "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkyajewyh/HOLC_DATA_SHP.zip",
+      "title": "Tabulated HOLC Area Description Sheets Zipped Shapefile",
+      "source": "Mapping Inequality",
+      "format": "Zipped Shapefile"
+    }
+  ],
   "tags": {
     "thematic": {
       "LCSH": [{
@@ -53,21 +69,6 @@
       }
     }
   },
-  "access": [{
-      "$id": "ark:/76611/dkyajewyh/endpoint/1",
-      "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkyajewyh/HOLC_DATA.GeoJSON",
-      "title": "Tabulated HOLC Area Description Sheets GeoJSON File",
-      "source": "Mapping Inequality",
-      "format": "GeoJSON"
-    },
-    {
-      "$id": "ark:/76611/dkyajewyh/endpoint/2",
-      "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkyajewyh/HOLC_DATA_SHP.zip",
-      "title": "Tabulated HOLC Area Description Sheets Zipped Shapefile",
-      "source": "Mapping Inequality",
-      "format": "Zipped Shapefile"
-    }
-  ],
   "lifecycle": {
     "acquisition": {
       "creator": "Scott Markley",
