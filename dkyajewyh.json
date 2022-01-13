@@ -3,7 +3,7 @@
     "$id": "ark:/76611/dkyajewyh",
     "title": "Tabulated HOLC Area Description Sheet Data",
     "recordType": "Dataset",
-    "excludeIndex": true,
+    "excludeIndex": false,
     "shortDescription": "HOLC area description sheets joined with variables used to assess risk grades; time period reflects 1937-1940",
     "fullDescription": "In the late 1930s, an agency of the United States government called the “Home Owners’ Loan Corporation” (HOLC) graded thousands of urban neighborhoods on the perceived risk they posed to mortgage lenders and property investors. To make these determinations, HOLC field agents collected vast amounts of socioeconomic, demographic, and housing data about these places and presented their findings in an impressive set of maps. While these “redlining” maps have received considerable academic and media attention, the data used to assign risk grades—available for most cities in their “area description” sheets—remain virtually unusable. Correcting this issue, I convert eight of the most consequential variables from 129 cities into an accessible and analyzable tabular format. These include the Black population percentage, “foreign-born” population percentage and group, family income, occupation class, average building age, home repair status, and mortgage availability. This data product will allow researchers to gain a more complete picture of the HOLC’s City Survey program, and it will provide a valuable new source of historical socio-demographic data at the neighborhood level.",
     "keyAttributes": ["HOLC maps", "Redlining", "Race", "Housing"],
@@ -20,14 +20,14 @@
       "$id": "ark:/76611/dkyajewyh/endpoint/1",
       "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkyajewyh/HOLC_DATA.GeoJSON",
       "title": "Tabulated HOLC Area Description Sheets GeoJSON File",
-      "source": "Mapping Inequality",
+      "source": "Scott Markley",
       "format": "GeoJSON"
     },
     {
       "$id": "ark:/76611/dkyajewyh/endpoint/2",
       "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkyajewyh/HOLC_DATA_SHP.zip",
       "title": "Tabulated HOLC Area Description Sheets Zipped Shapefile",
-      "source": "Mapping Inequality",
+      "source": "Scott Markley",
       "format": "Zipped Shapefile"
     }
   ],
@@ -98,11 +98,11 @@
       "maintenanceFrequency": "Annually"
     },
     "processing": {
-      "steps": "Spatial data was imported directly into R from a GeoJSON file made available by the Digital Scholarship Lab (DSL) at the University of Richmond. Tabular data that would be joined to spatial data was first organized by separating variable names from values and translating the variable names into human-readable column headings. Second, strings and quantitative descriptors were converted into numbers. Third, qualitative descriptors were grouped into five-category rating scales with missing values imputed. Fourth, the results were cross-referenced with scanned documents on the DSL website for ground truthing. Finally, the tabular data was joined to the DSL's GeoJSON file and exported in multiple formats: csv, GeoJSON, Esri Shapefile, and HTML.",
-      "choices": [{
-        "accessURL": "https://dsl.richmond.edu/panorama/redlining/#loc=4/40.886/-105.499&text=downloads",
-        "format": "GeoJSON",
-        "title": "Mapping Inequality: Downloads & Data",
+      "steps": "Spatial data was imported directly into R from a GeoJSON file made available by the Digital Scholarship Lab (DSL) at the University of Richmond. Tabular data that would be joined to spatial data was first organized by separating variable names from values and translating the variable names into human-readable column headings. Second, strings and quantitative descriptors were converted into numbers using R. Third, qualitative descriptors were grouped into five-category rating scales with missing values imputed. Fourth, the results were cross-referenced with scanned documents on the DSL website for ground truthing. Finally, the tabular data was joined to the DSL's GeoJSON file and exported in multiple formats: csv, GeoJSON, Esri Shapefile, and HTML.",
+      "tools": [{
+        "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkyajewyh/scripts.zip",
+        "format": "Zipped file",
+        "title": "Zipped R scripts",
         "author": "Robert K. Nelson, LaDale Winling, Richard Marciano, Nathan Connolly, et al."
       }]
     }
