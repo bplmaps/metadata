@@ -90,7 +90,7 @@
       "maintenanceFrequency": "Annually"
     },
     "processing": {
-      "steps": "The spatial data was imported directly into R from a GeoJSON file made available by the Digital Scholarship Lab (DSL) at the University of Richmond. Tabular data that would be joined to spatial data was first organized by separating variable names from values and translating the variable names into human-readable column headings. Second, strings and quantitative descriptors were converted into numbers. Third, qualitative descriptors were grouped into five-category rating scales with missing values imputed. Fourth, the results were cross-referenced with scanned documents on the DSL website for ground truthing. Finally, the tabular data was joined to the DSL's GeoJSON file and exported in multiple formats: csv, GeoJSON, Esri Shapefile, and HTML.",
+      "steps": "Spatial data was imported directly into R from a GeoJSON file made available by the Digital Scholarship Lab (DSL) at the University of Richmond. Tabular data that would be joined to spatial data was first organized by separating variable names from values and translating the variable names into human-readable column headings. Second, strings and quantitative descriptors were converted into numbers. Third, qualitative descriptors were grouped into five-category rating scales with missing values imputed. Fourth, the results were cross-referenced with scanned documents on the DSL website for ground truthing. Finally, the tabular data was joined to the DSL's GeoJSON file and exported in multiple formats: csv, GeoJSON, Esri Shapefile, and HTML.",
       "choices": [{
         "accessURL": "https://dsl.richmond.edu/panorama/redlining/#loc=4/40.886/-105.499&text=downloads",
         "format": "GeoJSON",
@@ -101,13 +101,13 @@
   },
   "considerations": {
     "machineReadability": {
-      "value": 3
+      "value": 2
     },
     "humanReadability": {
-      "value": 3
+      "value": 2
     },
     "socialEmbeddedness": {
-      "value": 2
+      "value": 1
     }
   },
   "resources": {
