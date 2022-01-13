@@ -54,15 +54,27 @@
     }
   },
   "access": [{
-    "$id": "ark:/76611/dkyajewyh/endpoint/1",
-    "accessURL": "https://dsl.richmond.edu/panorama/redlining/#loc=4/40.886/-105.499&text=downloads",
-    "title": "HOLC Maps GeoJSON File",
-    "source": "Mapping Inequality",
-    "format": "GeoJSON"
-  }],
+      "$id": "ark:/76611/dkyajewyh/endpoint/1",
+      "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkyajewyh/HOLC_DATA.GeoJSON",
+      "title": "Tabulated HOLC Area Description Sheets GeoJSON File",
+      "source": "Mapping Inequality",
+      "format": "GeoJSON"
+    },
+    {
+      "$id": "ark:/76611/dkyajewyh/endpoint/2",
+      "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkyajewyh/HOLC_DATA_SHP.zip",
+      "title": "Tabulated HOLC Area Description Sheets Zipped Shapefile",
+      "source": "Mapping Inequality",
+      "format": "Zipped Shapefile"
+    },
+  ],
   "lifecycle": {
     "acquisition": {
-      "creator": "Scott Markley"
+      "creator": "Scott Markley",
+      "ingredients": [{
+        "$id": "https://dsl.richmond.edu/panorama/redlining/#loc=4/40.886/-105.499&text=downloads",
+        "notes": "This source data, which contained one field for the area description sheets, was reformatted and tabulated into 8 distinct variables"
+      }]
     },
     "description": {
       "contextProvider": {
@@ -96,10 +108,10 @@
   },
   "considerations": {
     "machineReadability": {
-      "value": 1
+      "value": 2
     },
     "humanReadability": {
-      "value": 1
+      "value": 2
     },
     "socialEmbeddedness": {
       "value": 1
