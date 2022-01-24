@@ -73,7 +73,7 @@
     "acquisition": {
       "creator": "Scott Markley",
       "ingredients": [{
-        "$id": "https://dsl.richmond.edu/panorama/redlining/#loc=4/40.886/-105.499&text=downloads",
+        "$id": "https://dsl.richmond.edu/panorama/redlining/",
         "notes": "This source data, which contained one field for the area description sheets, was reformatted and tabulated into 8 distinct variables"
       }]
     },
