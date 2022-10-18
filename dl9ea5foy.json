@@ -4,14 +4,14 @@
       "title": "Place of birth among immigrants in the Greater Boston region",
       "recordType": "Dataset",
       "excludeIndex": false,
-      "shortDescription": "Total population foreign-born aggregated to the Census tract level; geography covers Greater Boston region; itme period covers 2016-2020 as a five-year average",
+      "shortDescription": "Total population foreign-born aggregated to the Census tract level; geography covers Greater Boston region; time period covers 2016-2020 as a five-year average",
         "fullDescription": "This data represents the foreign-born population living in the Greater Boston region. The data originates from the United States Census Bureau's American Community Survey. Downloaded from the Census data aggregator NHGIS, this dataset displays American Community Survey estimates (2016-2020) for foreign-born population by Census tract across the Greater Boston area, defined as all cities and towns in the Metropolitan Area Planning Commission's Inner Core Committee. \n \n Field names in this dataset are opaque and can be parsed with the codebook. \n \n This dataset is part of the LMEC's <a href='https://leventhalmap.org/projects/cartography-challenge' target='blank'>Cartography Challenges</a>.",
       "keyAttributes": ["Immigration", "Census", "American Community Survey", "Cartography Challenges"],
       "dataTypes": ["Polygon", "csv"],
       "bboxPreview": {
         "previewSRS": "EPSG:4326",
-        "lowerCorner": [-123.777, 55.859],
-        "upperCorner": [-70.057, 17.521]
+        "lowerCorner": [-71.301, 42.201],
+        "upperCorner": [-70.868, 42.512]
       },
       "accessCondition": "CC-By Attribution 4.0 International."
     },
@@ -53,8 +53,8 @@
       "geographic": [{
         "authorityName": "geonames",
         "authorityID": "http://www.geonames.org/ontology#",
-        "valueID": "https://www.geonames.org/4930956/",
-        "placeTag": "Boston"
+        "valueID": "https://www.geonames.org/12213178/boston-cambridge-newton-ma-nh-metro-area.html",
+        "placeTag": "Boston-Cambridge-Newton, MA-NH Metro Area"
       }],
       "temporal": {
         "temporalNotes": "This data represents estimates for 2016-2020.",
@@ -73,16 +73,11 @@
     },
     "lifecycle": {
       "acquisition": {
-        "creator": "Ian Spangler",
+        "creator": "NHGIS",
         "ingredients": [{
-            "$id": "ark:/76611/",
-            "notes": "This Census tract geography data was joined to census statistical demographic data"
-        },
-        {
-            "$id": "ark:/76611/",
-            "notes": "This statistical Census demographic data was joined to census tract geography data"
-        }
-    ]
+            "$id": "ark:/76611/dl9ehcpwy",
+            "notes": "Census tract geography from NHGIS was joined with Census tract tabular data from NHGIS"
+        }]
       },
       "description": {
         "contextProvider": {
@@ -90,8 +85,8 @@
           "relationshipToData": "Curator"
         },
         "contextOnBehalfOf": {
-          "name": "Ian Spangler",
-          "relationshipToData": "Creator"
+          "name": "NHGIS",
+          "relationshipToData": "Processor"
         },
         "contextPublicationDate": "2022-10-18",
         "metadataSchema": {
@@ -116,7 +111,7 @@
         "value": 1
       },
       "socialEmbeddedness": {
-        "value": 1
+        "value": 0
       }
     },
     "resources": {

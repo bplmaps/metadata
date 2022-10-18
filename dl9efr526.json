@@ -1,0 +1,101 @@
+{
+	"core": {
+		"$id": "ark:/76611/dl9efr526",
+		"title": "Greater Boston Municipal Boundaries",
+		"recordType": "Dataset",
+		"excludeIndex": false,
+		"shortDescription": "Towns and cities within the Metropolitan Area Planning Committee's (MAPC) Inner Core Committee (ICC); geography covers MAPC ICC region; time period is 2017",
+		"fullDescription":"This data represents a boundary file of 21 towns and cities that fall within MAPC's ICC designation, including Arlington, Belmont, Boston, Brookline, Cambridge, Chelsea, Everett, Lynn, Malden, Medford, Melrose, Milton, Needham, Newton, Quincy, Revere, Saugus, Somerville, Waltham, Watertown, and Winthrop. \n \n This dataset is part of the LMEC's <a href='https://leventhalmap.org/projects/cartography-challenge' target='blank'>Cartography Challenges</a>.",
+		"keyAttributes": ["Municipal", "Cartography Challenges"],
+		"dataTypes": ["Polygon"],
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
+			"lowerCorner": [-71.301, 42.201],
+            "upperCorner": [-70.868, 42.512]
+		},
+		"accessCondition": "CC-By Attribution 4.0 International."
+	},
+	"tags": {
+		"thematic": {
+			"freeSubjectTags":[{
+				"subjectTag": "Metropolitan area"
+			}]
+		},
+		"geographic":  [{
+            "authorityName": "geonames",
+            "authorityID": "http://www.geonames.org/ontology#",
+            "valueID": "https://www.geonames.org/12213178/boston-cambridge-newton-ma-nh-metro-area.html",
+            "placeTag": "Boston-Cambridge-Newton, MA-NH Metro Area"
+          }],
+		"temporal": {
+			"temporalNotes": "This data represents municipal boundaries as of 2017.",
+			"temporalRepresentation": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "2017"
+			},
+			"temporalPublication": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "singleDate",
+				"singleDate": "2022-10-18"
+			}
+		}
+	},
+	"access": [{
+		"$id": "ark:/76611/dl9efr526/endpoint/1",
+		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dl9efr526/greater-boston-municipal-boundaries.geojson",
+		"title": "Greater Boston Municipal Boundaries GeoJSON",
+		"source": "Ian Spangler",
+		"format": "GeoJSON"
+	},
+    {
+		"$id": "ark:/76611/dl9efr526/endpoint/2",
+		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dl9efr526/greater-boston-municipal-boundaries.zip",
+		"title": "Greater Boston Municipal Boundaries Zipped Shapefile",
+		"source": "Ian Spangler",
+		"format": "Zipped Shapefile"
+    }],
+	"lifecycle": {
+		"acquisition": {
+			"creator": "Metropolitan Area Planning Commission",
+			"ingredients": [{
+				"$id": "",
+				"notes": "This data was derived from a dataset of Massachusetts Municipal Boundaries published by MAPC (https://datacommon.mapc.org/browser/datasets/390)"
+			}]
+		},
+		"description": {
+			"contextProvider": {
+				"name": "Ian Spangler",
+				"relationshipToData": "Curator"
+			},
+			"contextOnBehalfOf": {
+				"name": "Ian Spangler",
+				"relationshipToData": "Processor"
+			},
+			"contextPublicationDate": "2022-10-18",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+			}
+
+		},
+		"maintenance": {
+			"officialMaintainer": "Ian Spangler",
+			"maintenanceFrequency": "This dataset is never updated"
+		},
+		"processing": {
+			"steps": "1. Download Massachusetts Municipal Boundaries dataset from MAPC DataCommon \n 2. Manually remove towns and cities outside of MAPC-designated ICC region"
+		}
+	},
+	"considerations":{
+		"machineReadability":{
+			"value": 2
+		},
+		"humanReadability":{
+			"value": 2
+		},
+		"socialEmbeddedness":{
+			"value": 0
+		}
+	}
+}

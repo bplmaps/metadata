@@ -1,0 +1,116 @@
+{
+	"core": {
+		"$id": "ark:/76611/dl9ehcpwy",
+		"title": "National Historic Geographic Information System",
+		"recordType": "Dataset",
+		"excludeIndex": false,
+		"shortDescription": "General record for all available themes captured by the National Historical Geographic Information System (NHGIS) statistical demographic data program of the United States Census Bureau; geography covers the United States; time period covers 1790-present",
+		"fullDescription":"The NHGIS provides a user-friendly interface for exploring and downloading Census GIS files and tabular datasets. NHGIS is a project of Integrated Public Use Microdata Series (IPUMS), a demographic and population data aggregator housed at the University of Minnesota. For more information NHGIS and IPUMS and to download Census data, visit their website at https://nhgis.org",
+		"keyAttributes": [""],
+		"dataTypes": [""],
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
+			"lowerCorner": [-73.508210, 41.239062],
+			"upperCorner": [-69.928093, 42.886778]
+		},
+		"accessCondition": "See https://www.nhgis.org/citation-and-use-nhgis-data for instructions on citation."
+	},
+	"tags": {
+		"thematic": {
+			"LCSH": [{
+				"authorityName": "LCSH",
+				"authorityID": "http://id.loc.gov/authorities/subjects.html",
+				"subjectTag": "https://id.loc.gov/authorities/subjects/sh00006969.html"
+			}]
+		},
+		"geographic":  [{
+			"authorityName": "geonames",
+			"authorityID": "http://www.geonames.org/ontology#",
+			"valueID": "https://www.geonames.org/6252001/united-states.html",
+			"placeTag": "United States"
+		}],
+		"temporal": {
+			"temporalNotes": "NHGIS data covers 1790-present day in increments of 10-year, 5-year, 3-year, and 1-year estimates.",
+			"temporalRepresentation": {
+				"encoding": "https://www.w3.org/TR/NOTE-datetime",
+				"valueType": "range",
+				"rangeStart": "1790",
+				"rangeEnd": "Present day"
+			},
+            "temporalPublication": {
+                "encoding": "https://www.w3.org/TR/NOTE-datetime",
+                "valueType": "singleDate",
+                "singleDate": "2022-10-18"
+              }
+		}
+	},
+	"lifecycle": {
+		"acquisition": {
+			"creator": "NHGIS",
+			"ingredients": [{
+                "$id": "ark:/76611/dkhqbwezw",
+                "notes": "This Census tract geography data was joined to census statistical demographic data"
+            },
+            {
+                "$id": "ark:/76611/dkhqhgkkt",
+                "notes": "This statistical Census demographic data was joined to census tract geography data"
+            }
+        ]
+		},
+		"description": {
+			"contextProvider": {
+				"name": "Ian Spangler",
+				"relationshipToData": "Archivist"
+			},
+			"contextPublicationDate": "2020-10-18",
+			"metadataSchema": {
+				"schemaName": "LMEC Data Description Schema",
+				"$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+			}
+
+		},
+		"maintenance": {
+			"officialMaintainer": "NHGIS"
+		},
+	"considerations":{
+		"machineReadability":{
+			"value": 1
+		},
+		"humanReadability":{
+			"value": 1
+		},
+		"socialEmbeddedness":{
+			"value": 0
+		}
+	},
+	"resources": {
+		"documentation": [
+		{
+			"$id": "https://assets.nhgis.org/original-data/acs/acs_summary-file_handbook_2019.pdf",
+			"title": "ACS Summary File Handbook: What Data Users Need to Know",
+			"maintainedBy": "National Historic GIS (NHGIS)"
+		},
+		{
+			"$id": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/",
+			"title": "American Community Survey (ACS) Design and Methodology",
+			"maintainedBy": "United States Census Bureau"
+		}],
+		"tutorials": [{
+			"$id": "https://www.youtube.com/watch?v=P1znKKm8vX4",
+			"title": "NHGIS Data Finder Tutorial",
+			"author": "IPUMS",
+			"datePublished": "2013-09-18",
+			"notes": "Two minute YouTube video",
+			"suggested": true
+		},
+		{
+			"$id": "http://steppingintothemap.com/mappinghistory/wp-content/uploads/2018/03/Working-with-NHGIS-and-Joins.pdf",
+			"title": "Working with NHGIS and Joins",
+			"author": "Creighton University Digital Humanities",
+			"datePublished": "2018-03-01",
+			"notes": "Learn how to join census data with demographic data in QGIS",
+			"suggested": true
+		}]
+	}
+}
+}
