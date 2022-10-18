@@ -5,7 +5,7 @@
 		"recordType": "Dataset",
 		"excludeIndex": false,
 		"shortDescription": "Towns and cities within the Metropolitan Area Planning Committee's (MAPC) Inner Core Committee (ICC); geography covers MAPC ICC region; time period is 2017",
-		"fullDescription":"This data represents a boundary file of 21 towns and cities that fall within MAPC's ICC designation, including Arlington, Belmont, Boston, Brookline, Cambridge, Chelsea, Everett, Lynn, Malden, Medford, Melrose, Milton, Needham, Newton, Quincy, Revere, Saugus, Somerville, Waltham, Watertown, and Winthrop. \n \n This dataset is part of the LMEC's <a href='https://leventhalmap.org/projects/cartography-challenge' target='blank'>Cartography Challenges</a>.",
+		"fullDescription":"This data represents a boundary file of 21 towns and cities that fall within MAPC's ICC designation, including Arlington, Belmont, Boston, Brookline, Cambridge, Chelsea, Everett, Lynn, Malden, Medford, Melrose, Milton, Needham, Newton, Quincy, Revere, Saugus, Somerville, Waltham, Watertown, and Winthrop. \n \n This dataset is part of the LMEC's [Cartography Challenges](https://leventhalmap.org/projects/cartography-challenge).",
 		"keyAttributes": ["Municipal", "Cartography Challenges"],
 		"dataTypes": ["Polygon"],
 		"bboxPreview": {
