@@ -5,7 +5,7 @@
       "recordType": "Dataset",
       "excludeIndex": false,
       "shortDescription": "NHGIS-derived American Community Survey estimates for foreign-born population by Census tract, 2016-2020",
-      "fullDescription": "Drawing on Census data processed by the NHGIS, this dataset displays American Community Survey estimates (2016-2020) for foreign-born population by Census tract across the Greater Boston area, defined as all cities and towns in the Metropolitan Area Planning Commission's Inner Core Committee.",
+      "fullDescription": "Drawing on Census data processed by the NHGIS, this dataset displays American Community Survey estimates (2016-2020) for foreign-born population by Census tract across the Greater Boston area, defined as all cities and towns in the Metropolitan Area Planning Commission's Inner Core Committee. \n \n This dataset is part of the LMEC's `Cartography Challenges`.",
       "keyAttributes": ["Immigration", "Census", "American Community Survey", "Cartography Challenges"],
       "dataTypes": ["Polygon", "csv"],
       "bboxPreview": {
@@ -100,18 +100,18 @@
         "maintenanceFrequency": "The dataset is never updated"
       },
       "processing": {
-        "steps": "Census tract-level data for the data point 'place of birth' within the Census-designated universe 'foreign-born population' was downloaded from NHGIS. Tabular and spatial data were joined using the NHGIS field 'GISJOIN'. All spatial and tabular data exceeding the MAPC ICC area, as well as irrelevant data fields, were manually removed."
+        "steps": "Census tract-level data for the data point `place of birth` within the Census-designated universe `foreign-born population` was downloaded from NHGIS. Tabular and spatial data were joined using the NHGIS field `GISJOIN`. All spatial and tabular data exceeding the MAPC ICC area, as well as irrelevant data fields, were manually removed."
       }
     },
     "considerations": {
       "machineReadability": {
-        "value": 2
+        "value": 1
       },
       "humanReadability": {
-        "value": 2
+        "value": 1
       },
       "socialEmbeddedness": {
-        "value": 2
+        "value": 1
       }
     },
     "resources": {
