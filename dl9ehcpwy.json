@@ -56,7 +56,8 @@
                 "notes": "This statistical Census demographic data was joined to census tract geography data"
             }
         ]
-		},
+		}
+	},
 		"description": {
 			"contextProvider": {
 				"name": "Ian Spangler",
@@ -112,5 +113,4 @@
 			"suggested": true
 		}]
 	}
-}
 }
