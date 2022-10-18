@@ -4,8 +4,8 @@
       "title": "Place of birth among immigrants in the Greater Boston region",
       "recordType": "Dataset",
       "excludeIndex": false,
-      "shortDescription": "NHGIS-derived American Community Survey estimates for foreign-born population by Census tract, 2016-2020",
-      "fullDescription": "Drawing on Census data processed by the NHGIS, this dataset displays American Community Survey estimates (2016-2020) for foreign-born population by Census tract across the Greater Boston area, defined as all cities and towns in the Metropolitan Area Planning Commission's Inner Core Committee. \n \n This dataset is part of the LMEC's `Cartography Challenges`.",
+      "shortDescription": "Total population foreign-born aggregated to the Census tract level; geography covers Greater Boston region; itme period covers 2016-2020 as a five-year average",
+        "fullDescription": "This data represents the foreign-born population living in the Greater Boston region. The data originates from the United States Census Bureau's American Community Survey. Downloaded from the Census data aggregator NHGIS, this dataset displays American Community Survey estimates (2016-2020) for foreign-born population by Census tract across the Greater Boston area, defined as all cities and towns in the Metropolitan Area Planning Commission's Inner Core Committee. \n \n Field names in this dataset are opaque and can be parsed with the codebook. \n \n This dataset is part of the LMEC's <a href='https://leventhalmap.org/projects/cartography-challenge' target='blank'>Cartography Challenges</a>.",
       "keyAttributes": ["Immigration", "Census", "American Community Survey", "Cartography Challenges"],
       "dataTypes": ["Polygon", "csv"],
       "bboxPreview": {
@@ -75,9 +75,14 @@
       "acquisition": {
         "creator": "Ian Spangler",
         "ingredients": [{
-          "$id": "https://data2.nhgis.org",
-          "notes": "The National Historic GIS (NHGIS), a service of IPUMS, provides access to spatial and tabular Census data at the national level in the United States."
-        }]
+            "$id": "ark:/76611/",
+            "notes": "This Census tract geography data was joined to census statistical demographic data"
+        },
+        {
+            "$id": "ark:/76611/",
+            "notes": "This statistical Census demographic data was joined to census tract geography data"
+        }
+    ]
       },
       "description": {
         "contextProvider": {
@@ -100,7 +105,7 @@
         "maintenanceFrequency": "The dataset is never updated"
       },
       "processing": {
-        "steps": "Census tract-level data for the data point `place of birth` within the Census-designated universe `foreign-born population` was downloaded from NHGIS. Tabular and spatial data were joined using the NHGIS field `GISJOIN`. All spatial and tabular data exceeding the MAPC ICC area, as well as irrelevant data fields, were manually removed."
+        "steps": "1. Downloaded Census tract-level data for the data point `place of birth` within the Census-designated universe `foreign-born population` from NHGIS\n2. In QGIS, tabular and spatial data were joined using the NHGIS field `GISJOIN`\n3. An additional field was added describing total population per Census tract\n4. All spatial and tabular data exceeding the MAPC ICC area, as well as irrelevant data fields, were manually removed"
       }
     },
     "considerations": {
