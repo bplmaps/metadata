@@ -57,7 +57,8 @@
 			}
 		},
 		"maintenance": {
-			"officialMaintainer": "United States Census Bureau"		}
+			"officialMaintainer": "United States Census Bureau"		
+		}
 	},
 	"considerations":{
 		"machineReadability": {

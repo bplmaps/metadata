@@ -8,7 +8,7 @@
 		"fullDescription":"The NHGIS provides a user-friendly interface for exploring and downloading Census GIS files and tabular datasets. NHGIS is a project of Integrated Public Use Microdata Series (IPUMS), a demographic and population data aggregator housed at the University of Minnesota. For more information NHGIS and IPUMS and to download Census data, visit their website at [https://nhgis.org](https://nhgis.org)",
 		"keyAttributes": ["Demographic", "Population"],
 		"dataTypes": ["Polygon", "CSV"],
-		"accessCondition": "See [https://www.nhgis.org/citation-and-use-nhgis-data](https://www.nhgis.org/citation-and-use-nhgis-data for instructions on citation."
+		"accessCondition": "See [https://www.nhgis.org/citation-and-use-nhgis-data](https://www.nhgis.org/citation-and-use-nhgis-data) for instructions on citation."
 	},
 	"tags": {
 		"thematic": {
@@ -16,7 +16,28 @@
 				"authorityName": "LCSH",
 				"authorityID": "http://id.loc.gov/authorities/subjects.html",
 				"subjectTag": "https://id.loc.gov/authorities/subjects/sh00006969.html"
-			}]
+			},
+			{
+				"authorityName": "LCSH",
+				"authorityID": "http://id.loc.gov/authorities/subjects.html",
+				"subjectTag": "Census"
+			},
+			{
+				"authorityName": "LCSH",
+				"authorityID": "http://id.loc.gov/authorities/subjects.html",
+				"subjectTag": "Population statistics"
+			},
+			{
+				"authorityName": "LCSH",
+				"authorityID": "http://id.loc.gov/authorities/subjects.html",
+				"subjectTag": "Demographic surveys"
+			},
+			{
+				"authorityName": "LCSH",
+				"authorityID": "http://id.loc.gov/authorities/subjects.html",
+				"subjectTag": "Demographic surveys--United States"
+			}
+		]
 		},
 		"geographic":  [{
 			"authorityName": "geonames",
@@ -49,8 +70,7 @@
             {
                 "$id": "ark:/76611/dkhqhgkkt",
                 "notes": "This statistical Census demographic data was joined to census tract geography data"
-            }
-        ]
+            }]
 		},
 		"description": {
 			"contextProvider": {
@@ -66,7 +86,8 @@
 		},
 		"maintenance": {
 			"officialMaintainer": "NHGIS"
-		},
+		}
+	},
 	"considerations":{
 		"machineReadability":{
 			"value": 1
@@ -107,5 +128,4 @@
 			"suggested": true
 		}]
 	}
-}
 }
