@@ -8,7 +8,7 @@
 		"fullDescription":"The NHGIS provides a user-friendly interface for exploring and downloading Census GIS files and tabular datasets. NHGIS is a project of Integrated Public Use Microdata Series (IPUMS), a demographic and population data aggregator housed at the University of Minnesota. For more information NHGIS and IPUMS and to download Census data, visit their website at [https://nhgis.org](https://nhgis.org)",
 		"keyAttributes": ["Demographic", "Population"],
 		"dataTypes": ["Polygon", "CSV"],
-		"accessCondition": "See [NHGIS guidelines](https://www.nhgis.org/citation-and-use-nhgis-data) for instructions on citation."
+		"accessCondition": "See NHGIS guidelines for instructions on citation (https://www.nhgis.org/citation-and-use-nhgis-data)"
 	},
 	"tags": {
 		"thematic": {
@@ -36,8 +36,7 @@
 				"authorityName": "LCSH",
 				"authorityID": "http://id.loc.gov/authorities/subjects.html",
 				"subjectTag": "Demographic surveys--United States"
-			}
-		]
+			}]
 		},
 		"geographic":  [{
 			"authorityName": "geonames",
