@@ -1,0 +1,126 @@
+{
+    "core": {
+      "$id": "ark:/76611/dl9ea5foy",
+      "title": "Place of birth among immigrants in the Greater Boston region",
+      "recordType": "Dataset",
+      "excludeIndex": false,
+      "shortDescription": "NHGIS-derived American Community Survey estimates for foreign-born population by Census tract, 2016-2020",
+      "fullDescription": "Drawing on Census data processed by the NHGIS, this dataset displays American Community Survey estimates (2016-2020) for foreign-born population by Census tract across the Greater Boston area, defined as all cities and towns in the Metropolitan Area Planning Commission's Inner Core Committee.",
+      "keyAttributes": ["Immigration", "Census", "American Community Survey", "Cartography Challenges"],
+      "dataTypes": ["Polygon", "csv"],
+      "bboxPreview": {
+        "previewSRS": "EPSG:4326",
+        "lowerCorner": [-123.777, 55.859],
+        "upperCorner": [-70.057, 17.521]
+      },
+      "accessCondition": "CC-By Attribution 4.0 International."
+    },
+    "access": [
+      {
+        "$id": "ark:/76611/dl9ea5foy/endpoint/1",
+        "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dl9ea5foy/place-of-birth-greater-boston.geojson",
+        "title": "Place of birth among immigrants in the Greater Boston region GeoJSON",
+        "source": "Ian Spangler",
+        "format": "GeoJSON"
+      },
+      {
+        "$id": "ark:/76611/dl9ea5foy/endpoint/2",
+        "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dl9ea5foy/place-of-birth-greater-boston.zip",
+        "title": "Place of birth among immigrants in the Greater Boston region zipped shapefile",
+        "source": "Ian Spangler",
+        "format": "Zipped Shapefile"
+      },
+      {
+        "$id": "ark:/76611/dl9ea5foy/endpoint/3",
+        "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dl9ea5foy/place-of-birth-greater-boston.csv",
+        "title": "Place of birth among immigrants in the Greater Boston region CSV",
+        "source": "Ian Spangler",
+        "format": "CSV"
+      }
+    ],
+    "tags": {
+      "thematic": {
+        "LCSH": [{
+            "authorityName": "LCSH",
+            "authorityID": "https://id.loc.gov/authorities/subjects/sh00005907.html",
+            "subjectTag": "Emigration and immigration"
+          }
+        ],
+        "freeSubjectTags": [{
+          "subjectTag": ""
+        }]
+      },
+      "geographic": [{
+        "authorityName": "geonames",
+        "authorityID": "http://www.geonames.org/ontology#",
+        "valueID": "https://www.geonames.org/4930956/",
+        "placeTag": "Boston"
+      }],
+      "temporal": {
+        "temporalNotes": "This data represents estimates for 2016-2020.",
+        "temporalRepresentation": {
+          "encoding": "https://www.w3.org/TR/NOTE-datetime",
+          "valueType": "range",
+          "rangeStart": "2016",
+          "rangeEnd": "2020"
+        },
+        "temporalPublication": {
+          "encoding": "https://www.w3.org/TR/NOTE-datetime",
+          "valueType": "singleDate",
+          "singleDate": "2022-10-18"
+        }
+      }
+    },
+    "lifecycle": {
+      "acquisition": {
+        "creator": "Ian Spangler",
+        "ingredients": [{
+          "$id": "https://data2.nhgis.org",
+          "notes": "The National Historic GIS (NHGIS), a service of IPUMS, provides access to spatial and tabular Census data at the national level in the United States."
+        }]
+      },
+      "description": {
+        "contextProvider": {
+          "name": "Ian Spangler",
+          "relationshipToData": "Curator"
+        },
+        "contextOnBehalfOf": {
+          "name": "Ian Spangler",
+          "relationshipToData": "Creator"
+        },
+        "contextPublicationDate": "2022-10-18",
+        "metadataSchema": {
+          "schemaName": "LMEC Data Description Schema",
+          "$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+        }
+  
+      },
+      "maintenance": {
+        "officialMaintainer": "Ian Spangler",
+        "maintenanceFrequency": "The dataset is never updated"
+      },
+      "processing": {
+        "steps": "Census tract-level data for the data point 'place of birth' within the Census-designated universe 'foreign-born population' was downloaded from NHGIS. Tabular and spatial data were joined using the NHGIS field 'GISJOIN'. All spatial and tabular data exceeding the MAPC ICC area, as well as irrelevant data fields, were manually removed."
+      }
+    },
+    "considerations": {
+      "machineReadability": {
+        "value": 2
+      },
+      "humanReadability": {
+        "value": 2
+      },
+      "socialEmbeddedness": {
+        "value": 2
+      }
+    },
+    "resources": {
+      "codebooks": [{
+        "$id": "ark:/76611/dl9ea5foy/endpoint/4",
+        "title": "Place of birth among immigrants in the Greater Boston region codebook",
+        "maintainedBy": "Ian Spangler",
+        "notes": "Lightly edited version of the default codebook generated by NHGIS data downloads."
+      }]
+    }
+  }
+  
