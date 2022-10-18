@@ -60,7 +60,7 @@
 			"creator": "Metropolitan Area Planning Commission",
 			"ingredients": [{
 				"$id": "",
-				"notes": "This data was derived from a dataset of Massachusetts Municipal Boundaries published by MAPC (<https://datacommon.mapc.org/browser/datasets/390>)"
+				"notes": "This data was derived from a dataset of [Massachusetts Municipal Boundaries](https://datacommon.mapc.org/browser/datasets/390) published by MAPC."
 			}]
 		},
 		"description": {
@@ -89,10 +89,10 @@
 	},
 	"considerations":{
 		"machineReadability":{
-			"value": 2
+			"value": 1
 		},
 		"humanReadability":{
-			"value": 2
+			"value": 1
 		},
 		"socialEmbeddedness":{
 			"value": 0
