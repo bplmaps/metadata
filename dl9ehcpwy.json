@@ -5,7 +5,7 @@
 		"recordType": "Dataset",
 		"excludeIndex": false,
 		"shortDescription": "General record for all available themes captured by the National Historical Geographic Information System (NHGIS) statistical demographic data program of the United States Census Bureau; geography covers the United States; time period covers 1790-present",
-		"fullDescription":"The NHGIS provides a user-friendly interface for exploring and downloading Census GIS files and tabular datasets. NHGIS is a project of Integrated Public Use Microdata Series (IPUMS), a demographic and population data aggregator housed at the University of Minnesota. For more information NHGIS and IPUMS and to download Census data, visit their website at https://nhgis.org",
+		"fullDescription":"The NHGIS provides a user-friendly interface for exploring and downloading Census GIS files and tabular datasets. NHGIS is a project of Integrated Public Use Microdata Series (IPUMS), a demographic and population data aggregator housed at the University of Minnesota. For more information NHGIS and IPUMS and to download Census data, visit their website at <https://nhgis.org>",
 		"keyAttributes": [""],
 		"dataTypes": [""],
 		"bboxPreview": {
